@@ -28,17 +28,17 @@
             "image": "shopify:\/\/shop_images\/banner-2.webp",
             "image_position": "center center",
             "text_box_position": "bottom-left",
-            "subheading": "Add a tagline",
+            "subheading": "elements of",
             "subheading_size": "h5",
-            "heading": "Image slide",
-            "heading_size": "h0",
+            "heading": "AROMATHERAPY",
+            "heading_size": "h2",
             "heading_tag": "h2",
             "text": "",
             "text_size": "typeset2",
-            "button_label": "Button label",
+            "button_label": "learn more",
             "button_link": "",
             "button_size": "medium",
-            "button_style_secondary": false
+            "button_style_secondary": true
           }
         },
         "slide-2": {
