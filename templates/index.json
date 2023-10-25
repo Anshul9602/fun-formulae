@@ -241,9 +241,9 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "GET INSPIRED",
             "button_link": "",
-            "button_size": "medium",
+            "button_size": "small",
             "button_style_secondary": false
           }
         }
