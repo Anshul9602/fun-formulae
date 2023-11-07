@@ -256,6 +256,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/side2.png",
         "image_position": "center center",
         "layout": "text_first",
         "text_box_position": "middle",
@@ -397,6 +398,7 @@
         "product-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/side_img.png",
         "layout": "image_first",
         "text_box_position": "middle",
         "text_alignment": "left",
