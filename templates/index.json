@@ -261,6 +261,9 @@
         "text",
         "button"
       ],
+      "custom_css": [
+        ".section--padding {}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/side2.png",
         "image_position": "center center",
@@ -274,7 +277,7 @@
         "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "adapt",
-        "use_custom_colors": true,
+        "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
         "colors_text": "#1a1b18",
