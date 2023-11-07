@@ -119,7 +119,8 @@
           "type": "guarantee",
           "settings": {
             "icon": "leaf",
-            "icon_size": "medium",
+            "icon_size": "large",
+            "image": "shopify:\/\/shop_images\/Therapeutic.png",
             "custom_icon": "",
             "title": "",
             "title_size": "h4",
@@ -131,6 +132,7 @@
           "settings": {
             "icon": "globe",
             "icon_size": "medium",
+            "image": "shopify:\/\/shop_images\/Relaxing.png",
             "custom_icon": "",
             "title": "",
             "title_size": "h4",
@@ -142,6 +144,7 @@
           "settings": {
             "icon": "recycle",
             "icon_size": "medium",
+            "image": "shopify:\/\/shop_images\/Healing.png",
             "custom_icon": "",
             "title": "",
             "title_size": "h4",
