@@ -1181,6 +1181,7 @@
         "image-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/meraki-society-lifestyle-wellness-product-photography-natural-skincare-rebecca-goddard-rg-daily-blog-65_2.png",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -1193,6 +1194,7 @@
         "image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/il_570xN_2.png",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h4",
@@ -1205,10 +1207,11 @@
         "image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/lifestyle-beauty-product-photography_1_00c3b083-7463-455f-82e0-8b646356524b.png",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
-            "heading": "#summerMe",
+            "heading": "",
             "heading_size": "h3",
             "link": "",
             "text_box_position": "middle-center"
@@ -1217,6 +1220,7 @@
         "image-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/lifestyle-beauty-product-photography-uk-66_4.png",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -1229,6 +1233,7 @@
         "image-4": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/lifestyle-beauty-product-photography-uk-66_3.png",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
