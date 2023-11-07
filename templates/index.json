@@ -367,7 +367,7 @@
         "product-0": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "product",
             "color": "#ffffff",
             "horizontal": 30,
             "vertical": 40
@@ -376,7 +376,7 @@
         "product-1": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "sam",
             "color": "#ffffff",
             "horizontal": 70,
             "vertical": 45
