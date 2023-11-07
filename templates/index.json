@@ -177,7 +177,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "feture-product",
         "products_to_show": 4,
         "show_view_all": true,
         "show_divider": false,
