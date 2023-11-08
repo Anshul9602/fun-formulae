@@ -34,7 +34,7 @@
 }
 
 .guarantee-icon--large {
-  --icon-height: 3.2rem;
+  --icon-height: 100%;
 }
 
 .guarantee__item svg,
