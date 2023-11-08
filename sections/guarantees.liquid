@@ -40,6 +40,12 @@
           <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
         </div>
       {%- endif -%}
+      {%- if section.settings.heading_img != blank  -%}
+        <div class="title-wrapper{% if section.settings.heading_img == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}">
+          <img srcset="{{ section.settings.image | image_url }} 1x, {{ section.settings.image | image_url }} 2x"
+          src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image.alt | escape }}" loading="lazy" is="lazy-image" />
+        </div>
+      {%- endif -%}
       
       <div class="grid grid--1-col-mobile">
         {%- if section.settings.heading != blank and section.settings.layout == 'sidebar' -%}
