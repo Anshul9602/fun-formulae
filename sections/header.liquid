@@ -26,6 +26,8 @@
   assign enable_sticky_header = section.settings.enable_sticky_header
 -%}
 
+{{ 'custom.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="{{ 'coustom.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- style -%}
   #shopify-section-{{ section.id }} {
     --section-padding-top: {{ section.settings.padding_top }}px;
