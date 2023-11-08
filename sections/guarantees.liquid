@@ -47,17 +47,6 @@
             <{{ section.settings.heading_tag }} class="guarantees__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
           </div>
         {%- endif -%}
-        {%- if section.settings.heading_img != blank and section.settings.layout == 'sidebar' -%}
-          <div class="grid__item grid__item--one-quarter">
-            <img srcset="{{ block.settings.image | image_url }} 1x, {{ block.settings.image | image_url }} 2x"
-            src="{{ block.settings.image | image_url }}"
-            alt="{{ block.settings.image.alt | escape }}"
-            loading="lazy"
-            width="{{ block.settings.image.width }}"
-            is="lazy-image"
-       />
-          </div>
-        {%- endif -%}
 
         {%- if section.blocks.size > 0 -%}
           <slider-component class="slider-mobile-gutter grid__item{% if section.settings.heading == blank or section.settings.layout == 'default' %} grid__item--full-width{% else %} grid__item--three-quarter{% endif %}">
@@ -174,11 +163,10 @@
       "id": "heading",
       "default": "Guarantees",
       "label": "t:sections.all.heading.label"
-    },
-    {
+    }, {
       "type": "image_picker",
-      "id": "heading_img",
-      "default": "Guarantees",
+      "id": "headingimage",
+     
       "label": "t:sections.guarantees.blocks.guarantee.settings.image.label"
       
     },
