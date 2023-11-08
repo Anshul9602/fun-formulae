@@ -66,7 +66,7 @@
                       </span>
                     {%- elsif block.settings.image != blank -%}
                     <span class="image-animate guarantee__icon">
-                      <img srcset="{{ block.settings.image | image_url: width: 110 }} 1x, {{ block.settings.image | image_url: width: 52 }} 2x"
+                      <img srcset="{{ block.settings.image | image_url: width: 110 }} 1x, {{ block.settings.image | image_url: width: 110 }} 2x"
                         src="{{ block.settings.image | image_url: width: 110 }}"
                         alt="{{ block.settings.image.alt | escape }}"
                         loading="lazy"
