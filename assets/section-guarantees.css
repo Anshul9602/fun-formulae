@@ -39,7 +39,7 @@
 
 .guarantee__item svg,
 .guarantee__icon img {
-  width: auto;
+  width: 100%;
   height: var(--icon-height);
   max-width: var(--icon-height);
   fill: currentColor;
