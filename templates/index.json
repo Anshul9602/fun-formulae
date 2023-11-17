@@ -1279,42 +1279,40 @@
         "image-0": {
           "type": "image",
           "settings": {
-            "height": 160,
+            "image": "shopify:\/\/shop_images\/alcohol_free.png",
+            "height": 80,
             "link": ""
           }
         },
         "image-1": {
           "type": "image",
           "settings": {
-            "height": 160,
+            "image": "shopify:\/\/shop_images\/cruelty_free.png",
+            "height": 80,
             "link": ""
           }
         },
         "image-2": {
           "type": "image",
           "settings": {
-            "height": 160,
+            "image": "shopify:\/\/shop_images\/phthalate_free.png",
+            "height": 80,
             "link": ""
           }
         },
         "image-3": {
           "type": "image",
           "settings": {
-            "height": 160,
+            "image": "shopify:\/\/shop_images\/sulphate_free.png",
+            "height": 80,
             "link": ""
           }
         },
         "image-4": {
           "type": "image",
           "settings": {
-            "height": 160,
-            "link": ""
-          }
-        },
-        "image-5": {
-          "type": "image",
-          "settings": {
-            "height": 160,
+            "image": "shopify:\/\/shop_images\/Paraben_free.png",
+            "height": 80,
             "link": ""
           }
         }
@@ -1324,8 +1322,7 @@
         "image-1",
         "image-2",
         "image-3",
-        "image-4",
-        "image-5"
+        "image-4"
       ],
       "settings": {
         "direction": "left",
