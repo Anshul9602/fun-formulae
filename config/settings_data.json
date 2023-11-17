@@ -45,6 +45,7 @@
     "color_swatches_enabled": true,
     "color_swatches_position": "top",
     "color_swatches_max_items": 4,
+    "disable_collection_portion": false,
     "cart_drawer_enabled": true,
     "show_cart_note": true,
     "show_shipping_calculator": true,
@@ -74,7 +75,10 @@
           "show_line_separator": false
         }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Beauty": {
