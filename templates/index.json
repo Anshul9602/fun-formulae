@@ -185,7 +185,7 @@
       ],
       "settings": {
         "collection": "feture-product",
-        "products_to_show": 6,
+        "products_to_show": 4,
         "show_view_all": true,
         "show_divider": false,
         "heading": "",
@@ -198,7 +198,7 @@
         "image_position": "center center",
         "enable_image_fill": true,
         "show_secondary_image": true,
-        "secondary_image_max": 3,
+        "secondary_image_max": 2,
         "show_vendor": false,
         "show_rating": true,
         "show_quick_buy": true,
@@ -423,7 +423,7 @@
         "image_position": "center center",
         "enable_image_fill": true,
         "show_secondary_image": true,
-        "show_vendor": true,
+        "show_vendor": false,
         "show_rating": true,
         "show_quick_buy": true,
         "enable_quick_view": true,
@@ -468,6 +468,7 @@
         "button"
       ],
       "settings": {
+        "video": "shopify:\/\/files\/videos\/2_1.mp4",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "text_box_position": "middle-center",
         "text_alignment": "center",
@@ -475,7 +476,7 @@
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
-        "mobile_text_alignment": "left",
+        "mobile_text_alignment": "center",
         "mobile_image_ratio": "400px",
         "show_text_below": true,
         "colors_button_label": "#1a1b18",
