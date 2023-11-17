@@ -37,6 +37,100 @@
   {%- if section.blocks.size > 0 or enable_right_column -%}
     <div class="footer__content-top page-width">
       <div class="grid">
+        {%- if section.settings.newsletter_enable -%}
+          <footer-accordion class="accordion footer-block--newsletter" data-open>
+            <details open>
+              <summary tabindex="-1">
+                <p class="h4 accordion__title">{{ section.settings.newsletter_heading | escape }}</p>
+                {% render 'icon', icon: 'caret' %}
+              </summary>
+              <div class="footer-block__details-content">
+                <div class="footer-block__newsletter">
+                  {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
+                    <input type="hidden" name="contact[tags]" value="newsletter"/>
+
+                    <div class="field">
+                      <input
+                        id="ContactFooter-email"
+                        type="email"
+                        name="contact[email]"
+                        class="field__input required{% if form.errors %} invalid{% endif %}"
+                        value="{{ form.email }}"
+                        aria-required="true"
+                        autocorrect="off"
+                        autocapitalize="off"
+                        autocomplete="email"
+                        {% if form.errors %}
+                          autofocus
+                          aria-invalid="true"
+                          aria-describedby="ContactFooter-error"
+                        {% elsif form.posted_successfully? %}
+                          aria-describedby="ContactFooter-success"
+                        {% endif %}
+                        placeholder="{{ 'newsletter.label' | t }}"
+                        required
+                      />
+                      <label class="visually-hidden" for="ContactFooter-email">{{ 'newsletter.label' | t }}</label>
+                      <button type="submit" class="button button--arrow field__button animate-arrow" name="commit" aria-label="{{ 'newsletter.button_label' | t }}">
+                        {% render 'icon', icon: 'arrow' %}
+                      </button>
+                    </div>
+                    {%- if form.errors -%}
+                      <small class="form__message errors" id="ContactFooter-error">
+                        {% render 'icon', icon: 'error' %}
+                        {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
+                      </small>
+                    {%- endif -%}
+                    
+                    <div class="typeset rte">
+                      {{ section.settings.newsletter_text }}
+                    </div>
+
+                    {%- if form.posted_successfully? -%}
+                      <p class="form__message h3" id="ContactFooter-success" tabindex="-1" autofocus>
+                        {% render 'icon', icon: 'success' %}
+                        {{ 'newsletter.success' | t }}
+                      </p>
+                    {%- endif -%}
+                    
+                  {%- endform -%}
+                </div>
+                {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
+                  <div class="footer__follow-on-shop">
+                    {% comment %} TODO: enable theme-check once `login_button` is accepted as valid filter {% endcomment %}
+                    {% # theme-check-disable %}
+                    {{ shop | login_button: action: 'follow' }}
+                    {% # theme-check-enable %}
+                  </div>
+                {%- endif -%}
+                {%- if section.settings.show_social -%}
+                  <p class="h4 accordion__title">{{ section.settings.social_heading | escape }}</p>
+                  <ul class="footer__list-social list-unstyled list-social" role="list">
+                    {% render 'social-icons' %}
+                    <li class="list-social__item--placeholder">{{ 'sections.footer.social_placeholder' | t }}</li>
+                  </ul>
+                {%- endif -%}
+              </div>
+            </details>
+          </footer-accordion>
+        {%- else -%}
+          <footer-accordion class="accordion footer-block--social" data-open>
+            <details open>
+              <summary tabindex="-1">
+                <p class="h4 accordion__title">{{ section.settings.social_heading | escape }}</p>
+                {% render 'icon', icon: 'caret' %}
+              </summary>
+              <div class="footer-block__details-content">
+                <ul class="footer__list-social list-unstyled list-social" role="list">
+                  {% render 'social-icons' %}
+                  <li class="list-social__item--placeholder">{{ 'sections.footer.social_placeholder' | t }}</li>
+                </ul>
+                </div>
+            </details>
+          </footer-accordion>
+        {%- endif -%}
+      </div>
+      <div class="grid">
         {%- if section.blocks.size > 0 -%}
           <div class="grid__item footer__content-left{% if section.blocks.size >= 3 and enable_right_column %} footer__content-left--alt{% endif %}{% if section.blocks.size == 1 and enable_right_column == false %} footer__content-left--only{% endif %}">
             <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet">
