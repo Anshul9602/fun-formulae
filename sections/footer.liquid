@@ -169,10 +169,7 @@
               {%- endif -%}
               <div class="grid__item">
                 {%- if section.settings.newsletter_enable -%}
-                  <footer-accordion class="accordion footer-block--newsletter" data-open>
-                    <details open>
-                     
-                      <div class="footer-block__details-content">
+                  <div class="footer-block__details-content">
                       
                         {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
                           <div class="footer__follow-on-shop">
@@ -190,8 +187,6 @@
                           </ul>
                         {%- endif -%}
                       </div>
-                    </details>
-                  </footer-accordion>
                 {%- else -%}
                   <footer-accordion class="accordion footer-block--social" data-open>
                     <details open>
