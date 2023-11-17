@@ -69,10 +69,6 @@ section.settings.colors_heading.blue }};
           </small>
           {%- endif -%}
 
-          <div class="typeset rte">
-            {{ section.settings.newsletter_text }}
-          </div>
-
           {%- if form.posted_successfully? -%}
           <p class="form__message h3" id="ContactFooter-success" tabindex="-1" autofocus>
             {% render 'icon', icon: 'success' %}
