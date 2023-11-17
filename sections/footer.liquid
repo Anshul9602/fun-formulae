@@ -169,7 +169,32 @@
               {%- endif -%}
               <div class="grid__item">
                 {%- if section.settings.newsletter_enable -%}
-                
+                  <footer-accordion class="accordion footer-block--newsletter" data-open>
+                    <details open>
+                      <summary tabindex="-1">
+                        <p class="h4 accordion__title">{{ section.settings.newsletter_heading | escape }}</p>
+                        {% render 'icon', icon: 'caret' %}
+                      </summary>
+                      <div class="footer-block__details-content">
+                      
+                        {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
+                          <div class="footer__follow-on-shop">
+                            {% comment %} TODO: enable theme-check once `login_button` is accepted as valid filter {% endcomment %}
+                            {% # theme-check-disable %}
+                            {{ shop | login_button: action: 'follow' }}
+                            {% # theme-check-enable %}
+                          </div>
+                        {%- endif -%}
+                        {%- if section.settings.show_social -%}
+                          <p class="h4 accordion__title">{{ section.settings.social_heading | escape }}</p>
+                          <ul class="footer__list-social list-unstyled list-social" role="list">
+                            {% render 'social-icons' %}
+                            <li class="list-social__item--placeholder">{{ 'sections.footer.social_placeholder' | t }}</li>
+                          </ul>
+                        {%- endif -%}
+                      </div>
+                    </details>
+                  </footer-accordion>
                 {%- else -%}
                   <footer-accordion class="accordion footer-block--social" data-open>
                     <details open>
