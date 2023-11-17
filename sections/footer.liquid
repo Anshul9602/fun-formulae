@@ -343,16 +343,7 @@
       <div class="footer__column footer__column--info">
         <div class="footer__copyright">
           <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}. {{ section.settings.copyright_text }}</small>
-          <ul class="policies list-unstyled">
-            <li><small class="copyright__content">{{ powered_by_link }}</small></li>
-            {%- if section.settings.show_policy -%}
-              {%- for policy in shop.policies -%}
-                {%- if policy != blank -%}
-                  <li><small class="copyright__content"><a href="{{ policy.url }}">{{ policy.title }}</a></small></li>
-                {%- endif -%}
-              {%- endfor -%}
-            {%- endif -%}
-          </ul>
+          
         </div>
       </div>
     </div>
