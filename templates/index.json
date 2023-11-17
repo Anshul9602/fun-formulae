@@ -1312,7 +1312,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Paraben_free.png",
-            "height": 80,
+            "height": 40,
             "link": ""
           }
         }
