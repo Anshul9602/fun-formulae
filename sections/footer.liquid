@@ -32,7 +32,13 @@ section.settings.colors_heading.blue }};
 <noscript>{{ 'disclosure.css' | asset_url | stylesheet_tag }}</noscript>
 
 <script src="{{ 'footer-accordion.js' | asset_url }}" defer="defer"></script>
-
+<style>
+  @media screen and (max-width: 750px) {
+.col-12{
+max-width: 100% !important;
+}
+  }
+</style>
 <footer class="footer{% if section.settings.show_divider %} footer--border-top{% endif %}">
   {%- liquid
   assign enable_right_column = false
@@ -43,19 +49,19 @@ section.settings.colors_heading.blue }};
   {%- if section.blocks.size > 0 or enable_right_column -%}
   <div class="footer__content-top page-width">
     <div class="grid" style="justify-content: space-between;padding: 3% 0 5% 0">
-      <div class="col-md-6" style="max-width: 40%;width:100%;">
+      <div class="col-md-6 col-12"  style="max-width: 40%;width:100%;">
        <h2 style="color: black;    margin: 2% 0;display:flex;">Give your inbox a &nbsp;&nbsp; <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/refresh_1.png?v=1700213956" alt="" width="100"></h2>
-       <p class="copyright__content" style="text-align: start;">Sign up with us and get 10% off on your first order!</p>
+       <p class="copyright__content" style="text-align: start;color:black;">Sign up with us and get 10% off on your first order!</p>
       </div>
-      <div class="col-md-6"style="max-width: 40%;width:100%;">
+      <div class="col-md-6 col-12"style="max-width: 40%;width:100%;">
         {%- if section.settings.newsletter_enable -%}
           <div class="footer-block__details-content">
             <div class="footer-block__newsletter">
               {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
               <input type="hidden" name="contact[tags]" value="newsletter" />
     
-              <div class="field">
-                <input id="ContactFooter-email" type="email" name="contact[email]"
+              <div class="field" style="width: 70%;    border-bottom: 2px solid;">
+                <input style="border:none;"id="ContactFooter-email" type="email" name="contact[email]"
                   class="field__input required{% if form.errors %} invalid{% endif %}" value="{{ form.email }}"
                   aria-required="true" autocorrect="off" autocapitalize="off" autocomplete="email" {% if form.errors %}
                   autofocus aria-invalid="true" aria-describedby="ContactFooter-error" {% elsif form.posted_successfully? %}
@@ -79,7 +85,7 @@ section.settings.colors_heading.blue }};
               </p>
               {%- endif -%}
               <button type="submit" class="button button--arrow field__button animate-arrow" name="commit"
-              aria-label="{{ 'newsletter.button_label' | t }}" style="background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/button_option_4_6.png?v=1700215529');background-size: cover;padding: 20px;">
+              aria-label="{{ 'newsletter.button_label' | t }}" style="background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/button_option_4_6.png?v=1700215529');background-size: cover;padding: 25px;">
               GET INSPIRED
             </button>
               {%- endform -%}
