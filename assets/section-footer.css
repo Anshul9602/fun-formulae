@@ -11,7 +11,9 @@
 
 }
 
-
+.image-with-text__grid{
+  background: transparent;
+}
 
 .footer--border-top {
   border-top: 0.1rem solid rgb(var(--color-border));
