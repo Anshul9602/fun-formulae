@@ -185,7 +185,7 @@
       ],
       "settings": {
         "collection": "feture-product",
-        "products_to_show": 6,
+        "products_to_show": 4,
         "show_view_all": true,
         "show_divider": false,
         "heading": "",
@@ -198,7 +198,7 @@
         "image_position": "center center",
         "enable_image_fill": true,
         "show_secondary_image": true,
-        "secondary_image_max": 3,
+        "secondary_image_max": 2,
         "show_vendor": false,
         "show_rating": true,
         "show_quick_buy": true,
