@@ -55,8 +55,8 @@
                   <span class="label">{{ link.title | escape }}</span>
                   
                 </a>
-                <div class="list-menu-dropdown hidden">
-                  <div class="list-menu row" role="list" tabindex="-1" style="width: 800px;">
+                <div class="list-menu-dropdown hidden"style="width: 800px;">
+                  <div class="list-menu row" role="list" tabindex="-1" >
                     {%- for childlink in link.links -%}
                       <div class="col-md-6">
                         {%- if childlink.links == blank -%}
