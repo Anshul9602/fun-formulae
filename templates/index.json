@@ -131,10 +131,9 @@
           "settings": {
             "icon": "globe",
             "icon_size": "medium",
-            "image": "shopify:\/\/shop_images\/Relaxing.png",
             "custom_icon": "",
-            "title": "",
-            "title_size": "h4",
+            "title": "RELAXING",
+            "title_size": "h2",
             "text": "<p>we deeply believe in the connection between our health, hair, skin, and the environment. <\/p>"
           }
         },
@@ -143,10 +142,9 @@
           "settings": {
             "icon": "recycle",
             "icon_size": "medium",
-            "image": "shopify:\/\/shop_images\/Healing.png",
             "custom_icon": "",
-            "title": "",
-            "title_size": "h4",
+            "title": "HEALING",
+            "title_size": "h2",
             "text": "<p>we deeply believe in the connection between our health, hair, skin, and the environment. <\/p>"
           }
         }
