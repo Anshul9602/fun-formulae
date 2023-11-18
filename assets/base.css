@@ -1588,7 +1588,7 @@ deferred-media {
 
   .button:hover {
     box-shadow: none;
-    background-color: rgba(var(--color-button-background), 0.85);
+    
     transition-delay: var(--duration-default);
   }
 
