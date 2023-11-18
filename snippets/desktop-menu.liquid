@@ -65,13 +65,13 @@
                         {%- if childlink.links == blank -%}
                           
                             <a href="{{ childlink.url }}" class="header__menu-item list-menu__item focus-inset{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %} style="    text-decoration: none;">
-                              <span class="label h3">{{ childlink.title | escape }}</span>
+                              <span class="label h4">{{ childlink.title | escape }}</span>
                             </a>
                          
                         {%- else -%}
                           
                             <a href="{{ childlink.url }}" class="header__menu-item{% if childlink.active or childlink.child_active %} header__active-menu-item{% endif %} list-menu__item focus-inset"style="    text-decoration: none;">
-                              <span class="label h3">{{ childlink.title | escape }}</span>
+                              <span class="label h4">{{ childlink.title | escape }}</span>
                               
                             </a>
                             <div class="">
