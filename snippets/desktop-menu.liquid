@@ -50,7 +50,7 @@
               <dropdown-menu>
                 <a href="{{ link.url }}" class="header__menu-item{% if link.active or link.child_active %} header__active-menu-item{% endif %} header__menu-item--top list-menu__item focus-inset">
                   <span class="label">{{ link.title | escape }}</span>
-                  {% render 'icon', icon: 'caret' %}
+                  
                 </a>
                 <div class="list-menu-dropdown hidden">
                   <div class="list-menu row" role="list" tabindex="-1">
@@ -66,7 +66,7 @@
                           
                             <a href="{{ childlink.url }}" class="header__menu-item{% if childlink.active or childlink.child_active %} header__active-menu-item{% endif %} list-menu__item focus-inset">
                               <span class="label">{{ childlink.title | escape }}</span>
-                              {% render 'icon', icon: 'caret' %}
+                              
                             </a>
                             <div class="">
                               <ul class="list-menu" role="list" tabindex="-1">
