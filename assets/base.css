@@ -26,7 +26,7 @@
 /* Tertiary button */
 
 .button--tertiary {
-  --color-button-background: var(--color-background);
+
   --color-button-border: var(--color-border);
   --color-button-text: var(--color-base-outline-button-labels);
 }
