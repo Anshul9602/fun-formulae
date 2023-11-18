@@ -86,6 +86,11 @@ html.no-js .no-js-hidden {
   display: none !important;
 }
 
+#shopify-section-template--21613581467954__slideshow .slideshow__subheading{
+  font-family: 'Shorelines';
+}
+
+
 html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
