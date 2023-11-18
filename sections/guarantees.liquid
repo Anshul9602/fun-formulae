@@ -37,7 +37,7 @@
     <div class="guarantees section--padding{{ custom_class }}">
       {%- if section.settings.heading != blank and section.settings.layout == 'default' -%}
         <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}">
-          <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</{{ section.settings.heading_tag }}>
+          <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}<span>{{ section.settings.subheading | escape }}</span></{{ section.settings.heading_tag }}>
         </div>
       {%- endif -%}
       {%- if section.settings.heading_img != blank  -%}
@@ -169,6 +169,12 @@
       "id": "heading",
       "default": "Guarantees",
       "label": "t:sections.all.heading.label"
+    }, 
+    {
+      "type": "text",
+      "id": "subheading",
+      "default": "Guarantees",
+      "label": "t:sections.all.subheading.label"
     }, 
     {
       "type": "image_picker",
