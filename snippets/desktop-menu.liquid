@@ -55,7 +55,7 @@
                 <div class="list-menu-dropdown hidden">
                   <div class="list-menu row" role="list" tabindex="-1">
                     {%- for childlink in link.links -%}
-                      <div>
+                      <div class="col-md-6">
                         {%- if childlink.links == blank -%}
                           
                             <a href="{{ childlink.url }}" class="header__menu-item list-menu__item focus-inset{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
