@@ -6,7 +6,16 @@
   --color-heading: var(--color-base-heading);
   --color-border: var(--color-base-border);
 }
-
+@font-face {
+  font-family: 'HelloGalleria';
+  src: url('hellogalleria.ttf') format('truetype');
+  /* Add additional formats if needed, e.g., woff, woff2 */
+}
+@font-face {
+  font-family: 'Shorelines';
+  src: url('Shorelines-Script-Bold.ttf') format('truetype');
+  /* Add additional formats if needed, e.g., woff, woff2 */
+}
 /* Primary button */
 
 :root {
