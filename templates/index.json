@@ -120,10 +120,9 @@
           "settings": {
             "icon": "leaf",
             "icon_size": "large",
-            "image": "shopify:\/\/shop_images\/Therapeutic.png",
             "custom_icon": "",
-            "title": "",
-            "title_size": "h4",
+            "title": "THERAPEUTIC",
+            "title_size": "h2",
             "text": "<p>we deeply believe in the connection between our health, hair, skin, and the environment. <\/p>"
           }
         },
