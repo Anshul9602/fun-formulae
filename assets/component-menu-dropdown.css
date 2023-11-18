@@ -27,6 +27,7 @@ mega-menu {
 }
 
 .list-menu-dropdown::before {
+  margin-left: -20%;
   content: '';
   z-index: -1;
   position: absolute;
