@@ -7,6 +7,22 @@
   endunless
 -%}
 
+<style>
+  .row{
+    display:flex;
+
+  }
+  .col-md-6{
+    max-width: 50%;
+  }
+  .col-md-4{
+    max-width: 33.33%;
+  }
+  .col-md-3{
+    max-width: 25%;
+  }
+</style>
+
 <nav class="header__inline-menu{% if offset > 0 %} header__inline-menu-split{% endif %}">
   <ul class="list-menu list-menu--inline" role="list">
     {%- for link in menu.links limit: limit offset: offset -%}
@@ -37,22 +53,22 @@
                   {% render 'icon', icon: 'caret' %}
                 </a>
                 <div class="list-menu-dropdown hidden">
-                  <ul class="list-menu" role="list" tabindex="-1">
+                  <div class="list-menu row" role="list" tabindex="-1">
                     {%- for childlink in link.links -%}
-                      <li>
+                      <div>
                         {%- if childlink.links == blank -%}
-                          <dropdown-menu>
+                          
                             <a href="{{ childlink.url }}" class="header__menu-item list-menu__item focus-inset{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                               <span class="label">{{ childlink.title | escape }}</span>
                             </a>
-                          </dropdown-menu>
+                         
                         {%- else -%}
-                          <dropdown-menu>
+                          
                             <a href="{{ childlink.url }}" class="header__menu-item{% if childlink.active or childlink.child_active %} header__active-menu-item{% endif %} list-menu__item focus-inset">
                               <span class="label">{{ childlink.title | escape }}</span>
                               {% render 'icon', icon: 'caret' %}
                             </a>
-                            <div class="list-menu-dropdown hidden">
+                            <div class="">
                               <ul class="list-menu" role="list" tabindex="-1">
                                 {%- for grandchildlink in childlink.links -%}
                                   <li>
@@ -63,11 +79,11 @@
                                 {%- endfor -%}
                               </ul>
                             </div>
-                          </dropdown-menu>
+                         
                         {%- endif -%}
-                      </li>
+                      </div>
                     {%- endfor -%}
-                  </ul>
+                  </div>
                 </div>
               </dropdown-menu>
             {%- endif -%}
