@@ -95,7 +95,7 @@ html.no-js .no-js-hidden {
   
 }
 .hello{
-  font-family: 'HelloGalleria';
+  font-family: 'HelloGalleria' !important;
 }
 
 
