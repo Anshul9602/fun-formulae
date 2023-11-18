@@ -37,7 +37,7 @@
     <div class="guarantees section--padding{{ custom_class }}">
       {%- if section.settings.heading != blank and section.settings.layout == 'default' -%}
         <div class="title-wrapper{% if section.settings.heading == blank %} title-wrapper--no-heading{% endif %} {{ section.settings.column_alignment }}">
-          <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }} &nbsp;<span>{{ section.settings.subheading | escape }}</span></{{ section.settings.heading_tag }}>
+          <{{ section.settings.heading_tag }} class="title {{ section.settings.heading_size }} hello">{{ section.settings.heading | escape }} &nbsp;<span>{{ section.settings.subheading | escape }}</span></{{ section.settings.heading_tag }}>
         </div>
       {%- endif -%}
       {%- if section.settings.heading_img != blank  -%}
@@ -86,7 +86,7 @@
                       </span>
                     {%- endif -%}
                     <div>
-                      <p class="{{ block.settings.title_size }}">{{ block.settings.title | escape }}</p>
+                      <p class="{{ block.settings.title_size }} hello">{{ block.settings.title | escape }}</p>
                       <div class="rte typeset">{{ block.settings.text }}</div>
                     </div>
                   </use-animate>
