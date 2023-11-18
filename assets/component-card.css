@@ -257,7 +257,7 @@
   .card-information__button .button {
     display: flex;
     min-width: auto;
-    width: 100%;
+    width: 55%;
     box-shadow: none;
     border-radius: min(var(--button-radius), 0.8rem);
     transform: translateY(100%);
