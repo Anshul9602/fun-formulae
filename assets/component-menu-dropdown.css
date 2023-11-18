@@ -32,7 +32,7 @@ mega-menu {
   position: absolute;
   top: 0;
   left: 0;
-  width: 800px;
+  width: 1200px;
   height: 0;
   background: var(--gradient-header-background);
   background-color: rgb(var(--color-header-background));
