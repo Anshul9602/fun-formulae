@@ -14,12 +14,15 @@
   }
   .col-md-6{
     max-width: 50%;
+    width: 100%;
   }
   .col-md-4{
     max-width: 33.33%;
+    width: 100%;
   }
   .col-md-3{
     max-width: 25%;
+    width: 100%;
   }
 </style>
 
@@ -53,7 +56,7 @@
                   
                 </a>
                 <div class="list-menu-dropdown hidden">
-                  <div class="list-menu row" role="list" tabindex="-1">
+                  <div class="list-menu row" role="list" tabindex="-1" style="width: 800px;">
                     {%- for childlink in link.links -%}
                       <div class="col-md-6">
                         {%- if childlink.links == blank -%}
