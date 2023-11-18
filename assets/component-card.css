@@ -255,6 +255,8 @@
   }
 
   .card-information__button .button {
+    background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/blue_button_3_1.png?v=1700298420');
+    background-size: cover;
     display: flex;
     min-width: auto;
     width: 55%;
