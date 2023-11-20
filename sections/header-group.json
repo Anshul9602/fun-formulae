@@ -67,7 +67,7 @@
     "8d18082e-fd50-476b-b5ed-5f7583de292f": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "",
+        "custom_liquid": "test",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
