@@ -1,14 +1,25 @@
-
 <script src="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
 "></script>
 <link href="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 " rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <style>
-    section{
-    padding: 20px 0;}
+    section {
+        padding: 20px 0;
+    }
+
+    .splide__slide:not(.splide__slide--clone) img {
+        width: 80%;
+        /* Set width for non-center slides */
+    }
+
+    .splide__slide--clone img {
+        width: 100%;
+        /* Set width for center slide */
+    }
 </style>
 
 
@@ -16,69 +27,105 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
     <div class="">
         <div class="row">
             <div class="col-md-6">
-                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Group_37.png?v=1700472297" alt="" width="100%" style="max-height: 750px;">
+                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Group_37.png?v=1700472297" alt=""
+                    width="100%" style="max-height: 750px;">
             </div>
             <div class="col-md-6">
                 <div class="splide sp" aria-label="Splide Basic HTML Example">
                     <div class="splide__track">
-                          <ul class="splide__list">
-                              <li class="splide__slide">
-                                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Mask_group_2.png?v=1700472595" alt="" width="100%">
-                              </li>
-                              <li class="splide__slide">
-                                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Mask_group.png?v=1700302893" alt="" width="100%">
-                              </li>
-                              <li class="splide__slide">
-                                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Mask_group_1.png?v=1700302894" alt="" width="100%">
-                              </li>
-                             
-                          </ul>
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Mask_group_2.png?v=1700472595"
+                                    alt="" width="100%">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Mask_group.png?v=1700302893"
+                                    alt="" width="100%">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Mask_group_1.png?v=1700302894"
+                                    alt="" width="100%">
+                            </li>
+
+                        </ul>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
-<section  >
+<section>
     <div class="">
-        <div class="row"style="background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/New_Project_4.png?v=1700473301');background-size: cover;">
+        <div class="row"
+            style="background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/New_Project_4.png?v=1700473301');background-size: cover;">
             <h1 class="pt-4 pb-4 col-md-12 text-center mh" style="font-size: 50px;">SHOP PRODUCTS</h1>
-            <div class="col-md-12">
+            <div class="col-md-12 pb-4">
                 <div class="splide sp1" aria-label="Splide Basic HTML Example" style="margin-left: 10%;max-width:90%;">
                     <div class="splide__track">
-                          <ul class="splide__list">
-                              <li class="splide__slide">
-                                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Mask_group_2.png?v=1700472595" alt="" width="100%">
-                              </li>
-                              <li class="splide__slide">
-                                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Mask_group.png?v=1700302893" alt="" width="100%">
-                              </li>
-                              <li class="splide__slide">
-                                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Mask_group_1.png?v=1700302894" alt="" width="100%">
-                              </li>
-                             
-                          </ul>
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <h4>HAIR SHAMPOO</h4>
+                                <h6>Geranium | Neroli | 200 mL</h6>
+                                <p>Rs. 2000/-</p>
+                                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Mask_group_2.png?v=1700472595"
+                                    alt="" width="100%">
+                            </li>
+                            <li class="splide__slide">
+                                <h4>HAIR SHAMPOO</h4>
+                                <h6>Geranium | Neroli | 200 mL</h6>
+                                <p>Rs. 2000/-</p>
+                                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Mask_group.png?v=1700302893"
+                                    alt="" width="100%">
+                            </li>
+                            <li class="splide__slide">
+                                <h4>HAIR SHAMPOO</h4>
+                                <h6>Geranium | Neroli | 200 mL</h6>
+                                <p>Rs. 2000/-</p>
+                                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Mask_group_1.png?v=1700302894"
+                                    alt="" width="100%">
+                            </li>
+
+                        </ul>
                     </div>
-                  </div>
+                </div>
             </div>
-           
+
         </div>
     </div>
 </section>
 
+<section>
+    <div class="container">
+        <div class="row" style="padding: 5% 0;">
+
+            <div class="col-md-12 pt-4 pb-4">
+                <h1 style="font-size: 50px;">DISCOVER OUR CARE ROUTINES</h1>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/il_570xN_3.png?v=1700476990" alt="" width="90%">
+               <div class="fr"><img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/red_button.png?v=1700477212" alt=""></div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
 
 <script>
-    var splide = new Splide( '.sp', {
+    var splide = new Splide('.sp', {
         perPage: 1,
-        rewind : true,
-      } );
-      
-      splide.mount();
-    var splide = new Splide( '.sp1', {
+        rewind: true,
+    });
+
+    splide.mount();
+    var splide = new Splide('.sp1', {
         perPage: 3,
-        rewind : true,
-        gap: '20px' ,
-      } );
-      
-      splide.mount();
+        rewind: true,
+        gap: '20px',
+    });
+
+    splide.mount();
 </script>
