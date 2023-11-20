@@ -1,10 +1,39 @@
+
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+
+
 <section>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <img src="https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Group_37.png?v=1700472297" alt="" width="100%">
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <section class="splide" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track">
+                          <ul class="splide__list">
+                              <li class="splide__slide">Slide 01</li>
+                              <li class="splide__slide">Slide 02</li>
+                              <li class="splide__slide">Slide 03</li>
+                          </ul>
+                    </div>
+                  </section>
+            </div>
         </div>
     </div>
 </section>
+
+
+<script>
+    var splide = new Splide( '.splide', {
+        perPage: 3,
+        rewind : true,
+      } );
+      
+      splide.mount();
+</script>
