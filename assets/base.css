@@ -87,6 +87,13 @@ html.no-js .no-js-inline {
 html.no-js .no-js-hidden {
   display: none !important;
 }
+
+#shopify-section-template--21613581467954__slideshow .slideshow__card .button{
+  background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/button_option_4_6.png?v=1700215529');
+}
+
+
+
 #shopify-section-template--21634042888498__bd635a70-8b0e-476c-b3f3-489d03e44bc6{
   height: 120px;
  
