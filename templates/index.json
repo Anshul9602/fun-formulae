@@ -19,7 +19,7 @@
             "button_label": "learn more",
             "button_link": "",
             "button_size": "small",
-            "button_style_secondary": true
+            "button_style_secondary": false
           }
         },
         "slide-1": {
