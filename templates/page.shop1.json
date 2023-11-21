@@ -102,7 +102,7 @@
         "template--21634042888498__41629b94-7d57-43de-8e48-8ae5f720c9bc-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/unnamed_1_1.png",
+            "image": "shopify:\/\/shop_images\/New_Project_5.png",
             "title": "NEROLI OIL",
             "title_size": "h3",
             "text": "<p>Neroli oil, abundant in antioxidants like limonene, aids cellular rejuvenation, promoting a vibrant and youthful complexion....<\/p>",
@@ -114,7 +114,7 @@
         "template--21634042888498__41629b94-7d57-43de-8e48-8ae5f720c9bc-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Asset_111_2.png",
+            "image": "shopify:\/\/shop_images\/New_Project_6.png",
             "title": "NUTMEG OIL",
             "title_size": "h3",
             "text": "<p>Nutmeg oil, containing myristicin and elemicin, demonstrates remarkable anti-inflammatory effects, soothing skin irritations....<\/p>",
@@ -126,7 +126,7 @@
         "template--21634042888498__41629b94-7d57-43de-8e48-8ae5f720c9bc-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Geranium_copy_4_1.png",
+            "image": "shopify:\/\/shop_images\/New_Project_7.png",
             "title": "GERANIUM OIL",
             "title_size": "h3",
             "text": "<p>Geranium oil possesses antibacterial properties, aiding in the prevention of acne and promoting clearer skin....<\/p>",
@@ -138,7 +138,7 @@
         "af8c6150-b970-47af-8234-b906d9c3df8d": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bergamot_1.png",
+            "image": "shopify:\/\/shop_images\/New_Project_8.png",
             "title": "BERGAMOT OIL",
             "title_size": "h3",
             "text": "<p>Bergamot oil brightens and evens out the skin tone, while lemongrass oil provides astringent properties, helping to minimize the appearance of pores.....<\/p>",
@@ -175,7 +175,7 @@
     "516dbef2-2bcb-4381-be89-1c772698678c": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"view-all center pb-5\">\n    <a href=\"\/collections\/feture-product\" class=\"button\" aria-label=\"View all products in the Feture product collection\" style=\"text-transform: capitalize;background-image: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0841\/8371\/2050\/files\/Group_43.png?v=1700545929');background-size: cover;height: 90px;font-size: 20px;\">\n      Read more...\n    <\/a>\n  <\/div>",
+        "custom_liquid": "<div class=\"view-all center\">\n    <a href=\"\/collections\/feture-product\" class=\"button\" aria-label=\"View all products in the Feture product collection\" style=\"text-transform: capitalize;background-image: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0841\/8371\/2050\/files\/Group_43.png?v=1700545929');background-size: cover;height: 90px;font-size: 20px;\">\n      Read more...\n    <\/a>\n  <\/div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
