@@ -4,6 +4,13 @@
     --section-padding-bottom: {{ section.settings.padding_bottom }}px;
     --image-position: {{ section.settings.image_position }};
   }
+#shopify-section-template--21634042888498__41629b94-7d57-43de-8e48-8ae5f720c9bc .media--landscape{
+  padding-bottom: 0 !important;
+}
+#shopify-section-template--21634042888498__41629b94-7d57-43de-8e48-8ae5f720c9bc .media--landscape img{
+  position: relative !important;
+}
+
 {%- endstyle -%}
 
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
