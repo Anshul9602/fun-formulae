@@ -1284,7 +1284,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/alcohol_free.png",
-            "height": 40,
+            "height": 60,
             "link": ""
           }
         },
@@ -1292,7 +1292,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cruelty_free.png",
-            "height": 40,
+            "height": 60,
             "link": ""
           }
         },
@@ -1300,7 +1300,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/phthalate_free.png",
-            "height": 40,
+            "height": 60,
             "link": ""
           }
         },
@@ -1308,7 +1308,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sulphate_free.png",
-            "height": 40,
+            "height": 60,
             "link": ""
           }
         },
@@ -1316,7 +1316,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Paraben_free.png",
-            "height": 40,
+            "height": 60,
             "link": ""
           }
         }
