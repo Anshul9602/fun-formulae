@@ -210,6 +210,12 @@
     "countdown-timer": {
       "type": "countdown-timer",
       "blocks": {
+        "4da84612-c67b-4521-beeb-c8739d753e8d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h2 class=\"image-with-text__heading h2\">AROMATHERAPY <span style=\"font-family: Shorelines;\"> &nbsp;studio<\/span><\/h2>"
+          }
+        },
         "subheading": {
           "type": "subheading",
           "settings": {
@@ -220,6 +226,7 @@
         },
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "AROMATHERAPY studio",
             "heading_size": "h2",
@@ -251,21 +258,15 @@
             "button_size": "small",
             "button_style_secondary": false
           }
-        },
-        "4da84612-c67b-4521-beeb-c8739d753e8d": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<h2 class=\"image-with-text__heading h2\">AROMATHERAPY <span style=\"font-family: Shorelines;\"> &nbsp;studio<\/span><\/h2>"
-          }
         }
       },
       "block_order": [
+        "4da84612-c67b-4521-beeb-c8739d753e8d",
         "subheading",
         "heading",
         "countdown",
         "text",
-        "button",
-        "4da84612-c67b-4521-beeb-c8739d753e8d"
+        "button"
       ],
       "custom_css": [
         ".section--padding {}"
