@@ -1155,19 +1155,16 @@
             "heading_tag": "h2"
           }
         },
-        "text": {
-          "type": "text",
+        "e35af93c-0b96-455a-ab2d-d81ee7a93c0c": {
+          "type": "custom_liquid",
           "settings": {
-            "text": "<p>#funformulae<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": false,
-            "highlight_phrases": ""
+            "custom_liquid": "<p style=\"font-family: Shorelines;font-size:24px;\">@funformulae<\/p>"
           }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "e35af93c-0b96-455a-ab2d-d81ee7a93c0c"
       ],
       "settings": {
         "text_alignment": "center",
