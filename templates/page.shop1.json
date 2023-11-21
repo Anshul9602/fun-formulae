@@ -25,6 +25,16 @@
         "padding_bottom": 0
       }
     },
+    "489860fa-6a98-4e47-95b6-adf851043241": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h2 class=\"title h2 hello\" style=\"    text-align: center;\">SHOP PRODUCTS<\/h2>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 52,
+        "padding_bottom": 24
+      }
+    },
     "23abec13-c823-445f-ae0a-fa455d83eb24": {
       "type": "featured-collection",
       "settings": {
@@ -32,7 +42,7 @@
         "products_to_show": 4,
         "show_view_all": true,
         "show_divider": false,
-        "heading": "SHOP PRODUCTS",
+        "heading": "",
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
@@ -250,6 +260,7 @@
   },
   "order": [
     "image-banner",
+    "489860fa-6a98-4e47-95b6-adf851043241",
     "23abec13-c823-445f-ae0a-fa455d83eb24",
     "main",
     "empty-space",
