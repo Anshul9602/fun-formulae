@@ -213,7 +213,7 @@
         "4da84612-c67b-4521-beeb-c8739d753e8d": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<h4 class=\"image-with-text__heading h2 hello\">AROMATHERAPY <span style=\"font-family: Shorelines;\"> &nbsp;studio<\/span><\/h4>"
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h2 hello\" style=\"font-family: 'Josefin Sans';\">AROMATHERAPY <span style=\"font-family: Shorelines;\"> &nbsp;studio<\/span><\/h4>"
           }
         },
         "subheading": {
