@@ -3106,10 +3106,10 @@ details[open].menu-opening > .header__icon--menu span {
 .badge {
   border: 0.1rem solid transparent;
   display: inline-block;
-  font-size: 1.1rem;
+  font-size: 1.1rem !important;
   text-transform: uppercase;
   line-height: 1;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem !important;
   text-align: center;
   word-break: break-word;
   width: max-content;
