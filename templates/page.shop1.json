@@ -213,7 +213,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cruelty_free.png",
-            "height": 40,
+            "height": 60,
             "link": ""
           }
         },
@@ -221,23 +221,23 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/phthalate_free.png",
-            "height": 40,
+            "height": 60,
             "link": ""
           }
         },
         "6cb19f5d-d5dc-43a8-94f7-e064e914b5df": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Paraben_free.png",
-            "height": 40,
+            "image": "shopify:\/\/shop_images\/Paraben_free_1.png",
+            "height": 60,
             "link": ""
           }
         },
         "e85c13c1-5c7e-4798-b2cf-1411739c2833": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/alcohol_free.png",
-            "height": 40,
+            "image": "shopify:\/\/shop_images\/alcohol_free_1.png",
+            "height": 60,
             "link": ""
           }
         },
@@ -245,7 +245,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sulphate_free.png",
-            "height": 40,
+            "height": 60,
             "link": ""
           }
         }
@@ -266,7 +266,7 @@
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 40,
+        "padding_top": 28,
         "padding_bottom": 0
       }
     }
