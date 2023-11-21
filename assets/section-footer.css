@@ -416,7 +416,7 @@ footer details[empty] summary {
 
 footer .accordion__title {
   max-width: 100%;
-  font-size: 1.2rem;
+  font-size: 20px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color:black;
@@ -444,8 +444,8 @@ footer .accordion__title:empty + .icon {
   }
 
   footer .accordion__title {
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
   }
 
   .footer__copyright {
