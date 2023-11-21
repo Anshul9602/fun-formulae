@@ -95,6 +95,82 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "41629b94-7d57-43de-8e48-8ae5f720c9bc": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21634042888498__41629b94-7d57-43de-8e48-8ae5f720c9bc-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_1_1.png",
+            "title": "NEROLI OIL",
+            "title_size": "h3",
+            "text": "<p>Neroli oil, abundant in antioxidants like limonene, aids cellular rejuvenation, promoting a vibrant and youthful complexion....<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--21634042888498__41629b94-7d57-43de-8e48-8ae5f720c9bc-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Asset_111_2.png",
+            "title": "NUTMEG OIL",
+            "title_size": "h3",
+            "text": "<p>Nutmeg oil, containing myristicin and elemicin, demonstrates remarkable anti-inflammatory effects, soothing skin irritations....<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--21634042888498__41629b94-7d57-43de-8e48-8ae5f720c9bc-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Geranium_copy_4_1.png",
+            "title": "GERANIUM OIL",
+            "title_size": "h3",
+            "text": "<p>Geranium oil possesses antibacterial properties, aiding in the prevention of acne and promoting clearer skin....<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "af8c6150-b970-47af-8234-b906d9c3df8d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bergamot_1.png",
+            "title": "BERGAMOT OIL",
+            "title_size": "h3",
+            "text": "<p>Bergamot oil brightens and evens out the skin tone, while lemongrass oil provides astringent properties, helping to minimize the appearance of pores.....<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21634042888498__41629b94-7d57-43de-8e48-8ae5f720c9bc-column-1",
+        "template--21634042888498__41629b94-7d57-43de-8e48-8ae5f720c9bc-column-2",
+        "template--21634042888498__41629b94-7d57-43de-8e48-8ae5f720c9bc-column-3",
+        "af8c6150-b970-47af-8234-b906d9c3df8d"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "image_width": "full",
+        "columns_desktop": 4,
+        "heading": "Multicolumn",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -103,6 +179,7 @@
     "main",
     "empty-space",
     "a61cf066-9a99-478f-ad7b-7bbe74d49fad",
-    "b6b5c29b-5179-4013-b4d7-829925a14d6f"
+    "b6b5c29b-5179-4013-b4d7-829925a14d6f",
+    "41629b94-7d57-43de-8e48-8ae5f720c9bc"
   ]
 }
