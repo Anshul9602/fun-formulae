@@ -109,7 +109,9 @@ html.no-js .no-js-hidden {
 .hello{
   font-family: 'HelloGalleria' !important;
 }
-
+#shopify-section-template--21613581467954__countdown-timer .typeset{
+padding-right: 35px;
+}
 
 html {
   -moz-osx-font-smoothing: grayscale;
@@ -3126,6 +3128,10 @@ details[open].menu-opening > .header__icon--menu span {
 .icon-plus-alt {
   position: relative;
 }
+
+
+
+
 
 .icon-plus-alt::before,
 .icon-plus-alt::after {
