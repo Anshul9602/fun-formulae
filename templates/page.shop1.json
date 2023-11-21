@@ -171,6 +171,16 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "516dbef2-2bcb-4381-be89-1c772698678c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"view-all center\">\n    <a href=\"\/collections\/feture-product\" class=\"button\" aria-label=\"View all products in the Feture product collection\" style=\"text-transform: capitalize;\">\n      Read more...\n    <\/a>\n  <\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -180,6 +190,7 @@
     "empty-space",
     "a61cf066-9a99-478f-ad7b-7bbe74d49fad",
     "b6b5c29b-5179-4013-b4d7-829925a14d6f",
-    "41629b94-7d57-43de-8e48-8ae5f720c9bc"
+    "41629b94-7d57-43de-8e48-8ae5f720c9bc",
+    "516dbef2-2bcb-4381-be89-1c772698678c"
   ]
 }
