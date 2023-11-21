@@ -22,7 +22,7 @@
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 28,
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "23abec13-c823-445f-ae0a-fa455d83eb24": {
@@ -181,6 +181,51 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "3be881d4-f087-4e86-8545-ec3c67e230ef": {
+      "type": "logo-list",
+      "blocks": {
+        "template--21634042888498__3be881d4-f087-4e86-8545-ec3c67e230ef-logo-1": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--21634042888498__3be881d4-f087-4e86-8545-ec3c67e230ef-logo-2": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--21634042888498__3be881d4-f087-4e86-8545-ec3c67e230ef-logo-3": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--21634042888498__3be881d4-f087-4e86-8545-ec3c67e230ef-logo-4": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21634042888498__3be881d4-f087-4e86-8545-ec3c67e230ef-logo-1",
+        "template--21634042888498__3be881d4-f087-4e86-8545-ec3c67e230ef-logo-2",
+        "template--21634042888498__3be881d4-f087-4e86-8545-ec3c67e230ef-logo-3",
+        "template--21634042888498__3be881d4-f087-4e86-8545-ec3c67e230ef-logo-4"
+      ],
+      "settings": {
+        "opacity": 72,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -191,6 +236,7 @@
     "a61cf066-9a99-478f-ad7b-7bbe74d49fad",
     "b6b5c29b-5179-4013-b4d7-829925a14d6f",
     "41629b94-7d57-43de-8e48-8ae5f720c9bc",
-    "516dbef2-2bcb-4381-be89-1c772698678c"
+    "516dbef2-2bcb-4381-be89-1c772698678c",
+    "3be881d4-f087-4e86-8545-ec3c67e230ef"
   ]
 }
