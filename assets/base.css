@@ -3116,8 +3116,7 @@ details[open].menu-opening > .header__icon--menu span {
 
 .badge--onsale {
   color: rgb(var(--color-background));
-  background-color: var(--color-sale-badge-background);
-  border-color:var(--color-sale-badge-background);
+ background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/red_button_2_2.png?v=1700553735');
 }
 
 .icon-plus-alt {
