@@ -118,33 +118,33 @@
         "guarantee-0": {
           "type": "guarantee",
           "settings": {
-            "icon": "leaf",
-            "icon_size": "large",
+            "icon": "none",
+            "icon_size": "medium",
             "custom_icon": "",
             "title": "THERAPEUTIC",
-            "title_size": "h2",
+            "title_size": "h4",
             "text": "<p>we deeply believe in the connection between our health, hair, skin, and the environment. <\/p>"
           }
         },
         "guarantee-1": {
           "type": "guarantee",
           "settings": {
-            "icon": "globe",
-            "icon_size": "medium",
+            "icon": "none",
+            "icon_size": "small",
             "custom_icon": "",
             "title": "RELAXING",
-            "title_size": "h2",
+            "title_size": "h4",
             "text": "<p>we deeply believe in the connection between our health, hair, skin, and the environment. <\/p>"
           }
         },
         "guarantee-2": {
           "type": "guarantee",
           "settings": {
-            "icon": "recycle",
+            "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
             "title": "HEALING",
-            "title_size": "h2",
+            "title_size": "h4",
             "text": "<p>we deeply believe in the connection between our health, hair, skin, and the environment. <\/p>"
           }
         }
@@ -164,7 +164,7 @@
         "subheading": "essential oils",
         "heading_img": "shopify:\/\/shop_images\/Relaxing.png",
         "heading_size": "h2",
-        "heading_tag": "h4",
+        "heading_tag": "h6",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "use_custom_colors": false,
