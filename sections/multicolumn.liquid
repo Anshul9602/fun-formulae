@@ -40,8 +40,8 @@
           >
             <div class="multicolumn-card">
               {%- if block.settings.image != blank -%}
-                <use-animate data-animate="zoom-fade" class="media-wrapper multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' %} multicolumn-card-spacing{% endif %}">
-                  <div class="image-animate media media--{{ section.settings.image_ratio }}"
+                <use-animate data-animate="zoom-fade" class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' %} multicolumn-card-spacing{% endif %}">
+                  <div class="image-animate media "
                     {%- if section.settings.image_ratio == 'adapt' %} style="--image-ratio-percent: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"{% endif -%}
                   >
                     {%- liquid
