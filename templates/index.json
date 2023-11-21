@@ -145,7 +145,7 @@
             "custom_icon": "",
             "title": "HEALING",
             "title_size": "h3",
-            "text": "<p>we deeply believe in the connection between our health, hair, skin, and the environment. <\/p>"
+            "text": "<h4>we deeply believe in the connection between our health, hair, skin, and the environment. <\/h4>"
           }
         }
       },
@@ -238,8 +238,8 @@
           "settings": {
             "date": "01-01-2023",
             "number_size": "small",
-            "message": "<p>DISCOVER THE POWER OF ESSENTISL OIL<\/p>",
-            "message_size": "typeset2"
+            "message": "<p><strong>DISCOVER THE POWER OF ESSENTISL OIL<\/strong><\/p>",
+            "message_size": "typeset"
           }
         },
         "text": {
