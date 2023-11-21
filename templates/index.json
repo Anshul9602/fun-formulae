@@ -251,6 +251,12 @@
             "button_size": "small",
             "button_style_secondary": false
           }
+        },
+        "4da84612-c67b-4521-beeb-c8739d753e8d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<h2 class=\"image-with-text__heading h2\">AROMATHERAPY <span style=\"font-family: Shorelines;\"> &nbsp;studio<\/span><\/h2>"
+          }
         }
       },
       "block_order": [
@@ -258,7 +264,8 @@
         "heading",
         "countdown",
         "text",
-        "button"
+        "button",
+        "4da84612-c67b-4521-beeb-c8739d753e8d"
       ],
       "custom_css": [
         ".section--padding {}"
