@@ -55,7 +55,9 @@
 }
 
 /* Duration */
-
+a {
+  text-decoration: none;
+}
 :root {
   --duration-short: 100ms;
   --duration-default: 250ms;
