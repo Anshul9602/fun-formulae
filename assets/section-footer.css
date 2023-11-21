@@ -480,7 +480,7 @@ footer .accordion__title:empty + .icon {
 .footer .list-menu__item--link {
   padding: 0;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 18px;
   line-height: calc(1 + 0.4 / var(--font-body-scale));
 }
 
