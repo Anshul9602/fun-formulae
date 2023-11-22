@@ -76,6 +76,7 @@
         },
         "collapsible_tab-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "1. Collapsible tab",
@@ -87,6 +88,7 @@
         },
         "collapsible_tab-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "2. Collapsible tab",
