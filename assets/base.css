@@ -99,10 +99,10 @@ html.no-js .no-js-hidden {
 .header__inline-menu ul li:hover{
   color:black;
   font-weight: 600;
-  border: 2px solid #ffd063;
-    border-radius: 10px;
+  background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/button_option_4_6.png?v=1700215529');
+
   
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 .header__inline-menu ul li .header__active-menu-item{
   border: 2px solid #ffd063;
