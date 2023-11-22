@@ -62,162 +62,8 @@ padding-bottom: {{ first_image_ratio }}%;
       <media-gallery id="MediaGallery-{{ section.id }}" role="region" {% if section.settings.enable_sticky_info %}
         class="product__media-gallery" {% endif %} aria-label="{{ 'products.product.media.gallery_viewer' | t }}"
         data-desktop-layout="{{ section.settings.gallery_layout }}">
-        <duv></duv>
-        {%- if product.media.size > 1 and media_count > 1 and section.settings.gallery_layout == 'thumbnail_slider' or
-          section.settings.show_mobile_thumbnails -%}
-
-
-          <thumbnail-slider id="GalleryThumbnails-{{ section.id }}"
-            class="thumbnail-slider slider-mobile-gutter{% unless section.settings.show_mobile_thumbnails %} small-hide{% endunless %}{% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}">
-            <ul id="Slider-Thumbnails-{{ section.id }}"
-              class="thumbnail-list list-unstyled slider slider--mobile{% if section.settings.gallery_layout == 'thumbnail_slider' %} slider--tablet-up{% endif %}"
-              data-media-count="{{ product.media.size }}">
-              {%- if featured_media != null -%}
-              {%- liquid
-              capture media_index
-              if featured_media.media_type == 'model'
-              increment model_index
-              elsif featured_media.media_type == 'video' or featured_media.media_type == 'external_video'
-              increment video_index
-              elsif featured_media.media_type == 'image'
-              increment image_index
-              endif
-              endcapture
-  
-              assign media_index = media_index | plus: 1
-  
-              assign gang_option_name = ''
-              assign gang_media_active = false
-              assign gang_connect = ''
-              if featured_media.alt contains '#' and section.settings.hide_variants == false
-              assign gang_connect = featured_media.alt | split: '#' | last
-              if gang_connect contains '_'
-              assign gang_exist = true
-              assign gang_option_name = gang_connect | split: '_' | first | handleize
-  
-              for option_name in product.options
-              assign option_name_handlized = option_name | handleize | replace: '_', '-'
-              if option_name_handlized == gang_option_name
-              assign option_key = 'option' | append: forloop.index
-              assign current_option_value = product.selected_or_first_available_variant[option_key] | handleize
-              assign current_connect = option_name_handlized | append: '_' | append: current_option_value
-              if gang_connect == current_connect
-              assign gang_media_active = true
-              endif
-              break
-              endif
-              endfor
-              endif
-              endif
-              -%}
-              <li id="Slide-Thumbnails-{{ section.id }}-0"
-                class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains featured_media.src %} thumbnail-list_item--variant{% endif %} is-active media-wrapper media-wrapper--small{% if gang_media_active == true %} gang__active{% endif %}"
-                data-target="{{ section.id }}-{{ featured_media.id }}" data-media-position="{{ media_index }}" {% if
-                gang_exist==true %}data-gang-option="{{ gang_option_name }}" data-gang-connect="{{ gang_connect }}" {%
-                endif %}>
-                <button class="thumbnail media media--square"
-                  aria-label="{%- if featured_media.media_type == 'image' -%}{{ 'products.product.media.load_image' | t: index: media_index }}{%- elsif featured_media.media_type == 'model' -%}{{ 'products.product.media.load_model' | t: index: media_index }}{%- elsif featured_media.media_type == 'video' or featured_media.media_type == 'external_video' -%}{{ 'products.product.media.load_video' | t: index: media_index }}{%- endif -%}"
-                  aria-current="true" aria-controls="GalleryViewer-{{ section.id }}"
-                  aria-describedby="Thumbnail-{{ section.id }}-0">
-                  {%- capture sizes -%}(min-width: {{ settings.page_width }}px) calc(({{ settings.page_width | minus: 100
-                  | times: media_width | round }} - 4rem) / 4), (min-width: 990px) calc(({{ media_width | times: 100 }}vw
-                  - 4rem) / 4), (min-width: 750px) calc((100vw - 15rem) / 8), calc((100vw - 14rem) / 3){%- endcapture -%}
-                  {%- liquid
-                  assign image_id = 'Thumbnail-' | append: section.id | append: '-0'
-                  assign alt = featured_media.alt | escape | split: '#' | first
-                  echo featured_media.preview_image | image_url: width: 416 | image_tag: loading: 'lazy', id: image_id,
-                  sizes: sizes, widths: '54, 74, 162, 208, 324, 416', alt: alt
-                  -%}
-                </button>
-              </li>
-              {%- endif -%}
-              {%- for media in product.media -%}
-              {%- unless media.id == featured_media.id -%}
-              {%- liquid
-              capture media_index
-              if media.media_type == 'model'
-              increment model_index
-              elsif media.media_type == 'video' or media.media_type == 'external_video'
-              increment video_index
-              elsif media.media_type == 'image'
-              increment image_index
-              endif
-              endcapture
-  
-              assign media_index = media_index | plus: 1
-  
-              assign gang_option_name = ''
-              assign gang_media_active = false
-              assign gang_connect = ''
-              if media.alt contains '#' and section.settings.hide_variants == false
-              assign gang_connect = media.alt | split: '#' | last
-              if gang_connect contains '_'
-              assign gang_exist = true
-              assign gang_option_name = gang_connect | split: '_' | first | handleize
-  
-              for option_name in product.options
-              assign option_name_handlized = option_name | handleize | replace: '_', '-'
-              if option_name_handlized == gang_option_name
-              assign option_key = 'option' | append: forloop.index
-              assign current_option_value = product.selected_or_first_available_variant[option_key] | handleize
-              assign current_connect = option_name_handlized | append: '_' | append: current_option_value
-              if gang_connect == current_connect
-              assign gang_media_active = true
-              endif
-              break
-              endif
-              endfor
-              endif
-              endif
-              -%}
-              <li id="Slide-Thumbnails-{{ section.id }}-{{ forloop.index }}"
-                class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains media.src %} thumbnail-list_item--variant{% endif %}{% if media == featured_media or featured_media == null and forloop.first %} is-active{% endif %} media-wrapper media-wrapper--small{% if gang_media_active == true %} gang__active{% endif %}"
-                data-target="{{ section.id }}-{{ media.id }}" data-media-position="{{ media_index }}" {% if
-                gang_exist==true %}data-gang-option="{{ gang_option_name }}" data-gang-connect="{{ gang_connect }}" {%
-                endif %}>
-                {%- if media.media_type != 'image' -%}
-                <span class="deferred-media__poster-button motion-reduce">
-                  {%- if media.media_type == 'model' -%}
-                  <span class="visually-hidden">{{ 'products.product.media.play_model' | t }}</span>
-                  {%- render 'icon', icon: '3d-model' -%}
-                  {%- else -%}
-                  <span class="visually-hidden">{{ 'products.product.media.play_video' | t }}</span>
-                  {%- render 'icon', icon: 'play' -%}
-                  {%- endif -%}
-                </span>
-                {%- endif -%}
-  
-                <button class="thumbnail media media--square"
-                  aria-label="{%- if media.media_type == 'image' -%}{{ 'products.product.media.load_image' | t: index: media_index }}{%- elsif media.media_type == 'model' -%}{{ 'products.product.media.load_model' | t: index: media_index }}{%- elsif media.media_type == 'video' or media.media_type == 'external_video' -%}{{ 'products.product.media.load_video' | t: index: media_index }}{%- endif -%}"
-                  {% if media==featured_media or featured_media==null and forloop.first %} aria-current="true" {% endif %}
-                  aria-controls="GalleryViewer-{{ section.id }}"
-                  aria-describedby="Thumbnail-{{ section.id }}-{{ forloop.index }}">
-                  {%- capture sizes -%}(min-width: {{ settings.page_width }}px) calc(({{ settings.page_width | minus: 100
-                  | times: media_width | round }} - 4rem) / 4), (min-width: 990px) calc(({{ media_width | times: 100 }}vw
-                  - 4rem) / 4), (min-width: 750px) calc((100vw - 15rem) / 8), calc((100vw - 14rem) / 3){%- endcapture -%}
-                  {%- liquid
-                  assign image_id = 'Thumbnail-' | append: section.id | append: '-' | append: forloop.index
-                  assign alt = media.alt | escape | split: '#' | first
-                  echo media.preview_image | image_url: width: 416 | image_tag: loading: 'lazy', id: image_id, sizes:
-                  sizes, widths: '54, 74, 162, 208, 324, 416', alt: alt
-                  -%}
-                </button>
-              </li>
-              {%- endunless -%}
-              {%- endfor -%}
-            </ul>
-            <div
-              class="slider-buttons{% if media_count <= 3 %} small-hide{% endif %}{% if media_count <= 4 %} medium-hide large-up-hide{% endif %}">
-              <button type="button" class="slider-button slider-button--prev" name="previous"
-                aria-label="{{ 'general.slider.previous_slide' | t }}" aria-controls="GalleryThumbnails-{{ section.id }}"
-                data-step="3">{% render 'icon', icon: 'caret' %}</button>
-              <button type="button" class="slider-button slider-button--next" name="next"
-                aria-label="{{ 'general.slider.next_slide' | t }}" aria-controls="GalleryThumbnails-{{ section.id }}"
-                data-step="3">{% render 'icon', icon: 'caret' %}</button>
-            </div>
-          </thumbnail-slider>
-          {%- endif -%}
         <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div>
+        <div></div>
         <use-animate data-animate="zoom-fade">
           <product-gallery id="GalleryViewer-{{ section.id }}" class="slider-mobile-gutter slider-mobile--overlay">
             <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
@@ -366,7 +212,158 @@ padding-bottom: {{ first_image_ratio }}%;
         </button>
         {%- endif -%}
 
-      
+        {%- if product.media.size > 1 and media_count > 1 and section.settings.gallery_layout == 'thumbnail_slider' or
+        section.settings.show_mobile_thumbnails -%}
+        <thumbnail-slider id="GalleryThumbnails-{{ section.id }}"
+          class="thumbnail-slider slider-mobile-gutter{% unless section.settings.show_mobile_thumbnails %} small-hide{% endunless %}{% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}">
+          <ul id="Slider-Thumbnails-{{ section.id }}"
+            class="thumbnail-list list-unstyled slider slider--mobile{% if section.settings.gallery_layout == 'thumbnail_slider' %} slider--tablet-up{% endif %}"
+            data-media-count="{{ product.media.size }}">
+            {%- if featured_media != null -%}
+            {%- liquid
+            capture media_index
+            if featured_media.media_type == 'model'
+            increment model_index
+            elsif featured_media.media_type == 'video' or featured_media.media_type == 'external_video'
+            increment video_index
+            elsif featured_media.media_type == 'image'
+            increment image_index
+            endif
+            endcapture
+
+            assign media_index = media_index | plus: 1
+
+            assign gang_option_name = ''
+            assign gang_media_active = false
+            assign gang_connect = ''
+            if featured_media.alt contains '#' and section.settings.hide_variants == false
+            assign gang_connect = featured_media.alt | split: '#' | last
+            if gang_connect contains '_'
+            assign gang_exist = true
+            assign gang_option_name = gang_connect | split: '_' | first | handleize
+
+            for option_name in product.options
+            assign option_name_handlized = option_name | handleize | replace: '_', '-'
+            if option_name_handlized == gang_option_name
+            assign option_key = 'option' | append: forloop.index
+            assign current_option_value = product.selected_or_first_available_variant[option_key] | handleize
+            assign current_connect = option_name_handlized | append: '_' | append: current_option_value
+            if gang_connect == current_connect
+            assign gang_media_active = true
+            endif
+            break
+            endif
+            endfor
+            endif
+            endif
+            -%}
+            <li id="Slide-Thumbnails-{{ section.id }}-0"
+              class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains featured_media.src %} thumbnail-list_item--variant{% endif %} is-active media-wrapper media-wrapper--small{% if gang_media_active == true %} gang__active{% endif %}"
+              data-target="{{ section.id }}-{{ featured_media.id }}" data-media-position="{{ media_index }}" {% if
+              gang_exist==true %}data-gang-option="{{ gang_option_name }}" data-gang-connect="{{ gang_connect }}" {%
+              endif %}>
+              <button class="thumbnail media media--square"
+                aria-label="{%- if featured_media.media_type == 'image' -%}{{ 'products.product.media.load_image' | t: index: media_index }}{%- elsif featured_media.media_type == 'model' -%}{{ 'products.product.media.load_model' | t: index: media_index }}{%- elsif featured_media.media_type == 'video' or featured_media.media_type == 'external_video' -%}{{ 'products.product.media.load_video' | t: index: media_index }}{%- endif -%}"
+                aria-current="true" aria-controls="GalleryViewer-{{ section.id }}"
+                aria-describedby="Thumbnail-{{ section.id }}-0">
+                {%- capture sizes -%}(min-width: {{ settings.page_width }}px) calc(({{ settings.page_width | minus: 100
+                | times: media_width | round }} - 4rem) / 4), (min-width: 990px) calc(({{ media_width | times: 100 }}vw
+                - 4rem) / 4), (min-width: 750px) calc((100vw - 15rem) / 8), calc((100vw - 14rem) / 3){%- endcapture -%}
+                {%- liquid
+                assign image_id = 'Thumbnail-' | append: section.id | append: '-0'
+                assign alt = featured_media.alt | escape | split: '#' | first
+                echo featured_media.preview_image | image_url: width: 416 | image_tag: loading: 'lazy', id: image_id,
+                sizes: sizes, widths: '54, 74, 162, 208, 324, 416', alt: alt
+                -%}
+              </button>
+            </li>
+            {%- endif -%}
+            {%- for media in product.media -%}
+            {%- unless media.id == featured_media.id -%}
+            {%- liquid
+            capture media_index
+            if media.media_type == 'model'
+            increment model_index
+            elsif media.media_type == 'video' or media.media_type == 'external_video'
+            increment video_index
+            elsif media.media_type == 'image'
+            increment image_index
+            endif
+            endcapture
+
+            assign media_index = media_index | plus: 1
+
+            assign gang_option_name = ''
+            assign gang_media_active = false
+            assign gang_connect = ''
+            if media.alt contains '#' and section.settings.hide_variants == false
+            assign gang_connect = media.alt | split: '#' | last
+            if gang_connect contains '_'
+            assign gang_exist = true
+            assign gang_option_name = gang_connect | split: '_' | first | handleize
+
+            for option_name in product.options
+            assign option_name_handlized = option_name | handleize | replace: '_', '-'
+            if option_name_handlized == gang_option_name
+            assign option_key = 'option' | append: forloop.index
+            assign current_option_value = product.selected_or_first_available_variant[option_key] | handleize
+            assign current_connect = option_name_handlized | append: '_' | append: current_option_value
+            if gang_connect == current_connect
+            assign gang_media_active = true
+            endif
+            break
+            endif
+            endfor
+            endif
+            endif
+            -%}
+            <li id="Slide-Thumbnails-{{ section.id }}-{{ forloop.index }}"
+              class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains media.src %} thumbnail-list_item--variant{% endif %}{% if media == featured_media or featured_media == null and forloop.first %} is-active{% endif %} media-wrapper media-wrapper--small{% if gang_media_active == true %} gang__active{% endif %}"
+              data-target="{{ section.id }}-{{ media.id }}" data-media-position="{{ media_index }}" {% if
+              gang_exist==true %}data-gang-option="{{ gang_option_name }}" data-gang-connect="{{ gang_connect }}" {%
+              endif %}>
+              {%- if media.media_type != 'image' -%}
+              <span class="deferred-media__poster-button motion-reduce">
+                {%- if media.media_type == 'model' -%}
+                <span class="visually-hidden">{{ 'products.product.media.play_model' | t }}</span>
+                {%- render 'icon', icon: '3d-model' -%}
+                {%- else -%}
+                <span class="visually-hidden">{{ 'products.product.media.play_video' | t }}</span>
+                {%- render 'icon', icon: 'play' -%}
+                {%- endif -%}
+              </span>
+              {%- endif -%}
+
+              <button class="thumbnail media media--square"
+                aria-label="{%- if media.media_type == 'image' -%}{{ 'products.product.media.load_image' | t: index: media_index }}{%- elsif media.media_type == 'model' -%}{{ 'products.product.media.load_model' | t: index: media_index }}{%- elsif media.media_type == 'video' or media.media_type == 'external_video' -%}{{ 'products.product.media.load_video' | t: index: media_index }}{%- endif -%}"
+                {% if media==featured_media or featured_media==null and forloop.first %} aria-current="true" {% endif %}
+                aria-controls="GalleryViewer-{{ section.id }}"
+                aria-describedby="Thumbnail-{{ section.id }}-{{ forloop.index }}">
+                {%- capture sizes -%}(min-width: {{ settings.page_width }}px) calc(({{ settings.page_width | minus: 100
+                | times: media_width | round }} - 4rem) / 4), (min-width: 990px) calc(({{ media_width | times: 100 }}vw
+                - 4rem) / 4), (min-width: 750px) calc((100vw - 15rem) / 8), calc((100vw - 14rem) / 3){%- endcapture -%}
+                {%- liquid
+                assign image_id = 'Thumbnail-' | append: section.id | append: '-' | append: forloop.index
+                assign alt = media.alt | escape | split: '#' | first
+                echo media.preview_image | image_url: width: 416 | image_tag: loading: 'lazy', id: image_id, sizes:
+                sizes, widths: '54, 74, 162, 208, 324, 416', alt: alt
+                -%}
+              </button>
+            </li>
+            {%- endunless -%}
+            {%- endfor -%}
+          </ul>
+          <div
+            class="slider-buttons{% if media_count <= 3 %} small-hide{% endif %}{% if media_count <= 4 %} medium-hide large-up-hide{% endif %}">
+            <button type="button" class="slider-button slider-button--prev" name="previous"
+              aria-label="{{ 'general.slider.previous_slide' | t }}" aria-controls="GalleryThumbnails-{{ section.id }}"
+              data-step="3">{% render 'icon', icon: 'caret' %}</button>
+            <button type="button" class="slider-button slider-button--next" name="next"
+              aria-label="{{ 'general.slider.next_slide' | t }}" aria-controls="GalleryThumbnails-{{ section.id }}"
+              data-step="3">{% render 'icon', icon: 'caret' %}</button>
+          </div>
+        </thumbnail-slider>
+        {%- endif -%}
 
         {%- if section.settings.gallery_layout == 'stacked' and section.settings.show_thumbnails and product.media.size
         > 1 -%}
