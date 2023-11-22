@@ -96,6 +96,8 @@ html.no-js .no-js-hidden {
 }
 
 .header__inline-menu ul li:hover{
+  color:black;
+  font-weight: 600;
   border: 2px solid #ffd063;
     border-radius: 10px;
   
