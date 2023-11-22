@@ -104,12 +104,7 @@ html.no-js .no-js-hidden {
   
 
 }
-.header__inline-menu ul li .header__active-menu-item{
-  border: 2px solid #ffd063;
-    border-radius: 10px;
-  
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+
 
 #shopify-section-template--21634042888498__bd635a70-8b0e-476c-b3f3-489d03e44bc6{
   height: 120px;
