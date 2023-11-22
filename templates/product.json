@@ -487,6 +487,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
@@ -575,6 +576,7 @@
         "image-3",
         "image-4"
       ],
+      "disabled": true,
       "settings": {
         "per_row": 5,
         "spacing_images": 4,
