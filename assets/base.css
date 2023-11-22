@@ -104,6 +104,20 @@ html.no-js .no-js-hidden {
   
 
 }
+.header__menu-item {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #4fc3f7; /* Adjust the border color */
+  border-radius: 20px; /* Adjust the border radius */
+  background-color: #64b5f6; /* Adjust the background color */
+  color: #ffffff; /* Adjust the text color */
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
 .header__menu-item::before {
   content: '';
   position: absolute;
@@ -111,7 +125,7 @@ html.no-js .no-js-hidden {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(circle, red 10%, transparent 10.01%);
+  background-image: radial-gradient(circle, red 20%, transparent 10.01%);
   background-repeat: repeat;
   background-position: 0 0;
   background-size: 30px 30px; /* Adjust the size of bubbles */
