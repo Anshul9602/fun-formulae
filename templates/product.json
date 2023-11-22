@@ -313,6 +313,14 @@
             "row_content": "<p>No, FunFormulae products are free from sulfates, phthalates and parabens.<\/p>",
             "page": ""
           }
+        },
+        "3b7bbc0c-1d89-4e64-8e9e-7fa84adb4771": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "CAN I USE THESE PRODUCTS ON SENSITIVE SKIN?",
+            "row_content": "<p>Our products are suitable to use on all skin types including sensitive skin.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -320,7 +328,8 @@
         "question-1",
         "question-2",
         "question-3",
-        "f486add2-451f-45c3-b88b-f066699c5131"
+        "f486add2-451f-45c3-b88b-f066699c5131",
+        "3b7bbc0c-1d89-4e64-8e9e-7fa84adb4771"
       ],
       "settings": {
         "open_first_collapsible_row": false,
