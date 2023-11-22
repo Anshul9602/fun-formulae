@@ -104,6 +104,19 @@ html.no-js .no-js-hidden {
   
 
 }
+.header__inline-menu ul li::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle, #ffffff 10%, transparent 10.01%);
+  background-repeat: repeat;
+  background-position: 0 0;
+  background-size: 30px 30px; /* Adjust the size of bubbles */
+  opacity: 0.1;
+}
 
 
 #shopify-section-template--21634042888498__bd635a70-8b0e-476c-b3f3-489d03e44bc6{
