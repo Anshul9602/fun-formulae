@@ -277,24 +277,24 @@
         "question-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "heading": "DO YOU ALLOW RETURNS?",
+            "row_content": "<p>Returns are accepted within 48 hours of the delivery date on all orders placed on 82e.com.<\/p><p>Kindly follow the below steps to make sure the return request is processed smoothly.<\/p><p>1. Make sure all the items are returned in an unused condition along with the invoice.<\/p><p>2. Make sure all items are returned in their original packaging which includes price tags, labels, all packaging boxes, and\/or any accessories.<\/p><p>Please note -  All return orders are subjected to a quality assessment.<\/p>",
             "page": ""
           }
         },
         "question-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "heading": "WHEN WILL MY ORDER SHIP?",
+            "row_content": "<p>All domestic orders, once processed are shipped within 7 working days.<\/p>",
             "page": ""
           }
         },
         "question-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "heading": "CAN I TRACK MY ORDER?",
+            "row_content": "<p>You can track the progress of your existing or past orders by visiting the “My Orders” section of your account.<\/p><p>You will be able to track your order from our website or via a tracking link sent to you as soon as the order is shipped.<\/p><p>If your order has been shipped and you still cannot track it, we would request you to wait for 12 hours before trying again.<\/p><p>In rare cases, it might take the courier partner longer to generate a tracking link. <\/p><p>You may also check the status of your order by clicking on the link <a href=\"https:\/\/82e.clickpost.ai\/\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><\/a><strong>.<\/strong><\/p>",
             "page": ""
           }
         },
