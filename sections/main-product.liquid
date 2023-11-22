@@ -62,10 +62,11 @@ padding-bottom: {{ first_image_ratio }}%;
       <media-gallery id="MediaGallery-{{ section.id }}" role="region" {% if section.settings.enable_sticky_info %}
         class="product__media-gallery" {% endif %} aria-label="{{ 'products.product.media.gallery_viewer' | t }}"
         data-desktop-layout="{{ section.settings.gallery_layout }}">
+        <duv></duv>
         {%- if product.media.size > 1 and media_count > 1 and section.settings.gallery_layout == 'thumbnail_slider' or
           section.settings.show_mobile_thumbnails -%}
 
-          
+
           <thumbnail-slider id="GalleryThumbnails-{{ section.id }}"
             class="thumbnail-slider slider-mobile-gutter{% unless section.settings.show_mobile_thumbnails %} small-hide{% endunless %}{% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}">
             <ul id="Slider-Thumbnails-{{ section.id }}"
