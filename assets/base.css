@@ -104,7 +104,7 @@ html.no-js .no-js-hidden {
   
 
 }
-.header__inline-menu ul li::before {
+.header__menu-item::before {
   content: '';
   position: absolute;
   top: 0;
