@@ -583,23 +583,7 @@
               </div>
             {%- endif -%}
           {%- when 'description' -%}
-            <accordion-tab class="product__accordion accordion" {{ block.shopify_attributes }}>
-              <details{% if block.settings.keep_open %} open{% endif %}>
-                <summary>
-                  <span class="summary__title">
-                    
-                    <span class="accordion__title">
-                    Description
-                    </span>
-                  </span>
-                  {% render 'icon', icon: 'caret' %}
-                </summary>
-                <div class="accordion__content rte product__description">
-                  {{ product.description }}
-                </div>
-              </details>
-            </accordion-tab>
-            
+            <div class="product__description rte" {{ block.shopify_attributes }}>{{ product.description }}</div>
           {%- when 'custom_liquid' -%}
             <div class="custom__liquid custom__liquid-{{ section.id }}" {{ block.shopify_attributes }}>{{ block.settings.custom_liquid }}</div>
           {%- when 'collapsible_description' -%}
@@ -620,25 +604,26 @@
               </details>
             </accordion-tab>
           {%- when 'collapsible_tab' -%}
-           
+            {%- if block.settings.content != blank or block.settings.page.content != blank or block.settings.custom_liquid != blank -%}
               <accordion-tab class="product__accordion accordion" {{ block.shopify_attributes }}>
                 <details{% if block.settings.keep_open %} open{% endif %}>
                   <summary>
                     <span class="summary__title">
                       {% render 'icon-accordion', icon: block.settings.icon %}
                       <span class="accordion__title">
-                        Directions to Use:
+                        {{ block.settings.heading | default: block.settings.page.title | escape }}
                       </span>
                     </span>
                     {% render 'icon', icon: 'caret' %}
                   </summary>
                   <div class="accordion__content custom__liquid-{{ section.id }} rte">
-                    {{ product.metafields.custom.directions_to_use }}
-                    
+                    {{ block.settings.content }}
+                    {{ block.settings.page.content }}
+                    {{ block.settings.custom_liquid }}
                   </div>
                 </details>
               </accordion-tab>
-           
+            {%- endif -%}
           {%- when 'popup' -%}
             <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
               <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link link-with-icon" type="button" aria-haspopup="dialog">
