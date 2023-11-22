@@ -603,8 +603,7 @@
                 </div>
               </details>
             </accordion-tab>
-          {% comment %} {%- when 'collapsible_tab' -%} {% endcomment %}
-            {%- if product.metafields.custom.directions_to_use != blank -%}
+         
               <accordion-tab class="product__accordion accordion" {{ block.shopify_attributes }}>
                 <details{% if block.settings.keep_open %} open{% endif %}>
                   <summary>
@@ -621,7 +620,7 @@
                   </div>
                 </details>
               </accordion-tab>
-            {%- endif -%}
+        
           {%- when 'popup' -%}
             <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
               <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link link-with-icon" type="button" aria-haspopup="dialog">
