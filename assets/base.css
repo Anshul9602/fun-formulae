@@ -172,6 +172,9 @@ html {
 }
 
 @media screen and (max-width: 750px) {
+  #shopify-section-template--21613581467954__featured-collection .button{
+    width: 50px;
+ }
   #shopify-section-template--21613581467954__slideshow .slideshow__card .button{
    
     height: 42px !important;
