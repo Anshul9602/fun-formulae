@@ -180,6 +180,9 @@ html {
     height: 42px !important;
     
   }
+  #shopify-section-template--21613581467954__countdown-timer .button{
+   width: 50px;
+ }
 }
 @media screen and (min-width: 750px) {
   .page-width {
