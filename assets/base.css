@@ -171,6 +171,13 @@ html {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 750px) {
+  #shopify-section-template--21613581467954__slideshow .slideshow__card .button{
+   
+    height: 42px !important;
+    
+  }
+}
 @media screen and (min-width: 750px) {
   .page-width {
     padding: 0 5rem;
