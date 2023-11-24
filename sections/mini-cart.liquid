@@ -620,14 +620,14 @@
       </div>
 
       <div class="button-container">
-        <button class="button check1" name="checkout" type="submit">
+        <button class="button check1" name="checkout" type="submit" style="max-width: 45%;">
           {{ 'sections.cart.checkout' | t }}
           {%- if settings.disable_view_cart -%}
             <span class="price" id="mini-cart-subtotal">{{ cart.total_price | money_with_currency }}</span>
           {%- endif -%}
         </button>
         {%- unless settings.disable_view_cart -%}
-          <a class="button button--secondary" href="{{ routes.cart_url }}">{{ 'general.cart.view' | t }}</a>
+          <a class="button button--secondary" href="{{ routes.cart_url }}"style="max-width: 45%;">{{ 'general.cart.view' | t }}</a>
         {%- endunless -%}
       </div>
     </div>
