@@ -7,6 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/bigstock-Natural-Organic-Spa-Cosmetic-P-406647491_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/KEW6701_copy.jpg",
             "image_position": "80% 100%",
             "text_box_position": "bottom-left",
             "subheading": "elements of",
