@@ -1767,6 +1767,8 @@ product-gallery .product__media-toggle {
 
   .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
     width: 6rem;
+    border-radius: 55% 80% 60% 60% / 45% 70% 50%;
+
   }
   
   .thumbnail-list.slider--tablet-up[data-media-count="2"] {
