@@ -70,8 +70,8 @@
           "type": "contact",
           "settings": {
             "heading": "Customer service",
-            "text": "shop@yourstore.com",
-            "link": "mailto:shop@yourstore.com"
+            "text": " 9876543210",
+            "link": "tel: 9876543210"
           }
         },
         "contact-2": {
