@@ -139,6 +139,7 @@
         "map-1",
         "map-2"
       ],
+      "disabled": true,
       "settings": {
         "map_address": "620 King St W, Toronto, ON M5V 1M7, Canada",
         "map_api_key": "",
