@@ -13,10 +13,20 @@
             "text_size": 13,
             "link": ""
           }
+        },
+        "f3da42af-35c8-4729-95bb-d9d91448fcb2": {
+          "type": "announcement",
+          "settings": {
+            "text": "Get 10% Discount on your first purchase. Use code: FUN10",
+            "text_on_mobile": "",
+            "text_size": 13,
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "f3da42af-35c8-4729-95bb-d9d91448fcb2"
       ],
       "settings": {
         "only_homepage": true,
