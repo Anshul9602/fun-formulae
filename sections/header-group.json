@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "10% off on your first order! Free Delivery on orders above ₹5000\/-",
+            "text": "10% off on your first order! Free Delivery on orders above ₹999\/-",
             "text_on_mobile": "",
             "text_size": 13,
             "link": ""
