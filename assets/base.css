@@ -111,7 +111,9 @@ html.no-js .no-js-hidden {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     
 }
-
+.collection .card-information__button .button {
+  width: 70% !important;
+}
 #shopify-section-template--21634042888498__bd635a70-8b0e-476c-b3f3-489d03e44bc6{
   height: 120px;
  
