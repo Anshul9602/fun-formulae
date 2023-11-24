@@ -64,6 +64,7 @@
     },
     "recently-viewed": {
       "type": "recently-viewed-products",
+      "disabled": true,
       "settings": {
         "show_divider": true,
         "heading": "Recently viewed",
