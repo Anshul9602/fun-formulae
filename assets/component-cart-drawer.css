@@ -497,7 +497,7 @@ details[open].menu-opening > .cart-drawer {
 }
 
 .mini-cart__footer .button-container .button {
-  justify-content: space-between;
+  
   width: 100%;
   min-width: auto;
   min-height: 40px;
@@ -523,6 +523,7 @@ details[open].menu-opening > .cart-drawer {
   .mini-cart__footer .button-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-wrap: nowrap;
   }
 
