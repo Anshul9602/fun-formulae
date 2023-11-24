@@ -497,9 +497,10 @@ details[open].menu-opening > .cart-drawer {
 }
 
 .mini-cart__footer .button-container .button {
+  
   width: 100%;
   min-width: auto;
-  min-height: 4.6rem;
+  min-height: 40px;
   white-space: nowrap;
 }
 
@@ -508,13 +509,21 @@ details[open].menu-opening > .cart-drawer {
   margin-inline-start: -0.2rem;
   background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Yellow_button_3_1_1a1884e8-e9cb-4f2e-ad45-febd7f73d371.png?v=1700220906');
   background-size: cover;
+  background-color: transparent !important;
 }
+
+.mini-cart__footer .check1{
+  background-image: url('https://funformulae.com/cdn/shop/files/blue_button_3_1.png?v=1700298420');
+  background-size: cover;
+  background-color: transparent !important;
+}
+
 
 @media screen and (min-width: 480px) {
   .mini-cart__footer .button-container {
     display: flex;
     align-items: center;
-      justify-content: space-between;
+    justify-content: space-between;
     flex-wrap: nowrap;
   }
 
