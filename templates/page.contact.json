@@ -77,17 +77,9 @@
         "contact-2": {
           "type": "contact",
           "settings": {
-            "heading": "Sales",
-            "text": "sales@yourstore.com",
+            "heading": "Address",
+            "text": "J 1232, Sitapura Industial Area, Jaipur 302022, India",
             "link": "mailto:sales@yourstore.com"
-          }
-        },
-        "contact-3": {
-          "type": "contact",
-          "settings": {
-            "heading": "Press",
-            "text": "press@yourstore.com",
-            "link": "mailto:press@yourstore.com"
           }
         },
         "media": {
@@ -101,7 +93,6 @@
         "contact-0",
         "contact-1",
         "contact-2",
-        "contact-3",
         "media"
       ],
       "settings": {
