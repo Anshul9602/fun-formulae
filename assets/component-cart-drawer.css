@@ -506,6 +506,8 @@ details[open].menu-opening > .cart-drawer {
 .mini-cart__footer .button-container .button + .button {
   margin-top: 0;
   margin-inline-start: -0.2rem;
+  background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Mask_group_4.png?v=1700547104');
+  background-size: cover;
 }
 
 @media screen and (min-width: 480px) {
