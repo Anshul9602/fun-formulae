@@ -511,6 +511,13 @@ details[open].menu-opening > .cart-drawer {
   background-color: transparent !important;
 }
 
+.mini-cart__footer .check1{
+  background-image: url('https://funformulae.com/cdn/shop/files/blue_button_3_1.png?v=1700298420');
+  background-size: cover;
+  background-color: transparent !important;
+}
+
+
 @media screen and (min-width: 480px) {
   .mini-cart__footer .button-container {
     display: flex;
