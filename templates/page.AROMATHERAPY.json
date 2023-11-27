@@ -87,7 +87,7 @@
         "mobile_layout": "collage",
         "apply_overlay": true,
         "show_divider": false,
-        "heading": "Multimedia collage",
+        "heading": "",
         "heading_size": "h1",
         "heading_alignment": "left",
         "heading_tag": "h2",
