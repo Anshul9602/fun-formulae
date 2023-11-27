@@ -1614,7 +1614,7 @@ product-gallery .product__media-toggle {
   column-gap: 0.6rem;
   scroll-padding-inline-start: 0.6rem;
   background-color: rgb(var(--color-background));
-  box-shadow: 0 0 4rem rgba(var(--color-foreground), 0.2);
+  
 }
 
 @media screen and (min-width: 750px) {
