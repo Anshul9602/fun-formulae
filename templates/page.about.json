@@ -278,16 +278,16 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text overlay",
-            "heading_size": "h1",
+            "heading": "Fresh ingredients are intrinsic to FunFormulae",
+            "heading_size": "h2",
             "heading_tag": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_size": "typeset2",
+            "text": "<p>At FunFormulae, our journey with fresh produce spans many years, affording us extensive expertise in formulating, manufacturing, and nurturing products that feature whole fruits and vegetables, with a preference for organic ingredients whenever feasible. Our experience has illuminated a fundamental truth: incorporating the entire fruit or vegetable yields far greater benefits than isolating specific properties and extracting them from natural materials. We eschew the practice of dissecting ingredients and attempting to replicate their functions in cosmetic products. Instead, we embrace the holistic power of whole, natural elements to create products that authentically capture the richness and efficacy of these botanical wonders.<\/p>",
+            "text_size": "typeset",
             "secondary_color": false
           }
         },
