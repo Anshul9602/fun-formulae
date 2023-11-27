@@ -1691,8 +1691,7 @@ deferred-media {
 
   .button:hover {
     box-shadow: none;
-    
-    transition-delay: var(--duration-default);
+
   }
 
   .button:hover::after {
@@ -1706,7 +1705,7 @@ deferred-media {
 
   .button--secondary:hover::after {
     animation: none;
-    transform: rotate3d(0, 0, 1, 0deg) translate3d(0, 0, 0);
+    
   }
 
   .button--tertiary:hover {
