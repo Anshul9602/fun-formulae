@@ -54,16 +54,18 @@
         "template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d-video-1": {
           "type": "video",
           "settings": {
+            "cover_image": "shopify:\/\/shop_images\/KEW7028_copy.jpg",
             "enable_video_looping": false,
+            "video": "shopify:\/\/files\/videos\/3.mp4",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "description": "",
-            "heading": "Video heading"
+            "heading": ""
           }
         },
         "template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d-product-1": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "body-wash",
             "second_image": false,
             "enable_quick_view": true
           }
@@ -71,7 +73,7 @@
         "template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d-collection-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "body-care"
           }
         }
       },
