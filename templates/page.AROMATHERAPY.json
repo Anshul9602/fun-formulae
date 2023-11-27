@@ -161,7 +161,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/lifestyle-beauty-product-photography_1_00c3b083-7463-455f-82e0-8b646356524b.png",
-        "layout": "image_first",
+        "layout": "text_first",
         "text_box_position": "top",
         "text_alignment": "left",
         "mobile_text_alignment": "left",
