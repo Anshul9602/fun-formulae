@@ -260,7 +260,7 @@
     background-color: transparent;
     display: flex;
     min-width: auto;
-    width: 60%;
+    width: 55%;
     box-shadow: none;
     border-radius: min(var(--button-radius), 0.8rem);
     transform: translateY(100%);
