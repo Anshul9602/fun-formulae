@@ -6,15 +6,17 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "About Us",
-            "heading_size": "h0"
+            "heading": "",
+            "heading_size": "h0",
+            "heading_tag": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers.<\/p>",
-            "text_size": "typeset3"
+            "text": "",
+            "text_size": "typeset3",
+            "secondary_color": false
           }
         }
       },
@@ -23,20 +25,71 @@
         "text"
       ],
       "settings": {
-        "image": "",
+        "image": "shopify:\/\/shop_images\/KEW7553copy.jpg",
+        "image_2": "shopify:\/\/shop_images\/KEW7028_copy.jpg",
         "image_position": "center center",
         "text_box_position": "bottom-center",
         "text_alignment": "center",
         "image_ratio": "550px",
+        "show_text_box": false,
         "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "400px",
         "stack_images_on_mobile": false,
         "show_text_below": false,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
         "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 28,
         "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "00e44901-5d18-4aff-9b5a-2f6f7f1bb35d": {
+      "type": "collage",
+      "blocks": {
+        "template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d-video-1": {
+          "type": "video",
+          "settings": {
+            "enable_video_looping": false,
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "",
+            "heading": "Video heading"
+          }
+        },
+        "template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false,
+            "enable_quick_view": true
+          }
+        },
+        "template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d-video-1",
+        "template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d-product-1",
+        "template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d-collection-1"
+      ],
+      "settings": {
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "apply_overlay": true,
+        "show_divider": false,
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -49,50 +102,6 @@
         "padding_bottom": 72
       }
     },
-    "rich-text-0": {
-      "type": "rich-text",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset3",
-            "secondary_color": false
-          }
-        }
-      },
-      "block_order": [
-        "text"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "narrow": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich-text-1": {
-      "type": "rich-text",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        }
-      },
-      "block_order": [
-        "text"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "narrow": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image-with-text-0": {
       "type": "image-with-text",
       "blocks": {
@@ -100,7 +109,8 @@
           "type": "heading",
           "settings": {
             "heading": "Image with text",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_tag": "h2"
           }
         },
         "text": {
@@ -117,15 +127,26 @@
         "text"
       ],
       "settings": {
-        "image": "",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
         "text_alignment": "left",
         "image_ratio": "550px",
+        "enlarge_content": false,
         "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -137,7 +158,8 @@
           "type": "heading",
           "settings": {
             "heading": "Image with text",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_tag": "h2"
           }
         },
         "text": {
@@ -154,15 +176,26 @@
         "text"
       ],
       "settings": {
-        "image": "",
         "image_position": "center center",
         "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "left",
         "image_ratio": "550px",
+        "enlarge_content": false,
         "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -174,7 +207,8 @@
           "type": "heading",
           "settings": {
             "heading": "Image with text",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_tag": "h2"
           }
         },
         "text": {
@@ -191,15 +225,26 @@
         "text"
       ],
       "settings": {
-        "image": "",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
         "text_alignment": "left",
         "image_ratio": "550px",
+        "enlarge_content": false,
         "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -211,7 +256,8 @@
           "type": "heading",
           "settings": {
             "heading": "Image with text overlay",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "heading_tag": "h2"
           }
         },
         "text": {
@@ -227,6 +273,7 @@
           "settings": {
             "button_label": "Button label",
             "button_link": "",
+            "button_size": "medium",
             "button_style_secondary": false
           }
         }
@@ -237,15 +284,19 @@
         "button"
       ],
       "settings": {
-        "image": "",
         "image_position": "center center",
         "text_box_position": "flex-start",
         "text_alignment": "left",
         "image_ratio": "550px",
         "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
         "mobile_text_box_position": "image_first",
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "500px",
+        "video_url": "",
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
         "colors_text": "#212326",
         "colors_overlay": "#f3f3f3",
         "colors_overlay_opacity": 92,
@@ -263,9 +314,8 @@
   },
   "order": [
     "image-banner",
+    "00e44901-5d18-4aff-9b5a-2f6f7f1bb35d",
     "main",
-    "rich-text-0",
-    "rich-text-1",
     "image-with-text-0",
     "image-with-text-1",
     "image-with-text-2",
