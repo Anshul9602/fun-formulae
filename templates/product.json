@@ -19,6 +19,7 @@
         },
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "text": "{{ product.vendor }}",
