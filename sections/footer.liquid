@@ -227,7 +227,13 @@ max-width: 100% !important;
 
   <div class="footer__content-bottom">
     <div class="footer__content-bottom-wrapper page-width">
+      <div class="footer__column footer__column--info">
+        <div class="footer__copyright">
+          <small class="copyright__content" style="text-align: end;">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name |
+            link_to: routes.root_url }}. {{ section.settings.copyright_text }}</small>
 
+        </div>
+      </div>
       <div class="footer__column footer__column--extra">
         <div class="footer__copyright">
           <small class="copyright__content" style="text-align: end;">Developed by
@@ -366,13 +372,7 @@ max-width: 100% !important;
         </div>
         {%- endif -%}
       </div>
-      <div class="footer__column footer__column--info">
-        <div class="footer__copyright">
-          <small class="copyright__content" style="text-align: end;">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name |
-            link_to: routes.root_url }}. {{ section.settings.copyright_text }}</small>
-
-        </div>
-      </div>
+     
     </div>
   </div>
 </footer>
