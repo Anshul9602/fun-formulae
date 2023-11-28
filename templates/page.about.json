@@ -62,7 +62,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>In the FunFormulae 'We Believe' creed, we exclaim, \"We believe in delighted individuals concocting joyful solutions, putting our grinning faces on the innovations, and making our moms beam with pride.\"<\/p><p><\/p>",
+            "text": "<p>In the Fun Formulae 'We Believe' creed, we exclaim, \"We believe in delighted individuals concocting joyful solutions, putting our grinning faces on the innovations, and making our moms beam with pride.\"<\/p><p><\/p>",
             "text_size": "typeset3",
             "secondary_color": false,
             "highlight_phrases": ""
@@ -95,8 +95,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Yet, the truth goes beyond just our moms feeling proud; it's the FunFormulae team members who experience a profound sense of ownership and pride in the company's achievements and core values. Our personal pride in being a part of FunFormulae sparks immense dedication and loyalty, a rare phenomenon in the corporate world. This, in turn, builds a trust among colleagues and customers that is hard-won and deeply valued. At FunFormulae, it's not merely about making our moms proud; it's about each of us finding pride in our collective contributions and creating a lasting impact.<\/p>",
-            "text_size": "typeset",
+            "text": "<p>Yet, the truth goes beyond just our moms feeling proud; it's the Fun Formulae team members who experience a profound sense of ownership and pride in the company's achievements and core values. Our personal pride in being a part of Fun Formulae sparks immense dedication and loyalty, a rare phenomenon in the corporate world. This, in turn, builds a trust among colleagues and customers that is hard-won and deeply valued. At Fun Formulae, it's not merely about making our moms proud; it's about each of us finding pride in our collective contributions and creating a lasting impact.<\/p>",
+            "text_size": "typeset2",
             "secondary_color": false,
             "highlight_phrases": ""
           }
@@ -136,7 +136,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>At FunFormulae, we've never been keen on labeling ourselves as an \"ethical company.\" The term poses a challenge for us, as it seems to suggest that being mindful of people and the planet in our business practices is an exception, rather than the standard way of conducting business.<\/p>",
+            "text": "<p>At Fun Formulae, we've never been keen on labeling ourselves as an \"ethical company.\" The term poses a challenge for us, as it seems to suggest that being mindful of people and the planet in our business practices is an exception, rather than the standard way of conducting business.<\/p>",
             "text_size": "typeset2",
             "secondary_color": true
           }
@@ -186,7 +186,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>For us, prioritizing practices that don't harm individuals or the environment shouldn't be seen as merely \"ethical\"; it should be considered the baseline for how businesses operate. We believe that conducting business responsibly, with a commitment to sustainability and positive impact, is not an extra effort but an integral part of what defines normal business-as-usual.<\/p><p>At FunFormulae, we're dedicated to a business-as-usual approach that goes beyond the label of being \"ethical\" – it's about embodying values that reflect our responsibility to the world and future generations in every facet of our operations.<\/p>",
+            "text": "<p>For us, prioritizing practices that don't harm individuals or the environment shouldn't be seen as merely \"ethical\"; it should be considered the baseline for how businesses operate. We believe that conducting business responsibly, with a commitment to sustainability and positive impact, is not an extra effort but an integral part of what defines normal business-as-usual.<\/p><p>At Fun Formulae, we're dedicated to a business-as-usual approach that goes beyond the label of being \"ethical\" – it's about embodying values that reflect our responsibility to the world and future generations in every facet of our operations.<\/p>",
             "text_size": "typeset2",
             "secondary_color": true
           }
@@ -278,7 +278,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Fresh ingredients are intrinsic to FunFormulae",
+            "heading": "Fresh ingredients are intrinsic to Fun Formulae",
             "heading_size": "h2",
             "heading_tag": "h2"
           }
@@ -286,13 +286,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>At FunFormulae, our journey with fresh produce spans many years, affording us extensive expertise in formulating, manufacturing, and nurturing products that feature whole fruits and vegetables, with a preference for organic ingredients whenever feasible. Our experience has illuminated a fundamental truth: incorporating the entire fruit or vegetable yields far greater benefits than isolating specific properties and extracting them from natural materials. We eschew the practice of dissecting ingredients and attempting to replicate their functions in cosmetic products. Instead, we embrace the holistic power of whole, natural elements to create products that authentically capture the richness and efficacy of these botanical wonders.<\/p>",
-            "text_size": "typeset",
+            "text": "<p>At Fun Formulae, our journey with fresh produce spans many years, affording us extensive expertise in formulating, manufacturing, and nurturing products that feature whole fruits and vegetables, with a preference for organic ingredients whenever feasible. Our experience has illuminated a fundamental truth: incorporating the entire fruit or vegetable yields far greater benefits than isolating specific properties and extracting them from natural materials. We eschew the practice of dissecting ingredients and attempting to replicate their functions in cosmetic products. Instead, we embrace the holistic power of whole, natural elements to create products that authentically capture the richness and efficacy of these botanical wonders.<\/p>",
+            "text_size": "typeset2",
             "secondary_color": false
           }
         },
         "button": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
