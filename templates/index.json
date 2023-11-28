@@ -210,12 +210,6 @@
     "countdown-timer": {
       "type": "countdown-timer",
       "blocks": {
-        "4da84612-c67b-4521-beeb-c8739d753e8d": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h2 hello\" style=\"font-family: 'Josefin Sans';\">AROMATHERAPY <span style=\"font-family: Shorelines;\"> &nbsp;studio<\/span><\/h4>"
-          }
-        },
         "subheading": {
           "type": "subheading",
           "settings": {
@@ -258,15 +252,21 @@
             "button_size": "small",
             "button_style_secondary": false
           }
+        },
+        "4da84612-c67b-4521-beeb-c8739d753e8d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h2 hello\" style=\"font-family: 'Josefin Sans';\">AROMATHERAPY <span style=\"font-family: Shorelines;\"> &nbsp;studio<\/span><\/h4>"
+          }
         }
       },
       "block_order": [
-        "4da84612-c67b-4521-beeb-c8739d753e8d",
         "subheading",
         "heading",
         "countdown",
         "text",
-        "button"
+        "button",
+        "4da84612-c67b-4521-beeb-c8739d753e8d"
       ],
       "custom_css": [
         ".section--padding {}"
@@ -291,6 +291,74 @@
         "colors_background": "#f9f9f9",
         "gradient_background": "",
         "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "7587530a-758c-40f5-9a13-03670fbb99e9": {
+      "type": "images-with-text",
+      "blocks": {
+        "9d01d6a3-3062-4426-bd78-8ea31e2c2377": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h2 hello\" style=\"font-family: 'Josefin Sans';\">AROMATHERAPY <span style=\"font-family: Shorelines;\"> &nbsp;studio<\/span><\/h4>"
+          }
+        },
+        "e69179d7-56ef-455e-9b11-12b2c342d034": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "DISCOVER THE POWER OF ESSENTISL OIL",
+            "subheading_size": "h4",
+            "secondary_color": false
+          }
+        },
+        "template--21613581467954__7587530a-758c-40f5-9a13-03670fbb99e9-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "DISCOVER THE POWER OF ESSENTISL OIL",
+            "heading_size": "h2",
+            "heading_tag": "p"
+          }
+        },
+        "template--21613581467954__7587530a-758c-40f5-9a13-03670fbb99e9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each product is meticulously formulated, drawing on scientific studies that explore the medicinal properties of plants and their essential oils. At the heart of our approach lies the science of aromatherapy, an alternate holistic therapy renowned for its beauty and wellness benefits.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "template--21613581467954__7587530a-758c-40f5-9a13-03670fbb99e9-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET INSPIRED",
+            "button_link": "shopify:\/\/pages\/aromatherapy",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "9d01d6a3-3062-4426-bd78-8ea31e2c2377",
+        "e69179d7-56ef-455e-9b11-12b2c342d034",
+        "template--21613581467954__7587530a-758c-40f5-9a13-03670fbb99e9-heading-1",
+        "template--21613581467954__7587530a-758c-40f5-9a13-03670fbb99e9-text-1",
+        "template--21613581467954__7587530a-758c-40f5-9a13-03670fbb99e9-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/KEW7540_copy.jpg",
+        "image_2": "shopify:\/\/shop_images\/KEW6793_copy.jpg",
+        "image_3": "shopify:\/\/shop_images\/KEW7316_10337819-159c-4e5e-be53-37e52f0eeb1b.jpg",
+        "image_4": "shopify:\/\/shop_images\/KEW6753_copy_45c7ab3f-7d2b-4d43-bcb1-3f90521e1b47.jpg",
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -1407,6 +1475,7 @@
     "guarantees",
     "featured-collection",
     "countdown-timer",
+    "7587530a-758c-40f5-9a13-03670fbb99e9",
     "reveal-banner",
     "shop-the-look",
     "video-hero",
