@@ -78,6 +78,7 @@
         },
         "contact-2": {
           "type": "contact",
+          "disabled": true,
           "settings": {
             "heading": "Address",
             "text": "J 1232, Sitapura Industial Area, Jaipur 302022, India",
