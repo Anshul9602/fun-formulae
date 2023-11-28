@@ -5,15 +5,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "10% off on your first order! Free Delivery on orders above ₹999\/-",
-            "text_on_mobile": "",
-            "text_size": 13,
-            "link": ""
-          }
-        },
         "f3da42af-35c8-4729-95bb-d9d91448fcb2": {
           "type": "announcement",
           "settings": {
@@ -22,11 +13,20 @@
             "text_size": 13,
             "link": ""
           }
+        },
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Delivery on orders above ₹999\/-",
+            "text_on_mobile": "",
+            "text_size": 13,
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "f3da42af-35c8-4729-95bb-d9d91448fcb2"
+        "f3da42af-35c8-4729-95bb-d9d91448fcb2",
+        "announcement-bar-0"
       ],
       "settings": {
         "only_homepage": true,
