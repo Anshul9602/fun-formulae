@@ -466,21 +466,11 @@
             "horizontal": 70,
             "vertical": 45
           }
-        },
-        "product-2": {
-          "type": "product",
-          "settings": {
-            "product": "body-yogurt",
-            "color": "#ffffff",
-            "horizontal": 45,
-            "vertical": 65
-          }
         }
       },
       "block_order": [
         "product-0",
-        "product-1",
-        "product-2"
+        "product-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/lifestyle-beauty-product-photography_1.png",
