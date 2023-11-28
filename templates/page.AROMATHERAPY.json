@@ -202,7 +202,8 @@
         "template--21636153835826__e53ce36a-519d-478f-b57a-a5b2855dfe28-image-2": {
           "type": "image",
           "settings": {
-            "image_position": "center center",
+            "image": "shopify:\/\/shop_images\/KEW7126_cdf77a64-d695-4970-93fd-0241477e3bd8.jpg",
+            "image_position": "20% 0",
             "text_box_position": "middle-center",
             "subheading": "",
             "subheading_size": "h5",
