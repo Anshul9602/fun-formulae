@@ -265,7 +265,7 @@ testimonials-component[data-slider=false] .testimonial__list {
 
 .testimonial__previews {
   margin: 0 auto;
-  max-width: calc(var(--block-count) * var(--block-width) + calc(var(--block-width) / 2) + 4rem);
+
   margin-top: 2rem;
 }
 
