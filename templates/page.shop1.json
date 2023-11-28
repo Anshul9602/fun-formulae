@@ -3,7 +3,7 @@
     "image-banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/KEW7181.jpg",
+        "image": "shopify:\/\/shop_images\/KEW7015_09f8fdb2-12c1-4236-8c21-b4a41f372842.jpg",
         "image_position": "center center",
         "text_box_position": "bottom-center",
         "text_alignment": "center",
@@ -93,8 +93,9 @@
       "type": "video",
       "settings": {
         "enable_video_looping": true,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "cover_image": "shopify:\/\/shop_images\/Group_38.png",
+        "video": "shopify:\/\/files\/videos\/5.mp4",
+        "video_url": "",
+        "cover_image": "shopify:\/\/shop_images\/KEW7089_a152aa1a-a134-45de-bad0-459f9516de08.jpg",
         "description": "",
         "full_width": true,
         "show_divider": false,
