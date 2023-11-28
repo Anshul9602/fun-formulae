@@ -449,137 +449,38 @@
         "padding_bottom": 36
       }
     },
-    "rich-text": {
-      "type": "rich-text",
+    "b7c4a6bc-a266-47e8-920e-171d1f755bb8": {
+      "type": "faq",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "template--21613581664562__b7c4a6bc-a266-47e8-920e-171d1f755bb8-question-1": {
+          "type": "question",
           "settings": {
-            "heading": "Express yourself with",
-            "heading_size": "h1",
-            "heading_tag": "h2"
+            "title": "DO YOU ALLOW RETURNS?",
+            "text": "<p>Returns are accepted within 48 hours of the delivery date on all orders placed on 82e.com.<\/p><p>Kindly follow the below steps to make sure the return request is processed smoothly.<\/p><p>1. Make sure all the items are returned in an unused condition along with the invoice.<\/p><p>2. Make sure all items are returned in their original packaging which includes price tags, labels, all packaging boxes, and\/or any accessories.<\/p><p>Please note -  All return orders are subjected to a quality assessment.<\/p>"
           }
         },
-        "text": {
-          "type": "text",
+        "template--21613581664562__b7c4a6bc-a266-47e8-920e-171d1f755bb8-question-2": {
+          "type": "question",
           "settings": {
-            "text": "<p>#instagram<\/p>",
-            "text_size": "typeset2",
-            "secondary_color": true,
-            "highlight_phrases": ""
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "template--21613581664562__b7c4a6bc-a266-47e8-920e-171d1f755bb8-question-1",
+        "template--21613581664562__b7c4a6bc-a266-47e8-920e-171d1f755bb8-question-2"
       ],
-      "disabled": true,
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
         "narrow": false,
+        "secondary_background": false,
         "show_divider": false,
-        "use_custom_colors": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "colors_highlight": "#bbff00",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
-    },
-    "gallery": {
-      "type": "gallery",
-      "blocks": {
-        "image-0": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "middle-center"
-          }
-        },
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h4",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "middle-center"
-          }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "#summerMe",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "middle-center"
-          }
-        },
-        "image-3": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "middle-center"
-          }
-        },
-        "image-4": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "middle-center"
-          }
-        }
-      },
-      "block_order": [
-        "image-0",
-        "image-1",
-        "image-2",
-        "image-3",
-        "image-4"
-      ],
-      "disabled": true,
-      "settings": {
-        "per_row": 5,
-        "spacing_images": 4,
-        "image_height": 280,
-        "apply_overlay": true,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "",
+        "heading": "FAQs",
         "heading_size": "h1",
         "heading_alignment": "left",
         "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "mobile_image_height": 160,
-        "padding_top": 0,
-        "padding_bottom": 4
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -592,7 +493,6 @@
     "recently-viewed-products",
     "collapsible-content",
     "testimonials",
-    "rich-text",
-    "gallery"
+    "b7c4a6bc-a266-47e8-920e-171d1f755bb8"
   ]
 }
