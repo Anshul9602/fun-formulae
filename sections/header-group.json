@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Free Delivery on orders above ₹999\/-",
+            "text": "Free Delivery on all orders .",
             "text_on_mobile": "",
             "text_size": 13,
             "link": ""
