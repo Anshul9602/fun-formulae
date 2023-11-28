@@ -89,20 +89,57 @@
         "padding_bottom": 36
       }
     },
-    "b6b5c29b-5179-4013-b4d7-829925a14d6f": {
-      "type": "video",
+    "43edf115-a959-4251-b986-8ea50dcbabdf": {
+      "type": "video-hero",
+      "blocks": {
+        "template--21634042888498__43edf115-a959-4251-b986-8ea50dcbabdf-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--21634042888498__43edf115-a959-4251-b986-8ea50dcbabdf-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--21634042888498__43edf115-a959-4251-b986-8ea50dcbabdf-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21634042888498__43edf115-a959-4251-b986-8ea50dcbabdf-heading-1",
+        "template--21634042888498__43edf115-a959-4251-b986-8ea50dcbabdf-text-1",
+        "template--21634042888498__43edf115-a959-4251-b986-8ea50dcbabdf-button-1"
+      ],
       "settings": {
-        "enable_video_looping": true,
         "video": "shopify:\/\/files\/videos\/5.mp4",
         "video_url": "",
-        "cover_image": "shopify:\/\/shop_images\/KEW7089_a152aa1a-a134-45de-bad0-459f9516de08.jpg",
-        "description": "",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
         "full_width": true,
         "show_divider": false,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "400px",
+        "show_text_below": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -279,7 +316,7 @@
     "main",
     "empty-space",
     "a61cf066-9a99-478f-ad7b-7bbe74d49fad",
-    "b6b5c29b-5179-4013-b4d7-829925a14d6f",
+    "43edf115-a959-4251-b986-8ea50dcbabdf",
     "48f7a354-3af7-4dcc-8368-3b34887c0f31",
     "41629b94-7d57-43de-8e48-8ae5f720c9bc",
     "516dbef2-2bcb-4381-be89-1c772698678c",
