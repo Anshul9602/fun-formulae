@@ -30,7 +30,7 @@
       ],
       "settings": {
         "only_homepage": true,
-        "layout": "default",
+        "layout": "carousel",
         "mobile_layout": "carousel",
         "autorotate": true,
         "autorotate_speed": 5,
