@@ -207,13 +207,13 @@
             "text_box_position": "middle-center",
             "subheading": "",
             "subheading_size": "h5",
-            "heading": "Image slide",
+            "heading": "Need a therapy?",
             "heading_size": "h1",
             "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
+            "text": "Contact us for the consultancy.",
             "text_size": "typeset",
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Contact us",
+            "button_link": "shopify:\/\/pages\/contact",
             "button_size": "medium",
             "button_style_secondary": false
           }
