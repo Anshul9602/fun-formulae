@@ -22,29 +22,29 @@
             "button_style_secondary": false
           }
         },
-        "slide-1": {
+        "8bc367a5-fd52-409f-8cfa-ef26251dbabb": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-11-28_at_11.40.30_AM.jpg",
             "image_position": "center center",
-            "text_box_position": "bottom-left",
+            "text_box_position": "middle-center",
             "subheading": "",
             "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h2",
+            "heading": "Image slide",
+            "heading_size": "h1",
             "heading_tag": "h2",
-            "text": "",
-            "text_size": "typeset2",
-            "button_label": "learn more",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Learn more",
             "button_link": "",
             "button_size": "medium",
-            "button_style_secondary": true
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "slide-0",
-        "slide-1"
+        "8bc367a5-fd52-409f-8cfa-ef26251dbabb"
       ],
       "settings": {
         "slideshow_type": "legacy",
