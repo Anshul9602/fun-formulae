@@ -582,7 +582,7 @@
                 {%- endform -%}
               </div>
             {%- endif -%}
-            {%- assign descriptionAccordionOpen = false -%}
+            {%- assign descriptionAccordionOpen = true -%}
 
             {%- when 'description' -%}
               <accordion-tab class="product__accordion accordion" {{ block.shopify_attributes }}>
@@ -640,6 +640,7 @@
                   </details>
                 </accordion-tab>
               {%- endif -%}
+            
           {%- when 'custom_liquid' -%}
             <div class="custom__liquid custom__liquid-{{ section.id }}" {{ block.shopify_attributes }}>{{ block.settings.custom_liquid }}</div>
           {%- when 'collapsible_description' -%}
