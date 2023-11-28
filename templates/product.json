@@ -86,7 +86,7 @@
         "inventory_status": {
           "type": "inventory_status",
           "settings": {
-            "inventory_threshold": 20,
+            "inventory_threshold": 4,
             "show_inventory_transfer": true,
             "color_scheme": "accent-3"
           }
@@ -151,7 +151,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "FREE SHIPPING on all orders over $100",
+            "text": "FREE SHIPPING on all orders over INR 999",
             "text_size": 16,
             "link": ""
           }
@@ -162,7 +162,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "EASY RETURNS 30-day postage paid returns",
+            "text": "EASY RETURNS 7-day postage paid returns",
             "text_size": 16,
             "link": ""
           }
@@ -173,7 +173,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "10% OFF your first order | Use code: FIRST10",
+            "text": "10% OFF your first order | Use code: FUN10",
             "text_size": 16,
             "link": ""
           }
@@ -456,7 +456,7 @@
       "settings": {
         "autorotate": false,
         "autorotate_speed": 5,
-        "hide_images": false,
+        "hide_images": true,
         "show_divider": false,
         "heading": "Testimonials",
         "heading_size": "h1",
