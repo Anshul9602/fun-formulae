@@ -583,7 +583,9 @@
               </div>
             {%- endif -%}
             {%- assign descriptionAccordionOpen = true -%}
-
+            {%- assign essentialOilAccordionOpen = false -%}
+            {%- assign directionsAccordionOpen = false -%}
+            
             {%- when 'description' -%}
               <accordion-tab class="product__accordion accordion" {{ block.shopify_attributes }}>
                 <details{% if block.settings.keep_open or descriptionAccordionOpen %} open{% endif %}>
@@ -603,9 +605,9 @@
             
               {%- assign ingredientList = product.metafields.custom.ingredient_list -%}
               {%- if ingredientList != blank -%}
-                {%- assign descriptionAccordionOpen = false -%}
+                {%- assign essentialOilAccordionOpen = false -%}
                 <accordion-tab class="product__accordion accordion" {{ block.shopify_attributes }}>
-                  <details{% if block.settings.keep_open %} open{% endif %}>
+                  <details{% if block.settings.keep_open or essentialOilAccordionOpen %} open{% endif %}>
                     <summary>
                       <span class="summary__title">
                         <span class="accordion__title">
@@ -623,9 +625,9 @@
             
               {%- assign directionsToUse = product.metafields.custom.directions_to_use -%}
               {%- if directionsToUse != blank -%}
-                {%- assign descriptionAccordionOpen = false -%}
+                {%- assign directionsAccordionOpen = false -%}
                 <accordion-tab class="product__accordion accordion" {{ block.shopify_attributes }}>
-                  <details{% if block.settings.keep_open %} open{% endif %}>
+                  <details{% if block.settings.keep_open or directionsAccordionOpen %} open{% endif %}>
                     <summary>
                       <span class="summary__title">
                         <span class="accordion__title">
