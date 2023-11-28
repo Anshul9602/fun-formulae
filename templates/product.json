@@ -151,18 +151,7 @@
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "FREE SHIPPING on all orders over INR 999",
-            "text_size": 16,
-            "link": ""
-          }
-        },
-        "announcement-1": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "EASY RETURNS 7-day postage paid returns",
+            "text": "FREE SHIPPING on all orders",
             "text_size": 16,
             "link": ""
           }
@@ -181,7 +170,6 @@
       },
       "block_order": [
         "announcement-0",
-        "announcement-1",
         "announcement-3"
       ],
       "settings": {
