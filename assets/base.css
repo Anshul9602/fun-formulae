@@ -173,7 +173,9 @@ margin: 0 !important;
   background-color: transparent;
 }
 
-
+#shopify-section-template--21613582025010__form .rte{
+  display: none;;
+}
 
 html {
   -moz-osx-font-smoothing: grayscale;
