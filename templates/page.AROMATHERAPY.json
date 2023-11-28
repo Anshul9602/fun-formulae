@@ -184,7 +184,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/KEW7205.jpg",
             "image_mobile": "shopify:\/\/shop_images\/KEW7205.jpg",
-            "image_position": "20% 0",
+            "image_position": "center center",
             "text_box_position": "middle-center",
             "subheading": "",
             "subheading_size": "h5",
