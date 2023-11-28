@@ -59,7 +59,7 @@
     "3bbd5765-a350-47a5-b2e6-60c4302434d1": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h3>In the Fun Formulae 'We Believe' creed, we exclaim, \"We believe in delighted individuals concocting joyful solutions, putting our grinning faces on the innovations, and making our moms beam with pride.\"<\/h3>",
+        "custom_liquid": "<h3>I am thrilled to share with you the essence of 15 years of my experience and passion for working with medicinal plants and the power of essential oils, derived from them. <\/h3>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -69,7 +69,7 @@
     "943ebe4f-dcc3-497f-94e1-fe12d022dd73": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<p style=\"font-size:2rem;    line-height: 1.4;\">Yet, the truth goes beyond just our moms feeling proud; it's the Fun Formulae team members who experience a profound sense of ownership and pride in the company's achievements and core values. Our personal pride in being a part of Fun Formulae sparks immense dedication and loyalty, a rare phenomenon in the corporate world. This, in turn, builds a trust among colleagues and customers that is hard-won and deeply valued. At Fun Formulae, it's not merely about making our moms proud; it's about each of us finding pride in our collective contributions and creating a lasting impact.<\/p>",
+        "custom_liquid": "<p style=\"font-size:2rem;    line-height: 1.4;\">My clients would experience the benefits of aromatherapy for acne treatments, dandruff, hair loss, post-pregnancy fat loss, and the issue of melasma and would ask for customized products for follow-up care at home in between the sessions however designing therapies kept me busy and it remained like that until the unexpected confinement due to the pandemic. I felt a profound sense of helplessness as my capacity to offer solutions was restricted. But this challenging situation became a catalyst to channel my energy and experience into creating scientific and efficient aromatherapy formulations for beauty and wellness and the brand, Fun Formulae was born. <\/p>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
@@ -158,7 +158,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>At Fun Formulae, we've never been keen on labeling ourselves as an \"ethical company.\" The term poses a challenge for us, as it seems to suggest that being mindful of people and the planet in our business practices is an exception, rather than the standard way of conducting business.<\/p>",
+            "text": "<p>At Fun Formulae, mindfulness of the ingredients used is of utmost importance. We believe in the purity and natural origin of our ingredients,  the core of our products is aromatherapy making our products effective and reliable.<\/p><p><\/p>",
             "text_size": "typeset2",
             "secondary_color": true
           }
@@ -169,12 +169,12 @@
         "text"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/KEW6701_copy_6b641da4-dc41-46b3-b580-ad79896fa550.jpg",
+        "image": "shopify:\/\/shop_images\/Asset_581_3.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "550px",
+        "image_ratio": "adapt",
         "enlarge_content": false,
         "full_width": true,
         "show_divider": false,
@@ -208,7 +208,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>For us, prioritizing practices that don't harm individuals or the environment shouldn't be seen as merely \"ethical\"; it should be considered the baseline for how businesses operate. We believe that conducting business responsibly, with a commitment to sustainability and positive impact, is not an extra effort but an integral part of what defines normal business-as-usual.<\/p><p>At Fun Formulae, we're dedicated to a business-as-usual approach that goes beyond the label of being \"ethical\" – it's about embodying values that reflect our responsibility to the world and future generations in every facet of our operations.<\/p>",
+            "text": "<p>I can relate to the frustration of investing in products that fall short of their promises, resulting in cluttered shelves full of disappointment. With the firm belief in the concept of \"less is more,\" we offer our thoughtfully curated range of products to address your beauty concerns, tailored to suit your specific skin type. At<br\/>Fun Formulae, we believe that anything which adds fun and brings you joyfulness is accepted by our body with trust and it enhances the therapeutic power of the<br\/>product.<\/p><p>I welcome you to join me on this remarkable journey, embracing the power of nature and science, bringing beauty, wellness, and joy to your lives.<\/p><p><strong>Dr. Jyoti Nargas, Founder<\/strong><\/p>",
             "text_size": "typeset2",
             "secondary_color": true
           }
