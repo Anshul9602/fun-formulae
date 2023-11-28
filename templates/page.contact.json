@@ -14,7 +14,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Questions? Comments? Let your customers get in touch with you by filling out the email form below.<\/p>",
+            "text": "",
             "text_size": "typeset3",
             "secondary_color": false
           }
