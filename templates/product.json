@@ -448,40 +448,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "b7c4a6bc-a266-47e8-920e-171d1f755bb8": {
-      "type": "faq",
-      "blocks": {
-        "template--21613581664562__b7c4a6bc-a266-47e8-920e-171d1f755bb8-question-1": {
-          "type": "question",
-          "settings": {
-            "title": "DO YOU ALLOW RETURNS?",
-            "text": "<p>Returns are accepted within 48 hours of the delivery date on all orders placed on 82e.com.<\/p><p>Kindly follow the below steps to make sure the return request is processed smoothly.<\/p><p>1. Make sure all the items are returned in an unused condition along with the invoice.<\/p><p>2. Make sure all items are returned in their original packaging which includes price tags, labels, all packaging boxes, and\/or any accessories.<\/p><p>Please note -  All return orders are subjected to a quality assessment.<\/p>"
-          }
-        },
-        "template--21613581664562__b7c4a6bc-a266-47e8-920e-171d1f755bb8-question-2": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--21613581664562__b7c4a6bc-a266-47e8-920e-171d1f755bb8-question-1",
-        "template--21613581664562__b7c4a6bc-a266-47e8-920e-171d1f755bb8-question-2"
-      ],
-      "settings": {
-        "narrow": false,
-        "secondary_background": false,
-        "show_divider": false,
-        "heading": "FAQs",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -492,7 +458,6 @@
     "product-recommendations",
     "recently-viewed-products",
     "collapsible-content",
-    "testimonials",
-    "b7c4a6bc-a266-47e8-920e-171d1f755bb8"
+    "testimonials"
   ]
 }
