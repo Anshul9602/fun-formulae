@@ -56,6 +56,26 @@
         "padding_bottom": 72
       }
     },
+    "3bbd5765-a350-47a5-b2e6-60c4302434d1": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h3>In the Fun Formulae 'We Believe' creed, we exclaim, \"We believe in delighted individuals concocting joyful solutions, putting our grinning faces on the innovations, and making our moms beam with pride.\"<\/h3>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "943ebe4f-dcc3-497f-94e1-fe12d022dd73": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<p>Yet, the truth goes beyond just our moms feeling proud; it's the Fun Formulae team members who experience a profound sense of ownership and pride in the company's achievements and core values. Our personal pride in being a part of Fun Formulae sparks immense dedication and loyalty, a rare phenomenon in the corporate world. This, in turn, builds a trust among colleagues and customers that is hard-won and deeply valued. At Fun Formulae, it's not merely about making our moms proud; it's about each of us finding pride in our collective contributions and creating a lasting impact.<\/p>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "rich-text-0": {
       "type": "rich-text",
       "blocks": {
@@ -72,6 +92,7 @@
       "block_order": [
         "text"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
@@ -105,6 +126,7 @@
       "block_order": [
         "text"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
@@ -335,39 +357,19 @@
         "desktop_height": 0,
         "mobile_height": 48
       }
-    },
-    "3bbd5765-a350-47a5-b2e6-60c4302434d1": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<h3>In the Fun Formulae 'We Believe' creed, we exclaim, \"We believe in delighted individuals concocting joyful solutions, putting our grinning faces on the innovations, and making our moms beam with pride.\"<\/h3>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "943ebe4f-dcc3-497f-94e1-fe12d022dd73": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<p>Yet, the truth goes beyond just our moms feeling proud; it's the Fun Formulae team members who experience a profound sense of ownership and pride in the company's achievements and core values. Our personal pride in being a part of Fun Formulae sparks immense dedication and loyalty, a rare phenomenon in the corporate world. This, in turn, builds a trust among colleagues and customers that is hard-won and deeply valued. At Fun Formulae, it's not merely about making our moms proud; it's about each of us finding pride in our collective contributions and creating a lasting impact.<\/p>",
-        "full_width": false,
-        "show_divider": false,
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image-banner",
     "main",
+    "3bbd5765-a350-47a5-b2e6-60c4302434d1",
+    "943ebe4f-dcc3-497f-94e1-fe12d022dd73",
     "rich-text-0",
     "rich-text-1",
     "image-with-text-0",
     "image-with-text-1",
     "image-with-text-2",
     "image-with-text-overlay",
-    "empty-space",
-    "3bbd5765-a350-47a5-b2e6-60c4302434d1",
-    "943ebe4f-dcc3-497f-94e1-fe12d022dd73"
+    "empty-space"
   ]
 }
