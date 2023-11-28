@@ -123,7 +123,7 @@
             "custom_icon": "",
             "title": "THERAPEUTIC",
             "title_size": "h3",
-            "text": "<p>we deeply believe in the connection between our health, hair, skin, and the environment. <\/p>"
+            "text": "<p>Experience therapeutic bliss, soothing your mind and body with calming sensations and rejuvenating tranquillity.<\/p>"
           }
         },
         "guarantee-1": {
@@ -134,7 +134,7 @@
             "custom_icon": "",
             "title": "RELAXING",
             "title_size": "h3",
-            "text": "<p>we deeply believe in the connection between our health, hair, skin, and the environment. <\/p>"
+            "text": "<p>Unwind in serenity, as tranquillity envelops your senses, embracing a peaceful escape for deep relaxation.<\/p>"
           }
         },
         "4f87b2c6-6800-4450-9c9a-b7aafba41e8f": {
@@ -145,7 +145,7 @@
             "custom_icon": "",
             "title": "HEALING",
             "title_size": "h3",
-            "text": "<p>we deeply believe in the connection between our health, hair, skin, and the environment. <\/p>"
+            "text": "<p>Embark on a healing journey, restoring harmony and vitality for a rejuvenated and empowered well-being.<\/p>"
           }
         }
       },
@@ -182,7 +182,7 @@
 
       ],
       "settings": {
-        "collection": "feture-product",
+        "collection": "featured-products",
         "products_to_show": 4,
         "show_view_all": true,
         "show_divider": false,
