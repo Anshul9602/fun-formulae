@@ -72,16 +72,8 @@
           "type": "contact",
           "settings": {
             "heading": "Customer service",
-            "text": "9783887788",
+            "text": "9783887788  |  9783447744",
             "link": "tel: 9783887788"
-          }
-        },
-        "42dcdb4c-8955-493e-8e3f-91db5bd33d36": {
-          "type": "contact",
-          "settings": {
-            "heading": "",
-            "text": "9783447744",
-            "link": "tel:9783447744"
           }
         },
         "contact-2": {
@@ -102,7 +94,6 @@
       "block_order": [
         "contact-0",
         "contact-1",
-        "42dcdb4c-8955-493e-8e3f-91db5bd33d36",
         "contact-2",
         "media"
       ],
