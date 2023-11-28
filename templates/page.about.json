@@ -69,7 +69,7 @@
     "943ebe4f-dcc3-497f-94e1-fe12d022dd73": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<p style=\"font-size:2rem\">Yet, the truth goes beyond just our moms feeling proud; it's the Fun Formulae team members who experience a profound sense of ownership and pride in the company's achievements and core values. Our personal pride in being a part of Fun Formulae sparks immense dedication and loyalty, a rare phenomenon in the corporate world. This, in turn, builds a trust among colleagues and customers that is hard-won and deeply valued. At Fun Formulae, it's not merely about making our moms proud; it's about each of us finding pride in our collective contributions and creating a lasting impact.<\/p>",
+        "custom_liquid": "<p style=\"font-size:2rem;    line-height: 1.4;\">Yet, the truth goes beyond just our moms feeling proud; it's the Fun Formulae team members who experience a profound sense of ownership and pride in the company's achievements and core values. Our personal pride in being a part of Fun Formulae sparks immense dedication and loyalty, a rare phenomenon in the corporate world. This, in turn, builds a trust among colleagues and customers that is hard-won and deeply valued. At Fun Formulae, it's not merely about making our moms proud; it's about each of us finding pride in our collective contributions and creating a lasting impact.<\/p>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
