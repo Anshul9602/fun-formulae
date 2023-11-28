@@ -235,6 +235,14 @@ p{
 .footer-block__newsletter .field{
   width: 58% !important;
 }
+.footer-block__newsletter .field__button {
+  padding: 20px !important;
+}
+.footer__content-top {
+  
+  padding-top: 6rem !important;
+ 
+}
 }
 @media screen and (min-width: 750px) {
   .page-width {
