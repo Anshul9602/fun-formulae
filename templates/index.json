@@ -5,7 +5,6 @@
       "blocks": {
         "slide-0": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-11-28_at_11.40.29_AM.jpg",
             "image_position": "80% 100%",
