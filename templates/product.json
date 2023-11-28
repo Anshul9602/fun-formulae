@@ -425,34 +425,16 @@
         "testimonial-2": {
           "type": "testimonial",
           "settings": {
-            "icon": "5",
+            "icon": "4",
             "text": "<p>I’ve tried numerous beauty products over the years, but this website’s cosmetics truly stand out.<\/p>",
             "author": "Irina Bukata"
-          }
-        },
-        "testimonial-3": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "4",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author's name"
-          }
-        },
-        "testimonial-4": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "Author's name"
           }
         }
       },
       "block_order": [
         "testimonial-0",
         "testimonial-1",
-        "testimonial-2",
-        "testimonial-3",
-        "testimonial-4"
+        "testimonial-2"
       ],
       "settings": {
         "autorotate": false,
