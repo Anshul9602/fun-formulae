@@ -356,7 +356,7 @@
         "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "mobile_text_alignment": "left",
+        "mobile_text_alignment": "center",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,

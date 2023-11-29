@@ -209,7 +209,16 @@ html {
 }
 
 @media screen and (max-width: 750px) {
+<<<<<<< HEAD
   
+=======
+  .image-with-text__content {
+    align-items: center;
+  }
+  .image-with-text__subheading h4{
+    text-align: center;
+  }
+>>>>>>> c2525392df3f2def24b99d67838a8991e6dbb693
   #shopify-section-template--21613581467954__featured-collection .button{
     min-width: 20rem;
  }
