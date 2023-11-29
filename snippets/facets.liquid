@@ -283,18 +283,7 @@
                       <span class="button button--secondary button--small">{{ 'products.facets.sort_by_label' | t }}{% render 'icon', icon: 'caret' %}</span>
                     </summary>
                     <div class="facets__display">
-                      <ul class="facets__list list-unstyled" role="list">
-                        {%- for option in results.sort_options -%}
-                          {%- if option.name == "Price, low to high" -%}
-                            <li class="list-menu__item facets__item">
-                              <label for="Filter-{{ option.value | escape }}-{{ forloop.index }}" class="facet-checkbox">
-                                <input type="radio" name="sort_by" value="{{ option.value | escape }}" id="Filter-{{ option.value | escape }}-{{ forloop.index }}" {% if option.value == sort_by %}checked="checked"{% endif %} class="visually-hidden" />
-                                <span class="label">{{ option.name | escape }}</span>
-                              </label>
-                            </li>
-                          {%- endif -%}
-                        {%- endfor -%}
-                      </ul>
+                      
                     </div>
                   </details>
                 </div>
