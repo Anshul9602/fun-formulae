@@ -117,7 +117,7 @@
    
   }
   .mini-cart__footer .button-container .check1{
-    min-width:47% !important;
+    max-width:49% !important;
    
   }
   .mini-cart__footer .button-container .button--secondary{
