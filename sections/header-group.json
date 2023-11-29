@@ -33,7 +33,7 @@
         "layout": "carousel",
         "mobile_layout": "carousel",
         "autorotate": true,
-        "autorotate_speed": 5,
+        "autorotate_speed": 3,
         "show_navigation": false,
         "direction": "left",
         "speed": 1.6,
