@@ -537,7 +537,7 @@
         "video_url": "",
         "text_box_position": "middle-center",
         "text_alignment": "center",
-        "image_ratio": "650px",
+        "image_ratio": "100vh",
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
