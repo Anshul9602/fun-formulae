@@ -90,13 +90,26 @@
           "settings": {
             "heading": "Follow us"
           }
+        },
+        "489fa479-853b-4ef5-89da-dd047e9013ca": {
+          "type": "custom_field",
+          "settings": {
+            "type": "text",
+            "label": "Your label",
+            "required": false,
+            "checked_value": "Yes",
+            "unchecked_value": "No",
+            "radio_options": "",
+            "select_options": ""
+          }
         }
       },
       "block_order": [
         "contact-0",
         "contact-1",
         "contact-2",
-        "media"
+        "media",
+        "489fa479-853b-4ef5-89da-dd047e9013ca"
       ],
       "settings": {
         "show_phone": true,
