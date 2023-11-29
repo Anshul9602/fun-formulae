@@ -317,7 +317,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "DO YOU ALLOW RETURNS?",
-            "row_content": "<p>Returns are accepted within 48 hours of the delivery date on all orders placed on 82e.com.<\/p><p>Kindly follow the below steps to make sure the return request is processed smoothly.<\/p><p>1. Make sure all the items are returned in an unused condition along with the invoice.<\/p><p>2. Make sure all items are returned in their original packaging which includes price tags, labels, all packaging boxes, and\/or any accessories.<\/p><p>Please note -  All return orders are subjected to a quality assessment.<\/p>",
+            "row_content": "<p>Returns for cosmetic products are not accepted. However, if the product is damaged, misplaced by us, or if the wrong product is sent to you, we will facilitate a return and send you the correct product.<\/p>",
             "page": ""
           }
         },
@@ -333,7 +333,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "CAN I TRACK MY ORDER?",
-            "row_content": "<p>You can track the progress of your existing or past orders by visiting the “My Orders” section of your account.<\/p><p>You will be able to track your order from our website or via a tracking link sent to you as soon as the order is shipped.<\/p><p>If your order has been shipped and you still cannot track it, we would request you to wait for 12 hours before trying again.<\/p><p>In rare cases, it might take the courier partner longer to generate a tracking link. <\/p><p>You may also check the status of your order by clicking on the link <a href=\"https:\/\/82e.clickpost.ai\/\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><\/a><strong>.<\/strong><\/p>",
+            "row_content": "<p>You can track the progress of your existing or past orders by visiting the “My Orders” section of your account.<\/p><p>You will be able to track your order from our website or via a tracking link sent to you as soon as the order is shipped.<\/p><p>If your order has been shipped and you still cannot track it, we would request you to wait for 12 hours before trying again.<\/p><p>In rare cases, it might take the courier partner longer to generate a tracking link.<\/p>",
             "page": ""
           }
         },
@@ -348,8 +348,8 @@
         "f486add2-451f-45c3-b88b-f066699c5131": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "DO FUNFORMULAE PRODUCTS CONTAIN PARABENS?",
-            "row_content": "<p>No, FunFormulae products are free from sulfates, phthalates and parabens.<\/p>",
+            "heading": "DO FUN FORMULAE PRODUCTS CONTAIN PARABENS?",
+            "row_content": "<p>No, Fun Formulae products are free from sulfates, phthalates and parabens.<\/p>",
             "page": ""
           }
         },
