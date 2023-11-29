@@ -48,7 +48,15 @@
             class="visually-hidden"
           />
           <label for="gift-wrapping" class="gift-wrapping__label">
-            {%- capture gift_price -%}<price-money class="price"><bdi>{% if settings.currency_code_enabled %}{{ gift_wrapping.object.price | money_with_currency }}{% else %}{{ gift_wrapping.object.price | money }}{% endif %}</bdi></price-money>{%- endcapture -%}
+            {%- capture gift_price -%}<price-money class="price">
+              <bdi>
+                {% if settings.currency_code_enabled %}
+                  {{ gift_wrapping.object.price | money_without_trailing_zeros | money_with_currency }}
+                {% else %}
+                  {{ gift_wrapping.object.price | money_without_trailing_zeros | money }}
+                {% endif %}
+              </bdi>
+            </price-money>{%- endcapture -%}
             <span class="gift-wrapping__text">{{ 'sections.cart.gift_wrapping_html' | t : price: gift_price }}</span>
             <div class="loading-overlay hidden">
               <div class="loading-overlay__spinner">
