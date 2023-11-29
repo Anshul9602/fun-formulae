@@ -334,7 +334,7 @@
           "settings": {
             "button_label": "GET INSPIRED",
             "button_link": "shopify:\/\/pages\/aromatherapy",
-            "button_size": "medium",
+            "button_size": "small",
             "button_style_secondary": false
           }
         }
