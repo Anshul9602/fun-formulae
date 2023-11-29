@@ -213,10 +213,10 @@ html {
     width: 50px;
  }
 #Slideshow-template--21636153835826__e53ce36a-519d-478f-b57a-a5b2855dfe28 .typeset2 .slideshow__button {
-  width: 60%;
+  width: 60% !important;
 }
 #Slideshow-template--21636153835826__e53ce36a-519d-478f-b57a-a5b2855dfe28 .typeset2 .slideshow__button .button{
-  width: 100%;
+  width: 100% !important;
 }
 
 
