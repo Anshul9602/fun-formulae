@@ -3,7 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "heading_size": "h0",
+        "heading_size": "h1",
         "show_description": true,
         "show_image": true,
         "apply_overlay": true,
