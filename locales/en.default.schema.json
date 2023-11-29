@@ -1361,11 +1361,12 @@
               "label": "Heading"
             },
             "text": {
-              "label": "Subtext"
+              "label": "Subtext1"
             },
             "link": {
               "label": "Link"
-            },"image": {
+            },
+            "image": {
               "label": "Image"
             }
           }
