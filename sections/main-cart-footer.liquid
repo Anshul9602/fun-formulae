@@ -51,9 +51,9 @@
             {%- capture gift_price -%}<price-money class="price">
               <bdi>
                 {% if settings.currency_code_enabled %}
-                  {{ gift_wrapping.object.price | money_without_trailing_zeros | money_with_currency }}
+                  {{ gift_wrapping.object.price | money_with_currency }}
                 {% else %}
-                  {{ gift_wrapping.object.price | money_without_trailing_zeros | money }}
+                  {{ gift_wrapping.object.price | money }}
                 {% endif %}
               </bdi>
             </price-money>{%- endcapture -%}
