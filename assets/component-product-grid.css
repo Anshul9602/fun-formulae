@@ -24,7 +24,13 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
-  
+  .footer__content-right{
+    justify-content: center !important;
+  }
+  .footer__list-social{
+    justify-content: center !important;
+    padding-top:20%;
+  }
 }
 
 @media screen and (hover: none) and (max-width: 1366px) {
