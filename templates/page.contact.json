@@ -63,7 +63,7 @@
         "contact-0": {
           "type": "contact",
           "settings": {
-            "heading": "Information",
+            "heading": "Email",
             "text": "funformulaeinfo@gmail.com",
             "link": "mailto:funformulaeinfo@gmail.com"
           }
@@ -71,7 +71,7 @@
         "contact-1": {
           "type": "contact",
           "settings": {
-            "heading": "Customer service",
+            "heading": "Phone",
             "text": "9783887788  |  9783447744",
             "link": "tel: 9783887788"
           }
