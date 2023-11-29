@@ -16,15 +16,15 @@
     row-gap: 5.5rem;
   }
 }
-
+.quick-view__right .product__text a{
+  display: none !important;
+}
 @media screen and (max-width: 749px) {
   .product-grid .grid__item:only-child {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .quick-view__right .product__text a{
-    display: none !important;
-  }
+  
 }
 
 @media screen and (hover: none) and (max-width: 1366px) {
