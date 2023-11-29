@@ -212,6 +212,14 @@ html {
   #shopify-section-template--21613581467954__featured-collection .button{
     width: 50px;
  }
+#Slideshow-template--21636153835826__e53ce36a-519d-478f-b57a-a5b2855dfe28 .typeset2 .slideshow__button {
+  width: 60%;
+}
+#Slideshow-template--21636153835826__e53ce36a-519d-478f-b57a-a5b2855dfe28 .typeset2 .slideshow__button .button{
+  width: 100%;
+}
+
+
   #shopify-section-template--21613581467954__slideshow .slideshow__card .button{
    
     height: 42px !important;
