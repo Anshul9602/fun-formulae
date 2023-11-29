@@ -257,7 +257,9 @@ p{
     padding: 0;
   }
 }
-
+.price__suffix{
+  display: none !important;
+}
 @media screen and (min-width: 990px) {
   .page-width--inner {
     padding: 0 15rem;
