@@ -25,6 +25,7 @@ mega-menu {
 .list-menu-dropdown.hidden {
   display: block !important;
   margin-left: -300px;
+  margin-top: 10px;
 }
 
 .list-menu-dropdown::before {
