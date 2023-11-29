@@ -3,7 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "heading_size": "h0",
+        "heading_size": "h1",
         "show_description": true,
         "show_image": true,
         "apply_overlay": true,
@@ -13,8 +13,8 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "250px",
         "show_text_below": false,
-        "padding_top": 0,
-        "padding_bottom": 36
+        "padding_top": 24,
+        "padding_bottom": 20
       }
     },
     "subs": {
