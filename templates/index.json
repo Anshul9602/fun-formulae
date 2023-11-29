@@ -1248,7 +1248,20 @@
         "image-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/meraki-society-lifestyle-wellness-product-photography-natural-skincare-rebecca-goddard-rg-daily-blog-65_2.png",
+            "image": "shopify:\/\/shop_images\/KEW6770_copy.jpg",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "middle-center"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/KEW6782_copy.jpg",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -1261,7 +1274,7 @@
         "image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/il_570xN_2.png",
+            "image": "shopify:\/\/shop_images\/KEW7332_72490cc6-0088-4bc5-87ff-4221d0924130.jpg",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h4",
@@ -1271,10 +1284,10 @@
             "text_box_position": "middle-center"
           }
         },
-        "image-2": {
+        "image-4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/lifestyle-beauty-product-photography_1_00c3b083-7463-455f-82e0-8b646356524b.png",
+            "image": "shopify:\/\/shop_images\/KEW7358_f0a367c4-728e-4ec6-bf3b-3f840013784d.jpg",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -1287,20 +1300,7 @@
         "image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/lifestyle-beauty-product-photography-uk-66_4.png",
-            "image_position": "center center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "",
-            "heading_size": "h3",
-            "link": "",
-            "text_box_position": "middle-center"
-          }
-        },
-        "image-4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lifestyle-beauty-product-photography-uk-66_3.png",
+            "image": "shopify:\/\/shop_images\/KEW7339_647423fa-8713-4b53-82e3-79677a888845.jpg",
             "image_position": "center center",
             "subheading": "",
             "subheading_size": "h5",
@@ -1313,10 +1313,10 @@
       },
       "block_order": [
         "image-0",
-        "image-1",
         "image-2",
-        "image-3",
-        "image-4"
+        "image-1",
+        "image-4",
+        "image-3"
       ],
       "settings": {
         "per_row": 5,
@@ -1331,7 +1331,7 @@
         "heading_tag": "h2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "mobile_image_height": 160,
+        "mobile_image_height": 190,
         "padding_top": 0,
         "padding_bottom": 0
       }
