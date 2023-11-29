@@ -405,19 +405,19 @@
                       </dt>
                       <dd class="price--on-sale">
                         <s class="price price-item--regular">
-                          <price-money><bdi>{{ item.original_price | money }}</bdi></price-money>
+                          <price-money><bdi>{{ item.original_price |money_without_trailing_zeros| money }}</bdi></price-money>
                         </s>
                       </dd>
                       <dt class="visually-hidden">
                         {{ 'products.product.price.sale_price' | t }}
                       </dt>
                       <dd class="price">
-                        <price-money><bdi>{{ item.final_price | money }}</bdi></price-money>
+                        <price-money><bdi>{{ item.final_price |money_without_trailing_zeros| money }}</bdi></price-money>
                       </dd>
                     </dl>
                   {%- else -%}
                     <dd class="price">
-                      <price-money><bdi>{{ item.original_price | money }}</bdi></price-money>
+                      <price-money><bdi>{{ item.original_price |money_without_trailing_zeros| money }}</bdi></price-money>
                     </dd>
                   {%- endif -%}
                 </div>
