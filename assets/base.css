@@ -247,6 +247,12 @@ html {
 }
 
 @media screen and (max-width: 750px) {
+.mini-cart__footer .check1{
+  min-height: 31px !important;
+  padding: 0 !important;
+}
+
+
   .contact__button button {
     min-width: 20rem;
   }
