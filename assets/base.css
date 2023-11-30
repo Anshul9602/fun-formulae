@@ -355,6 +355,9 @@ html {
     margin: 0 0.5rem;
    
 }
+.footer__content-right {
+  justify-content: center!important;
+}
   .hello {
     font-size: 17px ;
   }
