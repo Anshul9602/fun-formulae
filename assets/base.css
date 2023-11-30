@@ -351,7 +351,10 @@ html {
   .button, .shopify-challenge__button{
     min-height: 4rem !important;
   }
-
+  .scrolling-promotion .promotion__item {
+    margin: 0 0.5rem;
+   
+}
   .hello {
     font-size: 17px ;
   }
