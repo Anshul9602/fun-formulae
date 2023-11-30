@@ -348,6 +348,9 @@ html {
   .scrolling-promotion .promotion__item {
     margin: 0 0.5rem !important;
   }
+  .scrolling-promotion .promotion__item .image-animate{
+    --image-height: 40px !important;
+  }
   h3,
   .h3 {
     font-size: calc(var(--font-heading-scale) * 1rem);
