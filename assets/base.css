@@ -351,7 +351,9 @@ html {
   .hello {
     font-size: 17px ;
   }
-
+#shopify-section-template--21613581467954__guarantees .title-wrapper .h2{
+   font-size: 17px !important;
+}
   .footer-block__newsletter .field {
     width: 58% !important;
   }
