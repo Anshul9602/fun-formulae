@@ -210,7 +210,10 @@ html {
 
 @media screen and (max-width: 750px) {
   .inm{
-    font-size: 16px !important;
+    font-size: 18px !important;
+  }
+  .copyright__content{
+    font-size: 17px !important;
   }
   .image-with-text__content {
     align-items: center;
