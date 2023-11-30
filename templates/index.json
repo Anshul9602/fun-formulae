@@ -1217,7 +1217,7 @@
         "e35af93c-0b96-455a-ab2d-d81ee7a93c0c": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p style=\"font-family: Shorelines;font-size:24px;\">@funformulae<\/p>"
+            "custom_liquid": "<p class=\"inm\"style=\"font-family: Shorelines;font-size:24px;\">@funformulae<\/p>"
           }
         }
       },
