@@ -1808,7 +1808,7 @@ deferred-media {
   background-color: #ffd063;
   background-size: cover;
   font-family: var(--font-button-family);
-  min-width: 24rem;
+  min-width: 22rem;
   max-width: 100%;
   min-height: 4.6rem;
   text-transform: uppercase;
