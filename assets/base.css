@@ -315,6 +315,10 @@ html {
   #shopify-section-template--21613581467954__featured-collection .button {
     min-width: 20rem;
   }
+  .card-information__button .button{
+    background-image: url(https://cdn.shopify.com/s/files/1/0841/8371/2050/files/5c12f84b-0e33-40e7-965e-5c67cabdb35e.png?v=1701330036);
+  background-color: transparent;
+  }
 
   #shopify-section-template--21636153835826__e53ce36a-519d-478f-b57a-a5b2855dfe28 .typeset2 .slideshow__button {
     width: 60% !important;
