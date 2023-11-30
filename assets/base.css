@@ -251,12 +251,12 @@ html {
   }
 
   .card-information__button {
-    width: 50px !important;
+    width: 60px !important;
    
   }
 
   .collection .card-information__button {
-    width: 50px !important;
+    width: 60px !important;
     
   }
 
@@ -348,12 +348,12 @@ html {
   }
 
   #shopify-section-template--21613581467954__countdown-timer .button {
-    width: 60px;
+    width: 50px;
   }
 
   #shopify-section-template--21613581467954__7587530a-758c-40f5-9a13-03670fbb99e9 .button {
     min-width: 19rem;
-    width: 60px;
+    width: 50px;
   }
 
   .scrolling-promotion .promotion__item {
