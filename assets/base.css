@@ -250,6 +250,7 @@ html {
 .mini-cart__footer .check1{
   min-height: 31px !important;
   padding: 0 !important;
+  font-size: 1.6rem !important;
 }
 .mini-cart__footer .button{
   text-transform: uppercase !important;
