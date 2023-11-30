@@ -120,7 +120,7 @@ html.no-js .no-js-hidden {
 }
 
 .collection .card-information__button .button {
-  width: 100% !important;
+  width: 70% !important;
 }
 
 #shopify-section-template--21634042888498__bd635a70-8b0e-476c-b3f3-489d03e44bc6 {
@@ -293,7 +293,7 @@ html {
   }
 
   .collection .card-information__button .button {
-    width: 35% !important;
+    width: 100% !important;
   }
 
   .inm {
