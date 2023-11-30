@@ -210,7 +210,10 @@ html {
 .m-view{
   display: none;
 }
-
+#shopify-section-template--21634042888498__bd635a70-8b0e-476c-b3f3-489d03e44bc6{
+  display: flex;
+  justify-content: center;
+}
 
 @media screen and (max-width: 750px) {
 #shopify-section-template--21634042888498__516dbef2-2bcb-4381-be89-1c772698678c .button{
