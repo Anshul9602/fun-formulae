@@ -90,22 +90,13 @@
           "settings": {
             "heading": "Follow us"
           }
-        },
-        "b165f3b1-ecdd-4807-935d-d0340bfab8fb": {
-          "type": "contact",
-          "settings": {
-            "heading": "Customer service",
-            "text": "gfd",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "contact-0",
         "contact-1",
         "contact-2",
-        "media",
-        "b165f3b1-ecdd-4807-935d-d0340bfab8fb"
+        "media"
       ],
       "settings": {
         "show_phone": true,
