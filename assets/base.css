@@ -348,7 +348,7 @@ html {
   p {
     font-size: 14px !important;
   }
-  .button, .shopify-challenge__button{
+  #shopify-section-template--21613581467954__featured-collection.button, .shopify-challenge__button{
     min-height: 4rem !important;
   }
   .scrolling-promotion .promotion__item {
