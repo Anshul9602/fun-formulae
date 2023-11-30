@@ -16,7 +16,8 @@
 
 @media screen and (max-width: 480px) {
   .slider-mobile-gutter + .view-all .button {
-    width: 60%;
+    width: 50px;
+    min-width: 20rem !important;
   }
 }
 
