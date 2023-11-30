@@ -35,9 +35,9 @@
 
 @media screen and (hover: none) and (max-width: 1366px) {
   .product-grid:not(.grid--1-col-mobile) .card-information__button {
-    height: 3.4rem;
+    height: 4.4rem;
     width: 26%;
-    border-radius: 21px;
+    
   }
 
   .product-grid:not(.grid--1-col-mobile) .card-information__button .button {
