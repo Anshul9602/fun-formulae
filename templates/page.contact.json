@@ -37,7 +37,7 @@
         "image_behavior": "none",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "250px",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "show_text_below": true,
         "colors_button_label": "#1a1b18",
         "colors_button_background": "#ffffff",
