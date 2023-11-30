@@ -207,7 +207,8 @@
   }
   
   .footer__content-right .footer__list-social {
-    justify-content: center;
+    justify-content: center !important;
+    padding-top: 20px;
   }
 
   .footer__content-right .footer-block__details-content {
