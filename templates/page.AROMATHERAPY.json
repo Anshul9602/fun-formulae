@@ -139,25 +139,11 @@
             "horizontal": 70,
             "vertical": 45
           }
-        },
-        "template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31-product-3": {
-          "type": "product",
-          "settings": {
-            "product": "day-serum",
-            "image_ratio": "adapt",
-            "show_vendor": false,
-            "show_quick_buy": false,
-            "enable_quick_view": true,
-            "color": "#000000",
-            "horizontal": 45,
-            "vertical": 65
-          }
         }
       },
       "block_order": [
         "template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31-product-1",
-        "template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31-product-2",
-        "template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31-product-3"
+        "template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31-product-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/lifestyle-beauty-product-photography_1_00c3b083-7463-455f-82e0-8b646356524b.png",
