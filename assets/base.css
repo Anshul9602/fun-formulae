@@ -16,7 +16,7 @@
 @font-face {
   font-family: 'Shorelines';
   src: url('Shorelines-Script-Bold.ttf') format('truetype');
-  /* Add additional formats if needed, e.g., woff, woff2 */
+  /* Add additional formats if needed, e.g., wofsef, woff2 */
 }
 
 /* Primary button */
@@ -251,10 +251,11 @@ html {
   min-height: 31px !important;
   padding: 0 !important;
   font-size: 14px !important;
+  font-weight: 400;
 }
 .mini-cart__footer .button{
   text-transform: uppercase !important;
-  font-size: 14px !important;
+  
 }
 
 
