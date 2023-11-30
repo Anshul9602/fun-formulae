@@ -209,6 +209,9 @@ html {
 }
 
 @media screen and (max-width: 750px) {
+  .footer__copyright small{
+    text-align: center !important;
+  }
   .collection .card-information__button .button {
     width: 35% !important;
   }
