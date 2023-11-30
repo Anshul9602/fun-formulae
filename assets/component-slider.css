@@ -54,6 +54,7 @@
 
   .slider-mobile-gutter > .slider.grid--2-col > .grid__item {
     width: 42%;
+    padding: 0 10px;
   }
 }
 
