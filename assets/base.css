@@ -323,7 +323,7 @@ html {
   }
 
   .card-information__button .button {
-   
+   background-image: none !important;
     background-color: transparent !important;
   }
   .card-information__button {
