@@ -250,6 +250,10 @@ html {
     width: 35% !important;
     border-radius: 20px;
   }
+  .collection .card-information__button {
+    width: 70% !important;
+    border-radius: 20px;
+  }
 
 
   #shopify-section-template--21634042888498__516dbef2-2bcb-4381-be89-1c772698678c .button {
