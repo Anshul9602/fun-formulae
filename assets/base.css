@@ -252,7 +252,7 @@ html {
   padding: 0 !important;
 }
 .mini-cart__footer .button{
-  text-transform: uppercase;
+  text-transform: uppercase !important;
 }
 
 
