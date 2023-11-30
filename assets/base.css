@@ -214,9 +214,9 @@ html {
 
 @media screen and (max-width: 750px) {
 #shopify-section-template--21634042888498__516dbef2-2bcb-4381-be89-1c772698678c .View{
-  height: 61px;
-  min-width: 14rem;
-  min-height: 0.6rem;
+  height: 61px !important;
+  min-width: 14rem !important;
+  min-height: 0.6rem !important;
 
 }
 .slideshow__card div{
