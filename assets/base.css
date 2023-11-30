@@ -311,7 +311,9 @@ html {
   .image-with-text__subheading h4 {
     text-align: center;
   }
-
+  #shopify-section-template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31 .image-with-text__products .button{
+    min-width: 20rem !important;
+  }
   #shopify-section-template--21613581467954__featured-collection .view-all .button {
     min-width: 20rem !important;
   }

@@ -324,7 +324,9 @@
                             <div class="select">
                               <select name="sort_by" class="select__select" id="SortBy-mobile" aria-describedby="a11y-refresh-page-message">
                                 {%- for option in results.sort_options -%}
-                                  <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
+                                  {%- if option.name == "Price, low to high" or option.name == "Price, high to low" -%}
+                                    <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
+                                  {%- endif -%}
                                 {%- endfor -%}
                               </select>
                               {% render 'icon', icon: 'caret' %}
