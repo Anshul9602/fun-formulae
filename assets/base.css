@@ -251,6 +251,9 @@ html {
   min-height: 31px !important;
   padding: 0 !important;
 }
+.mini-cart__footer .button{
+  text-transform: uppercase;
+}
 
 
   .contact__button button {
