@@ -71,9 +71,9 @@
         "contact-1": {
           "type": "contact",
           "settings": {
-            "heading": "Whatsapp(chat only)",
+            "heading": "WhatsApp (chat only)",
             "text": "9783887788  |  9783447744",
-            "link": "tel: 9783887788"
+            "link": "shopify:\/\/blogs\/news"
           }
         },
         "contact-2": {
@@ -90,13 +90,22 @@
           "settings": {
             "heading": "Follow us"
           }
+        },
+        "b165f3b1-ecdd-4807-935d-d0340bfab8fb": {
+          "type": "contact",
+          "settings": {
+            "heading": "Customer service",
+            "text": "gfd",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "contact-0",
         "contact-1",
         "contact-2",
-        "media"
+        "media",
+        "b165f3b1-ecdd-4807-935d-d0340bfab8fb"
       ],
       "settings": {
         "show_phone": true,
