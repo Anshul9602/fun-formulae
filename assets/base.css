@@ -345,7 +345,9 @@ html {
     min-width: 19rem;
     width: 50px;
   }
-
+  .scrolling-promotion .promotion__item {
+    margin: 0 0.5rem !important;
+  }
   h3,
   .h3 {
     font-size: calc(var(--font-heading-scale) * 1rem);
