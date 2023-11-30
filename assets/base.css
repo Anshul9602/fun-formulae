@@ -346,7 +346,7 @@ html {
     width: 50px;
   }
   .scrolling-promotion .promotion__item {
-    margin: 0 0.5rem !important;
+    margin: 0 2.5rem !important;
   }
   .scrolling-promotion .promotion__item .image-animate{
     --image-height: 40px !important;
