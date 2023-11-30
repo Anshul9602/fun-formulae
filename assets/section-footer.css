@@ -110,7 +110,7 @@
   }
   .mini-cart__footer .button-container{
     display: flex !important;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .mini-cart__footer .button-container .button{
     width:100%;
