@@ -246,6 +246,9 @@ html {
 }
 
 @media screen and (max-width: 750px) {
+  #Guarantees-template--21613581467954__guarantees .h3{
+    font-size: 15px !important;
+  }
   .card-information__button {
     width: 35% !important;
     border-radius: 20px;
