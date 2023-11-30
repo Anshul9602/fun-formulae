@@ -255,7 +255,8 @@ html {
 }
 .mini-cart__footer .button{
   text-transform: uppercase !important;
-  
+  max-width: 47% !important;
+  letter-spacing: .2em;
 }
 
 
