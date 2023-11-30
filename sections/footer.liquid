@@ -227,14 +227,14 @@ max-width: 100% !important;
 
   <div class="footer__content-bottom">
     <div class="footer__content-bottom-wrapper page-width">
-      <div class="footer__column footer__column--info order-2 order-md-1">
+      <div class="footer__column footer__column--info d-view">
         <div class="footer__copyright">
           <small class="copyright__content" style="text-align: end;">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name |
             link_to: routes.root_url }}. {{ section.settings.copyright_text }}</small>
 
         </div>
       </div>
-      <div class="footer__column footer__column--extra order-1 order-md-2">
+      <div class="footer__column footer__column--extra ">
         <div class="footer__copyright">
           <small class="copyright__content" style="text-align: end;">Developed by
 						<a href="https://theodin.in/" style="color:#000;">
@@ -372,7 +372,13 @@ max-width: 100% !important;
         </div>
         {%- endif -%}
       </div>
-     
+      <div class="footer__column footer__column--info m-view">
+        <div class="footer__copyright">
+          <small class="copyright__content" style="text-align: end;">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name |
+            link_to: routes.root_url }}. {{ section.settings.copyright_text }}</small>
+
+        </div>
+      </div>
     </div>
   </div>
 </footer>

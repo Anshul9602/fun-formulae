@@ -207,8 +207,18 @@ html {
   padding: 0;
   margin: 0 auto;
 }
+.m-view{
+  display: none;
+}
+
 
 @media screen and (max-width: 750px) {
+  .m-view{
+    display: block;
+  }
+  .d-view{
+    display: none;
+  }
   .footer__copyright small{
     text-align: center !important;
   }
