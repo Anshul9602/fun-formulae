@@ -216,6 +216,12 @@ html {
 }
 
 @media screen and (max-width: 750px) {
+  .card-information__button{
+    width: 35%;
+    border-radius: 20px;
+  }
+
+
 #shopify-section-template--21634042888498__516dbef2-2bcb-4381-be89-1c772698678c .button{
   height: 65px !important;
   min-width: 14rem !important;
