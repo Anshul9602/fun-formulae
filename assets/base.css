@@ -217,6 +217,9 @@ html {
 .slideshow__card div{
   color: #fff !important;
 }
+.slideshow__card .h1{
+  color: #fff !important;
+}
 .slideshow__card .button{
   padding: 1rem 4rem !important;
   min-height: 0rem !important;
