@@ -484,7 +484,7 @@
         "heading_alignment": "center",
         "heading_tag": "h2",
         "image_ratio": "portrait",
-        "image_position": "bottom center",
+        "image_position": "center center",
         "enable_image_fill": true,
         "show_secondary_image": true,
         "show_vendor": false,
