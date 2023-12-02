@@ -448,15 +448,6 @@
     "shop-the-look": {
       "type": "shop-the-look",
       "blocks": {
-        "product-0": {
-          "type": "product",
-          "settings": {
-            "product": "body-wash",
-            "color": "#ffffff",
-            "horizontal": 30,
-            "vertical": 40
-          }
-        },
         "product-1": {
           "type": "product",
           "settings": {
@@ -465,14 +456,23 @@
             "horizontal": 70,
             "vertical": 45
           }
+        },
+        "eadb72fa-a9d9-4292-af68-c084760decae": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "color": "#000000",
+            "horizontal": 30,
+            "vertical": 40
+          }
         }
       },
       "block_order": [
-        "product-0",
-        "product-1"
+        "product-1",
+        "eadb72fa-a9d9-4292-af68-c084760decae"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/lifestyle-beauty-product-photography_1.png",
+        "image": "shopify:\/\/shop_images\/AN_2814.jpg",
         "layout": "image_first",
         "text_box_position": "middle",
         "text_alignment": "left",
