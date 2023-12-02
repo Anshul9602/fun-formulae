@@ -59,7 +59,7 @@
     "3bbd5765-a350-47a5-b2e6-60c4302434d1": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<h3>I am thrilled to share with you the essence of 15 years of my experience and passion for working with medicinal plants and the power of essential oils, derived from them. <\/h3>",
+        "custom_liquid": "<h3>I am thrilled to share with you the essence of 15 years of my experience as a scientist and aromatherapist working with medicinal plants and essential oils. <\/h3>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -69,7 +69,7 @@
     "943ebe4f-dcc3-497f-94e1-fe12d022dd73": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<p style=\"font-size:2rem;    line-height: 1.4;\">My clients would experience the benefits of aromatherapy for acne treatments, dandruff, hair loss, post-pregnancy fat loss, and the issue of melasma and would ask for customized products for follow-up care at home in between the sessions however designing therapies kept me busy and it remained like that until the unexpected confinement due to the pandemic. I felt a profound sense of helplessness as my capacity to offer solutions was restricted. But this challenging situation became a catalyst to channel my energy and experience into creating scientific and efficient aromatherapy formulations for beauty and wellness and the brand, Fun Formulae was born. <\/p>",
+        "custom_liquid": "<p style=\"font-size:2rem;    line-height: 1.4;\">My clients would experience the benefits of aromatherapy for conditions of acne, dandruff, hair loss, post-pregnancy fat loss, and the issue of melasma and would see encouraging results from customized products for follow-up care at home in between personal sessions. Designing these therapies kept me busy until the unexpected confinement due to the pandemic which restricted my capacity to offer therapeutic solutions. But this challenging situation became a catalyst to channel my energy and experience into creating scientific and efficient aromatherapy formulations for beauty and wellness and the brand, Fun Formulae was born. <\/p>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 0,
@@ -158,7 +158,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>At Fun Formulae, mindfulness of the ingredients used is of utmost importance. We believe in the purity and natural origin of our ingredients,  the core of our products is aromatherapy making our products effective and reliable.<\/p><p><\/p>",
+            "text": "<p>At Fun Formulae, mindfulness of the ingredients used is of utmost importance. We believe in the purity and natural origin of our ingredients; the core of our products is aromatherapy making our products effective and reliable.<\/p>",
             "text_size": "typeset2",
             "secondary_color": true
           }
