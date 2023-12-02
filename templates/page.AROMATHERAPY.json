@@ -182,7 +182,8 @@
         "template--21636153835826__e53ce36a-519d-478f-b57a-a5b2855dfe28-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/KEW7126_cdf77a64-d695-4970-93fd-0241477e3bd8.jpg",
+            "image": "shopify:\/\/shop_images\/KEW7310_b456d6d7-c820-4c74-8f8f-905c2a6d280c.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/KEW7310_b456d6d7-c820-4c74-8f8f-905c2a6d280c.jpg",
             "image_position": "20% 0",
             "text_box_position": "middle-center",
             "subheading": "",
@@ -201,8 +202,8 @@
         "template--21636153835826__e53ce36a-519d-478f-b57a-a5b2855dfe28-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/KEW7205.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/KEW7205.jpg",
+            "image": "shopify:\/\/shop_images\/KEW6770_copy_c306dac9-31b7-4fd7-aaad-d59867ef35f8.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/KEW6770_copy_c306dac9-31b7-4fd7-aaad-d59867ef35f8.jpg",
             "image_position": "top center",
             "text_box_position": "middle-center",
             "subheading": "",
