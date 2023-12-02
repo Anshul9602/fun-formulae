@@ -117,20 +117,33 @@
         "template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31-product-1": {
           "type": "product",
           "settings": {
-            "product": "acne-spot-application-overnight-remedy",
+            "product": "face-toner",
             "image_ratio": "adapt",
             "show_vendor": false,
             "show_quick_buy": false,
             "enable_quick_view": true,
             "color": "#000000",
-            "horizontal": 30,
-            "vertical": 40
+            "horizontal": 38,
+            "vertical": 63
+          }
+        },
+        "48d9ac22-ea45-4db1-9dd4-2fb4eb73243e": {
+          "type": "product",
+          "settings": {
+            "product": "day-serum",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 52,
+            "vertical": 80
           }
         },
         "template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31-product-2": {
           "type": "product",
           "settings": {
-            "product": "body-scrub",
+            "product": "face-wash",
             "image_ratio": "adapt",
             "show_vendor": false,
             "show_quick_buy": false,
@@ -143,10 +156,11 @@
       },
       "block_order": [
         "template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31-product-1",
+        "48d9ac22-ea45-4db1-9dd4-2fb4eb73243e",
         "template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31-product-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/lifestyle-beauty-product-photography_1_00c3b083-7463-455f-82e0-8b646356524b.png",
+        "image": "shopify:\/\/shop_images\/AN_2743.jpg",
         "layout": "text_first",
         "text_box_position": "top",
         "text_alignment": "left",
