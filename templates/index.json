@@ -478,10 +478,28 @@
         "eadb72fa-a9d9-4292-af68-c084760decae": {
           "type": "product",
           "settings": {
+            "product": "face-wash",
+            "color": "#ffffff",
+            "horizontal": 11,
+            "vertical": 72
+          }
+        },
+        "58465cf2-ca7d-4e69-88e3-24b31ca1ed53": {
+          "type": "product",
+          "settings": {
             "product": "face-toner",
-            "color": "#000000",
+            "color": "#ffffff",
             "horizontal": 30,
-            "vertical": 40
+            "vertical": 72
+          }
+        },
+        "c72f0f25-bc02-47fc-9990-019a4bae673e": {
+          "type": "product",
+          "settings": {
+            "product": "hair-conditioner",
+            "color": "#ffffff",
+            "horizontal": 45,
+            "vertical": 80
           }
         }
       },
@@ -489,7 +507,9 @@
         "product-1",
         "6bdb1cb6-4b28-489f-89fb-bf17997141e5",
         "83bfd170-92ba-40b1-8d31-5d824be843be",
-        "eadb72fa-a9d9-4292-af68-c084760decae"
+        "eadb72fa-a9d9-4292-af68-c084760decae",
+        "58465cf2-ca7d-4e69-88e3-24b31ca1ed53",
+        "c72f0f25-bc02-47fc-9990-019a4bae673e"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/AN_2814.jpg",
