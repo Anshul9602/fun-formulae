@@ -451,10 +451,28 @@
         "product-1": {
           "type": "product",
           "settings": {
+            "product": "hair-shampoo",
+            "color": "#ffffff",
+            "horizontal": 56,
+            "vertical": 64
+          }
+        },
+        "6bdb1cb6-4b28-489f-89fb-bf17997141e5": {
+          "type": "product",
+          "settings": {
             "product": "body-butter",
             "color": "#ffffff",
             "horizontal": 70,
-            "vertical": 45
+            "vertical": 79
+          }
+        },
+        "83bfd170-92ba-40b1-8d31-5d824be843be": {
+          "type": "product",
+          "settings": {
+            "product": "body-wash",
+            "color": "#ffffff",
+            "horizontal": 86,
+            "vertical": 63
           }
         },
         "eadb72fa-a9d9-4292-af68-c084760decae": {
@@ -469,6 +487,8 @@
       },
       "block_order": [
         "product-1",
+        "6bdb1cb6-4b28-489f-89fb-bf17997141e5",
+        "83bfd170-92ba-40b1-8d31-5d824be843be",
         "eadb72fa-a9d9-4292-af68-c084760decae"
       ],
       "settings": {
