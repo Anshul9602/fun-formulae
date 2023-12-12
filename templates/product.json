@@ -424,6 +424,7 @@
         "testimonial-1",
         "testimonial-2"
       ],
+      "disabled": true,
       "settings": {
         "autorotate": false,
         "autorotate_speed": 5,
