@@ -252,7 +252,7 @@ html {
 }
 
 @media screen and (max-width: 750px) {
-  .card-information__button .button{
+  .card-information__button{
     display:none ;
   }
 .mini-cart__footer .check1{
