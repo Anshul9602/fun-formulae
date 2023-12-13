@@ -409,7 +409,7 @@
         "template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "",
             "video_button": "Video button label",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
