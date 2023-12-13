@@ -158,8 +158,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>We associate skin and hair with beauty but it is more of a reflection of our health and wellness. As wellness is “we are what we eat”, similarly glowing skin and healthy hair are integral part of well-being. How many times have you stood across a shelf wondering which product is best suited for your skin woes and hair worries? At Fun Formulae, we want you to make an informed decision, and for that reason, our ranges are designed as per skin type and concern. <\/p>",
-            "text_size": "typeset2",
+            "text": "<p>We associate skin and hair with beauty but it is more of a reflection of our health and wellness. As wellness is “we are what we eat”, similarly glowing skin and healthy hair are integral part of well-being. <\/p>",
+            "text_size": "typeset3",
             "secondary_color": true
           }
         }
@@ -200,7 +200,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Our Philosophy",
+            "heading": "",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -208,8 +208,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>The environment we live in today brings many changes in our health, hair and skin. The choices we make impact our surroundings locally and globally, We need to make responsible choices as every product we use affects our ecosystem. At Fun Formulae, we use pure and natural essential oils, derived from plants, to deliver desired results. These essential oils are free from harmful chemicals. They are safe to use and offer effective solutions to your concerns.<\/p>",
-            "text_size": "typeset2",
+            "text": "<p>How many times have you stood across a shelf wondering which product is best suited for your skin woes and hair worries? At Fun Formulae, we want you to make an informed decision, and for that reason, our ranges are designed as per skin type and concern. <\/p>",
+            "text_size": "typeset3",
             "secondary_color": true
           }
         }
@@ -258,8 +258,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>We believe<\/strong> in making effective products from fresh, organic* fruit and vegetables, the finest essential oils and safe synthetics.<\/p><p><strong>We invent<\/strong> our own products and fragrances. We make them fresh by hand using little or no preservative or packaging, using only vegetarian ingredients, and tell you when they were made.<\/p>",
-            "text_size": "typeset2",
+            "text": "<p>The environment we live in today brings many changes in our health, hair and skin. The choices we make impact our surroundings locally and globally, We need to make responsible choices as every product we use affects our ecosystem.<\/p>",
+            "text_size": "typeset3",
             "secondary_color": true
           }
         }
@@ -300,16 +300,16 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Fresh ingredients are intrinsic to Fun Formulae",
-            "heading_size": "h2",
+            "heading": "",
+            "heading_size": "h1",
             "heading_tag": "h2"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>At Fun Formulae, our journey with fresh produce spans many years, affording us extensive expertise in formulating, manufacturing, and nurturing products that feature whole fruits and vegetables, with a preference for organic ingredients whenever feasible. Our experience has illuminated a fundamental truth: incorporating the entire fruit or vegetable yields far greater benefits than isolating specific properties and extracting them from natural materials. We eschew the practice of dissecting ingredients and attempting to replicate their functions in cosmetic products. Instead, we embrace the holistic power of whole, natural elements to create products that authentically capture the richness and efficacy of these botanical wonders.<\/p>",
-            "text_size": "typeset2",
+            "text": "<p>At Fun Formulae, we use pure and natural essential oils, derived from plants, to deliver desired results. These essential oils are free from harmful chemicals. They are safe to use and offer effective solutions to your concerns.<\/p>",
+            "text_size": "typeset3",
             "secondary_color": false
           }
         },
