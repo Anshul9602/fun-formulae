@@ -48,6 +48,71 @@
         "padding_bottom": 36
       }
     },
+    "b4d72778-f4ce-486c-bd08-286ef247a88d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "AROMATHERAPY BRINGS FUN",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The self-care rituals across all the cultures of the world share a common thread and that is joy and happiness, which strengthen our bond with loved ones. The beauty of these everyday fun moments is enhanced by the aromatic bliss of pure essential oils.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "265ba9b3-3fcd-4011-8de5-a12ab9c844b3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-heading-1",
+        "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-text-1",
+        "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-button-1",
+        "265ba9b3-3fcd-4011-8de5-a12ab9c844b3"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "00e44901-5d18-4aff-9b5a-2f6f7f1bb35d": {
       "type": "collage",
       "blocks": {
@@ -250,6 +315,7 @@
   },
   "order": [
     "image-banner",
+    "b4d72778-f4ce-486c-bd08-286ef247a88d",
     "00e44901-5d18-4aff-9b5a-2f6f7f1bb35d",
     "main",
     "empty-space",
