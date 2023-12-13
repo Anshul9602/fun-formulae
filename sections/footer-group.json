@@ -47,7 +47,7 @@
         "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": false,
-        "copyright_text": "All rights reserved.",
+        "copyright_text": "",
         "colors_text": "#42474c",
         "colors_heading": "#6b7177",
         "colors_link": "#212326",
