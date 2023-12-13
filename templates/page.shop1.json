@@ -3,11 +3,12 @@
     "image-banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/KEW7015_09f8fdb2-12c1-4236-8c21-b4a41f372842.jpg",
+        "image": "shopify:\/\/shop_images\/KEW7397copy.jpg",
+        "image_2": "shopify:\/\/shop_images\/KEW7520copy.jpg",
         "image_position": "center center",
         "text_box_position": "bottom-center",
         "text_alignment": "center",
-        "image_ratio": "550px",
+        "image_ratio": "600px",
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
