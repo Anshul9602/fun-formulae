@@ -325,7 +325,7 @@
             "image": "shopify:\/\/shop_images\/KEW7310_b456d6d7-c820-4c74-8f8f-905c2a6d280c.jpg",
             "image_mobile": "shopify:\/\/shop_images\/KEW7310_b456d6d7-c820-4c74-8f8f-905c2a6d280c.jpg",
             "image_position": "20% 0",
-            "text_box_position": "middle-center",
+            "text_box_position": "middle-left",
             "subheading": "",
             "subheading_size": "h4",
             "heading": "Need a therapy?",
@@ -386,6 +386,80 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "5121ed59-b5ec-4345-98d4-e444b6b369a8": {
+      "type": "reveal-banner",
+      "blocks": {
+        "template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "SCIENCE OF AROMATHERAPY",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Aromatherapy is a holistic healing practice that utilizes aromatic ...",
+            "subheading_size": "h5",
+            "secondary_color": false
+          }
+        },
+        "template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "video_button": "Video button label",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_description": "Describe the video"
+          }
+        },
+        "template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8-slide-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "SCIENCE OF AROMATHERAPY",
+            "heading_size": "h2",
+            "heading_tag": "h2",
+            "text": "<p>Aromatherapy is a holistic healing practice that utilizes aromatic essential oils derived from plants to enhance physical, mental, and emotional well-being. Through skin absorption or inhalation, these oils engage the limbic system, influencing mood, stress, and overall health. Aromatherapy is often integrated into massage, diffusers, and personal care products..<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false,
+            "colors_button_label": "#ffffff",
+            "colors_button_background": "#1a1b18",
+            "colors_text": "#212326",
+            "colors_background": "#f3f3f3",
+            "gradient_background": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8-heading-1",
+        "template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8-subheading-1",
+        "template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8-buttons-1",
+        "template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8-slide-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AN_2814_ebe09d67-86a4-4637-a1e0-a3a659ac6361.jpg",
+        "image_position": "center center",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "show_text_below": false,
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 20,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -396,6 +470,7 @@
     "main",
     "empty-space",
     "6343f04a-b877-461b-aa5c-d63f05017c31",
-    "e53ce36a-519d-478f-b57a-a5b2855dfe28"
+    "e53ce36a-519d-478f-b57a-a5b2855dfe28",
+    "5121ed59-b5ec-4345-98d4-e444b6b369a8"
   ]
 }
