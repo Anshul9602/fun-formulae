@@ -92,9 +92,78 @@
         "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/KEW7581.jpg",
+        "image": "shopify:\/\/shop_images\/KEW6993_copy.jpg",
         "image_position": "center center",
         "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "center",
+        "image_ratio": "400px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "image_mobile": "shopify:\/\/shop_images\/KEW7581.jpg",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a5ab0c23-9e85-4a45-9e1f-51f0b9f10104": {
+      "type": "image-with-text",
+      "blocks": {
+        "b0e04c62-f69b-4bbf-8371-2c08b7de7560": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h2 hello\" style=\"font-family: 'Josefin Sans';\">AROMATHERAPY BRINGS <span style=\"font-family: Shorelines;\"> &nbsp;FUN<\/span><\/h4>"
+          }
+        },
+        "25eab969-4485-427e-bea3-826865588502": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "AROMATHERAPY BRINGS FUN",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "fe60d223-878f-4e93-a240-5fbc18b4f1c2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The self-care rituals across all the cultures of the world share a common thread and that is joy and happiness, which strengthen our bond with loved ones. The beauty of these everyday fun moments is enhanced by the aromatic bliss of pure essential oils.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "93a80f86-42bd-413d-9c17-10856bab421f": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "b0e04c62-f69b-4bbf-8371-2c08b7de7560",
+        "25eab969-4485-427e-bea3-826865588502",
+        "fe60d223-878f-4e93-a240-5fbc18b4f1c2",
+        "93a80f86-42bd-413d-9c17-10856bab421f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/KEW7581.jpg",
+        "image_position": "center center",
+        "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "left",
         "image_ratio": "650px",
@@ -319,6 +388,7 @@
   "order": [
     "image-banner",
     "b4d72778-f4ce-486c-bd08-286ef247a88d",
+    "a5ab0c23-9e85-4a45-9e1f-51f0b9f10104",
     "00e44901-5d18-4aff-9b5a-2f6f7f1bb35d",
     "main",
     "empty-space",
