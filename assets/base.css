@@ -252,7 +252,7 @@ html {
 }
 
 @media screen and (max-width: 750px) {
-  .card-information__button{
+ #Slider-template--21613581467954__featured-collection .card-information__button{
     display:none !important;
   }
 .mini-cart__footer .check1{
