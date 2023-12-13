@@ -150,7 +150,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "We believe ethical practices should be business as usual",
+            "heading": "Our Mission",
             "heading_size": "h2",
             "heading_tag": "h2"
           }
@@ -158,7 +158,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>At Fun Formulae, mindfulness of the ingredients used is of utmost importance. We believe in the purity and natural origin of our ingredients; the core of our products is aromatherapy making our products effective and reliable.<\/p>",
+            "text": "<p>We associate skin and hair with beauty but it is more of a reflection of our health and wellness. As wellness is “we are what we eat”, similarly glowing skin and healthy hair are integral part of well-being. How many times have you stood across a shelf wondering which product is best suited for your skin woes and hair worries? At Fun Formulae, we want you to make an informed decision, and for that reason, our ranges are designed as per skin type and concern. <\/p>",
             "text_size": "typeset2",
             "secondary_color": true
           }
@@ -200,7 +200,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "Our Philosophy",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -208,7 +208,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>With the firm belief in the concept of \"less is more,\" we offer our meticulously curated range of products to address your beauty concerns, tailored to suit your specific skin type. At Fun Formulae, we believe that anything which adds fun and brings you joyfulness is accepted by our body with trust and it enhances the therapeutic power of the<br\/>product.<\/p><p>I welcome you to join me on this remarkable journey, embracing the power of nature and science, bringing beauty, wellness, and joy to your lives.<\/p><p>Dr. Jyoti Nargas, Founder<\/p>",
+            "text": "<p>The environment we live in today brings many changes in our health, hair and skin. The choices we make impact our surroundings locally and globally, We need to make responsible choices as every product we use affects our ecosystem. At Fun Formulae, we use pure and natural essential oils, derived from plants, to deliver desired results. These essential oils are free from harmful chemicals. They are safe to use and offer effective solutions to your concerns.<\/p>",
             "text_size": "typeset2",
             "secondary_color": true
           }
