@@ -120,7 +120,9 @@ body{
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
-
+#Slider-template--21634042888498__41629b94-7d57-43de-8e48-8ae5f720c9bc img{
+  max-width:70% !important;
+}
 .collection .card-information__button .button {
   width: 70% !important;
 }
