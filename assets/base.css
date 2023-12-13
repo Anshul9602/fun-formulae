@@ -252,6 +252,9 @@ html {
 }
 
 @media screen and (max-width: 750px) {
+  .card-information__button button{
+    display:none;
+  }
 .mini-cart__footer .check1{
   min-height: 30px !important;
   padding: 0 !important;
