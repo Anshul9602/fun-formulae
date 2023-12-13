@@ -51,8 +51,15 @@
     "b4d72778-f4ce-486c-bd08-286ef247a88d": {
       "type": "image-with-text",
       "blocks": {
+        "265ba9b3-3fcd-4011-8de5-a12ab9c844b3": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h2 hello\" style=\"font-family: 'Josefin Sans';\">AROMATHERAPY BRINGS <span style=\"font-family: Shorelines;\"> &nbsp;FUN<\/span><\/h4>"
+          }
+        },
         "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "AROMATHERAPY BRINGS FUN",
             "heading_size": "h2",
@@ -69,25 +76,20 @@
         },
         "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-button-1": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
             "button_size": "medium",
             "button_style_secondary": false
           }
-        },
-        "265ba9b3-3fcd-4011-8de5-a12ab9c844b3": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": ""
-          }
         }
       },
       "block_order": [
+        "265ba9b3-3fcd-4011-8de5-a12ab9c844b3",
         "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-heading-1",
         "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-text-1",
-        "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-button-1",
-        "265ba9b3-3fcd-4011-8de5-a12ab9c844b3"
+        "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-button-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/KEW7581.jpg",
