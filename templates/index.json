@@ -134,7 +134,7 @@
             "custom_icon": "",
             "title": "RELAXING",
             "title_size": "h3",
-            "text": "<p>Essential oils possess relaxing properties, influencing the nervous system and inducing calmness. Applied topically or diffused environmentally they rejuvenate mind and body, fostering a serene and harmonious ambience.<\/p>"
+            "text": "<p>Essential oils possess relaxing properties, influencing the nervous system and inducing calmness. <\/p>"
           }
         },
         "4f87b2c6-6800-4450-9c9a-b7aafba41e8f": {
@@ -145,7 +145,7 @@
             "custom_icon": "",
             "title": "HEALING",
             "title_size": "h3",
-            "text": "<p>Essential oils promote healing through their bioactive compounds. They harness anti-inflammatory, antimicrobial, and antioxidant properties, fostering a natural and holistic approach to overall health and wellness.<\/p>"
+            "text": "<p>They harness anti-inflammatory, antimicrobial, and antioxidant properties, fostering a natural and holistic approach to overall health and wellness.<\/p>"
           }
         }
       },
