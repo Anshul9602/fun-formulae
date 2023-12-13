@@ -101,7 +101,9 @@ html.no-js .no-js-hidden {
   height: 62px;
   background-color: transparent;
 }
-
+body{
+      background: rgb(179, 212, 252) !important;
+}
 .header__inline-menu ul li:hover {
   color: black;
   font-weight: 600;
