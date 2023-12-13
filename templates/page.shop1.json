@@ -38,7 +38,7 @@
     "23abec13-c823-445f-ae0a-fa455d83eb24": {
       "type": "featured-collection",
       "settings": {
-        "collection": "shop-collection",
+        "collection": "featured-products",
         "products_to_show": 4,
         "show_view_all": true,
         "show_divider": false,
