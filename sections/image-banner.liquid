@@ -43,7 +43,7 @@
       {%- if section.settings.image != blank -%}
         <div class="banner__media{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
           <use-animate data-animate="zoom-fade" class="media-wrapper">
-          <a {% if block.settings.button_link1 != blank %} href="{{ block.settings.button_link1 }}"{% else %} role="link" aria-disabled="true"{% endif %} ><div class="image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
+          <a {% if section.settings.button_link1 != blank %} href="{{ section.settings.button_link1 }}"{% else %} role="link" aria-disabled="true"{% endif %} ><div class="image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
               {%-liquid
                 assign image = section.settings.image
                 assign image_class = 'image-fit'
