@@ -43,24 +43,30 @@
       {%- if section.settings.image != blank -%}
         <div class="banner__media{% if section.settings.image_2 != blank %} banner__media-half{% endif %}">
           <use-animate data-animate="zoom-fade" class="media-wrapper">
-          <a style="    cursor: pointer;"{% if section.settings.button_link1 != blank %} href="{{ section.settings.button_link1 }}"{% else %} role="link" aria-disabled="true"{% endif %} ><div class="image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
-              {%-liquid
-                assign image = section.settings.image
-                assign image_class = 'image-fit'
-                if section.settings.image_2 != blank
-                  assign image_class = image_class | append: ' banner__media-image-half'
-                endif
-                if section.settings.image_2 != blank and section.settings.stack_images_on_mobile
-                  assign sizes = stacked_sizes
-                elsif section.settings.image_2 != blank
-                  assign sizes = half_width
-                else
-                  assign sizes = full_width
-                endif
-
-                echo image | image_url: width: 1500 | image_tag: loading: 'lazy', class: image_class, sizes: sizes, widths: widths, is: 'lazy-image'
-              -%}
-              </div></a>
+          <div class="image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
+            {%- liquid
+            assign image = section.settings.image
+            assign image_class = 'image-fit'
+          
+            if section.settings.image_2 != blank
+              assign image_class = image_class | append: ' banner__media-image-half'
+            endif
+          
+            if section.settings.image_2 != blank and section.settings.stack_images_on_mobile
+              assign sizes = stacked_sizes
+            elsif section.settings.image_2 != blank
+              assign sizes = half_width
+            else
+              assign sizes = full_width
+            endif
+          
+            assign image_tag = image | image_url: width: 1500 | image_tag: loading: 'lazy', class: image_class, sizes: sizes, widths: widths, is: 'lazy-image'
+          -%}
+          
+          <a href="{{ section.settings.button_link1 }}">
+            {{ image_tag }}
+          </a>
+              </div>
           </use-animate>
         </div>
       {%- elsif section.settings.image_2 == blank -%}
