@@ -73,6 +73,7 @@
       {%- if section.settings.image_2 != blank -%}
         <div class="banner__media{% if section.settings.image != blank %} banner__media-half{% endif %}">
           <use-animate data-animate="zoom-fade" class="media-wrapper">
+          <a {% if section.settings.button_link1 != blank %} href="{{ section.settings.button_link1 }}"{% else %} role="link" aria-disabled="true"{% endif %} >
             <div class="image-animate media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
               {%-liquid
                 assign image_2nd = section.settings.image_2
@@ -90,7 +91,7 @@
 
                 echo image_2nd | image_url: width: 1500 | image_tag: loading: 'lazy', class: image_class_2nd, sizes: sizes_2nd, widths: widths, is: 'lazy-image'
               -%}
-              </div>
+              </div></a>
           </use-animate>
         </div>
       {%- endif -%}
