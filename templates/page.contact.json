@@ -26,7 +26,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/KEW7339_7599dba8-d451-4237-a6b1-d6d66fe7287a.jpg",
+        "button_link1": "shopify:\/\/products\/body-yogurt",
         "image_2": "shopify:\/\/shop_images\/KEW7581.jpg",
+        "button_link2": "",
         "image_position": "top center",
         "text_box_position": "middle-center",
         "text_alignment": "center",
