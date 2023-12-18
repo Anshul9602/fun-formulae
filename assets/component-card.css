@@ -61,7 +61,8 @@
 
 .card--product + .card-information .price,
 .card--product + .card-information .card-information__top {
-  justify-content: var(--card-flex-alignment);
+  justify-content: center;
+  
 }
 
 .card--outline {
@@ -326,7 +327,7 @@
 }
 
 .card-information__wrapper {
-  
+  text-align: center;
   width: 100%;
   line-height: calc(1 + 0.4 / var(--font-body-scale));
 }
