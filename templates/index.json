@@ -454,7 +454,7 @@
           "settings": {
             "product": "hair-shampoo",
             "color": "#ffffff",
-            "horizontal": 56,
+            "horizontal": 57,
             "vertical": 64
           }
         },
@@ -464,7 +464,7 @@
             "product": "body-butter",
             "color": "#ffffff",
             "horizontal": 70,
-            "vertical": 79
+            "vertical": 70
           }
         },
         "83bfd170-92ba-40b1-8d31-5d824be843be": {
@@ -491,7 +491,7 @@
             "product": "face-toner",
             "color": "#ffffff",
             "horizontal": 30,
-            "vertical": 72
+            "vertical": 61
           }
         },
         "c72f0f25-bc02-47fc-9990-019a4bae673e": {
@@ -500,7 +500,7 @@
             "product": "hair-conditioner",
             "color": "#ffffff",
             "horizontal": 45,
-            "vertical": 80
+            "vertical": 63
           }
         }
       },
