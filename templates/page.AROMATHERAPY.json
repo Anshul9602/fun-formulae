@@ -26,7 +26,9 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/KEW6782_copy.jpg",
+        "button_link1": "",
         "image_2": "shopify:\/\/shop_images\/KEW7339_647423fa-8713-4b53-82e3-79677a888845.jpg",
+        "button_link2": "",
         "image_position": "center center",
         "text_box_position": "bottom-center",
         "text_alignment": "center",
@@ -412,8 +414,8 @@
           "settings": {
             "button_label": "",
             "button_link": "",
-            "video_button": "Video button label",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_button": "",
+            "video_url": "",
             "video_description": "Describe the video"
           }
         },
