@@ -251,7 +251,7 @@ html {
   justify-content: center;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1750px) {
   .collection .card-information__button .button {
   width: 81% !important;
 }
