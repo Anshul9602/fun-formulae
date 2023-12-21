@@ -152,7 +152,7 @@
         "15792624-d8cc-4821-809c-cd3acf6c5644": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';color:#000;\">Our Mission<\/h4>"
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';color:#000;font-weight:600;\">Our Mission<\/h4>"
           }
         },
         "heading": {
@@ -167,7 +167,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>We associate skin and hair with beauty but it is more of a reflection of our health and wellness. As wellness is “we are what we eat”, similarly glowing skin and healthy hair are integral part of well-being. <\/p>",
+            "text": "<p>At Fun Formulae, we use pure and natural essential oils, derived from plants, to deliver desired results. These essential oils are free from harmful chemicals. They are safe to use and offer effective solutions to your concerns. <\/p>",
             "text_size": "typeset3",
             "secondary_color": true
           }
@@ -210,7 +210,7 @@
         "0c2890a2-d02e-4acb-89cd-c29ab50ddd11": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';color:#000;\">We Share As We Care<\/h4>"
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';color:#000;font-weight:600;\">We Share As We Care<\/h4>"
           }
         },
         "heading": {
@@ -280,11 +280,18 @@
             "text_size": "typeset3",
             "secondary_color": true
           }
+        },
+        "3882833e-961d-45f9-b210-14100d7d40dd": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "3882833e-961d-45f9-b210-14100d7d40dd"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/KEW6793_copy.jpg",
@@ -326,7 +333,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>At Fun Formulae, we use pure and natural essential oils, derived from plants, to deliver desired results. These essential oils are free from harmful chemicals. They are safe to use and offer effective solutions to your concerns.<\/p>",
+            "text": "<p>We associate skin and hair with beauty but it is more of a reflection of our health and wellness. As wellness is “we are what we eat”, similarly glowing skin and healthy hair are integral part of well-being.<\/p>",
             "text_size": "typeset3",
             "secondary_color": false
           }
