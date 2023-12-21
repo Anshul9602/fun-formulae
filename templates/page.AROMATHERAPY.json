@@ -451,7 +451,7 @@
         "image": "shopify:\/\/shop_images\/AN_2773.jpg",
         "image_position": "center center",
         "text_box_position": "bottom",
-        "text_alignment": "right",
+        "text_alignment": "left",
         "image_ratio": "650px",
         "full_width": true,
         "show_divider": false,
