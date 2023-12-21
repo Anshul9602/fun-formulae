@@ -265,8 +265,8 @@
             "show_quick_buy": false,
             "enable_quick_view": true,
             "color": "#ffffff",
-            "horizontal": 38,
-            "vertical": 63
+            "horizontal": 34,
+            "vertical": 54
           }
         },
         "48d9ac22-ea45-4db1-9dd4-2fb4eb73243e": {
@@ -279,7 +279,7 @@
             "enable_quick_view": true,
             "color": "#ffffff",
             "horizontal": 52,
-            "vertical": 80
+            "vertical": 70
           }
         },
         "template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31-product-2": {
@@ -291,8 +291,8 @@
             "show_quick_buy": false,
             "enable_quick_view": true,
             "color": "#ffffff",
-            "horizontal": 67,
-            "vertical": 63
+            "horizontal": 70,
+            "vertical": 60
           }
         }
       },
@@ -302,7 +302,7 @@
         "template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31-product-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/AN_2743.jpg",
+        "image": "shopify:\/\/shop_images\/AN_2743_1.jpg",
         "layout": "text_first",
         "text_box_position": "top",
         "text_alignment": "left",
