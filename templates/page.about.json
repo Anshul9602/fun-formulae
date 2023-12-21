@@ -265,8 +265,15 @@
     "image-with-text-2": {
       "type": "image-with-text",
       "blocks": {
+        "c1387308-6885-495b-aea4-e4cbefb9a17b": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';color:#000;font-weight:600;\">What We Believe<\/h4>"
+          }
+        },
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "What We Believe",
             "heading_size": "h1",
@@ -289,6 +296,7 @@
         }
       },
       "block_order": [
+        "c1387308-6885-495b-aea4-e4cbefb9a17b",
         "heading",
         "text",
         "3882833e-961d-45f9-b210-14100d7d40dd"
