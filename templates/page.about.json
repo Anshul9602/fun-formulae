@@ -26,6 +26,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/AN_2853_eade3385-452e-44ae-8875-93a20f3c5f4f.jpg",
+        "button_link1": "",
+        "button_link2": "",
         "image_position": "center center",
         "text_box_position": "bottom-center",
         "text_alignment": "center",
@@ -200,7 +202,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "We Share As We Care",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -250,7 +252,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "WHAT WE BELIEVE",
+            "heading": "What We Believe",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
