@@ -149,8 +149,15 @@
     "image-with-text-0": {
       "type": "image-with-text",
       "blocks": {
+        "15792624-d8cc-4821-809c-cd3acf6c5644": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';color:#000;\">Our Mission<\/h4>"
+          }
+        },
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Our Mission",
             "heading_size": "h2",
@@ -167,6 +174,7 @@
         }
       },
       "block_order": [
+        "15792624-d8cc-4821-809c-cd3acf6c5644",
         "heading",
         "text"
       ],
