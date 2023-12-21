@@ -452,7 +452,7 @@
         "image_position": "center center",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "650px",
+        "image_ratio": "adapt",
         "full_width": true,
         "show_divider": false,
         "mobile_text_alignment": "center",
