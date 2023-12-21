@@ -331,6 +331,7 @@
         },
         "template--21613581467954__7587530a-758c-40f5-9a13-03670fbb99e9-button-1": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "GET INSPIRED",
             "button_link": "shopify:\/\/pages\/aromatherapy",

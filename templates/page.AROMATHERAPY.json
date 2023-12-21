@@ -403,6 +403,7 @@
         },
         "template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8-subheading-1": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "Aromatherapy is a holistic healing practice that utilizes aromatic...",
             "subheading_size": "h5",
