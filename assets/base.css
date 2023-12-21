@@ -251,6 +251,11 @@ html {
   justify-content: center;
 }
 
+@media screen and (max-width: 1450px) {
+  .collection .card-information__button .button {
+  width: 81% !important;
+}
+}
 @media screen and (max-width: 750px) {
  #Slider-template--21613581467954__featured-collection .card-information__button{
     display:none !important;
