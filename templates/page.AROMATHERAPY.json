@@ -72,7 +72,7 @@
           "type": "text",
           "settings": {
             "text": "<p>The self-care rituals across all the cultures of the world share a common thread and that is joy and happiness, which strengthen our bond with loved ones. The beauty of these everyday fun moments is enhanced by the aromatic bliss of pure essential oils.<\/p>",
-            "text_size": "typeset",
+            "text_size": "typeset3",
             "secondary_color": false
           }
         },
@@ -142,7 +142,7 @@
           "type": "text",
           "settings": {
             "text": "<p>At Fun Formulae, we choose our ingredients meticulously, based on scientific studies on the medicinal values of plants and the essential oils derived from them. The formulations are precise and effective based on the therapeutic properties of essential oils.<\/p>",
-            "text_size": "typeset",
+            "text_size": "typeset3",
             "secondary_color": false
           }
         },
@@ -403,10 +403,9 @@
         },
         "template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8-subheading-1": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
             "subheading": "Aromatherapy is a holistic healing practice that utilizes aromatic...",
-            "subheading_size": "h5",
+            "subheading_size": "h4",
             "secondary_color": false
           }
         },
@@ -427,7 +426,7 @@
             "heading_size": "h2",
             "heading_tag": "h2",
             "text": "<p>Aromatherapy is a holistic healing practice that utilizes aromatic essential oils derived from plants to enhance physical, mental, and emotional well-being. Through skin absorption or inhalation, these oils engage the limbic system, influencing mood, stress, and overall health. Aromatherapy is often integrated into massage, diffusers, and personal care products.<\/p>",
-            "text_size": "typeset2",
+            "text_size": "typeset3",
             "secondary_color": false,
             "button_label": "",
             "button_link": "",
