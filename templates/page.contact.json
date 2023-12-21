@@ -32,7 +32,7 @@
         "image_position": "bottom center",
         "text_box_position": "middle-center",
         "text_alignment": "center",
-        "image_ratio": "750px",
+        "image_ratio": "adapt",
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
