@@ -207,8 +207,15 @@
     "image-with-text-1": {
       "type": "image-with-text",
       "blocks": {
+        "0c2890a2-d02e-4acb-89cd-c29ab50ddd11": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';color:#000;\">We Share As We Care<\/h4>"
+          }
+        },
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "We Share As We Care",
             "heading_size": "h1",
@@ -225,6 +232,7 @@
         }
       },
       "block_order": [
+        "0c2890a2-d02e-4acb-89cd-c29ab50ddd11",
         "heading",
         "text"
       ],
