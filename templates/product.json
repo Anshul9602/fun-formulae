@@ -152,7 +152,7 @@
     "4ab487cb-2fe3-40a2-9891-37720232c0af": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"row\">\n  {%- assign ingredientList = product.metafields.custom.ingredient_list -%}\n              {%- if ingredientList != blank -%}\n  <div class=\"col-md-3 card\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0841\/8371\/2050\/files\/Asset_793.png?v=1703241363\" alt=\"\" width=\"40\">\n    <h4>heading<\/h4>\n    <p>test<\/p>\n  <\/div>\n  {%- endif -%}\n<\/div>",
+        "custom_liquid": "",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
