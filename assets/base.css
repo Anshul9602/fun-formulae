@@ -257,6 +257,9 @@ html {
 }
 }
 @media screen and (max-width: 750px) {
+  .thumbnail-slider .thumbnail-list+.slider-buttons {
+        left: 33% !important;
+  }
  #Slider-template--21613581467954__featured-collection .card-information__button{
     display:none !important;
   }
