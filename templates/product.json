@@ -445,6 +445,67 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "ce8b31b5-20d0-4a7f-9c04-bceb3310d471": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21613581664562__ce8b31b5-20d0-4a7f-9c04-bceb3310d471-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--21613581664562__ce8b31b5-20d0-4a7f-9c04-bceb3310d471-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "template--21613581664562__ce8b31b5-20d0-4a7f-9c04-bceb3310d471-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21613581664562__ce8b31b5-20d0-4a7f-9c04-bceb3310d471-column-1",
+        "template--21613581664562__ce8b31b5-20d0-4a7f-9c04-bceb3310d471-column-2",
+        "template--21613581664562__ce8b31b5-20d0-4a7f-9c04-bceb3310d471-column-3"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "image_width": "full",
+        "columns_desktop": 3,
+        "heading": "Multicolumn",
+        "subheading": "Multicolumn",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -456,6 +517,7 @@
     "product-recommendations",
     "recently-viewed-products",
     "collapsible-content",
-    "testimonials"
+    "testimonials",
+    "ce8b31b5-20d0-4a7f-9c04-bceb3310d471"
   ]
 }
