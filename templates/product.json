@@ -109,6 +109,12 @@
           "settings": {
             "show_quantity_selector": false
           }
+        },
+        "131523a6-a5f7-44ea-90f8-db519a282c79": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -124,7 +130,8 @@
         "inventory_status",
         "share",
         "related_buttons",
-        "sticky_cart"
+        "sticky_cart",
+        "131523a6-a5f7-44ea-90f8-db519a282c79"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -140,6 +147,16 @@
         "show_mobile_thumbnails": true,
         "padding_top": 0,
         "padding_bottom": 72
+      }
+    },
+    "4ab487cb-2fe3-40a2-9891-37720232c0af": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"row\">\n  {%- assign ingredientList = product.metafields.custom.ingredient_list -%}\n              {%- if ingredientList != blank -%}\n  <div class=\"col-md-3 card\">\n    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0841\/8371\/2050\/files\/Asset_793.png?v=1703241363\" alt=\"\" width=\"40\">\n    <h4>heading<\/h4>\n    <p>test<\/p>\n  <\/div>\n  {%- endif -%}\n<\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "scrolling-promotion": {
@@ -433,6 +450,7 @@
   "order": [
     "empty-space",
     "main",
+    "4ab487cb-2fe3-40a2-9891-37720232c0af",
     "scrolling-promotion",
     "guarantees",
     "product-recommendations",
