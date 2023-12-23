@@ -25,9 +25,9 @@
         "text"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/AN_2451.png",
+        "image": "shopify:\/\/shop_images\/download_3.jpg",
         "button_link1": "",
-        "image_2": "shopify:\/\/shop_images\/AN_2508.png",
+        "image_2": "shopify:\/\/shop_images\/download.jpg",
         "button_link2": "",
         "image_position": "center center",
         "text_box_position": "bottom-center",
@@ -111,6 +111,7 @@
         "template--21816277041458__c585d89f-6fa6-46f7-aef5-e6c8b881fedd-text-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Aromatherapy_oil_stock_photo_containing_oil_and_essential.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -124,6 +125,7 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "enable_video_looping": false,
+        "video_url": "",
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
@@ -220,6 +222,7 @@
         "1b2ad94f-0d05-492f-92eb-1d1e1fd65656"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/download_1.jpg",
         "image_position": "center center",
         "layout": "text_first",
         "text_box_position": "middle",
@@ -233,6 +236,7 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "enable_video_looping": false,
+        "video_url": "",
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
@@ -268,6 +272,7 @@
         "template--21816277041458__f7f4e066-a9da-4c67-9fab-7fd9d71812db-text-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/download_2.jpg",
         "button_link1": "",
         "button_link2": "",
         "image_position": "center center",
