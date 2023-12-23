@@ -336,7 +336,7 @@
           "type": "text",
           "settings": {
             "text": "<p>At Fun Formulae, we use pure and natural essential oils, derived from plants, to deliver desired results. These essential oils are free from harmful chemicals. They are safe to use and offer effective solutions to your concerns. <\/p>",
-            "text_size": "typeset3",
+            "text_size": "typeset2",
             "secondary_color": true
           }
         }
@@ -394,7 +394,7 @@
           "type": "text",
           "settings": {
             "text": "<p>How many times have you stood across a shelf wondering which product is best suited for your skin woes and hair worries? At Fun Formulae, we want you to make an informed decision, and for that reason, our ranges are designed as per skin type and concern. <\/p>",
-            "text_size": "typeset3",
+            "text_size": "typeset2",
             "secondary_color": true
           }
         }
@@ -452,7 +452,7 @@
           "type": "text",
           "settings": {
             "text": "<p>The environment we live in today brings many changes in our health, hair and skin. The choices we make impact our surroundings locally and globally, We need to make responsible choices as every product we use affects our ecosystem.<\/p>",
-            "text_size": "typeset3",
+            "text_size": "typeset2",
             "secondary_color": true
           }
         },
