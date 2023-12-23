@@ -152,7 +152,7 @@
         "15792624-d8cc-4821-809c-cd3acf6c5644": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';color:#000;font-weight:600;\">letter Form founder<\/h4>"
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';color:#000;font-weight:600;\">letter from founder<\/h4>"
           }
         },
         "heading": {
