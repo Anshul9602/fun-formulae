@@ -202,82 +202,6 @@
         "padding_bottom": 28
       }
     },
-    "guarantees": {
-      "type": "guarantees",
-      "blocks": {
-        "guarantee-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "leaf",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h4",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "guarantee-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "globe",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h4",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "guarantee-2": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "recycle",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h4",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        },
-        "guarantee-3": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "shield",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h4",
-            "text": "<p>Welcome to our store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "guarantee-0",
-        "guarantee-1",
-        "guarantee-2",
-        "guarantee-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "Guarantees",
-        "subheading": "Guarantees",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 72,
-        "padding_bottom": 36
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -406,33 +330,104 @@
           "type": "testimonial",
           "settings": {
             "icon": "5",
-            "text": "<p>“I’m absolutely thrilled with the results of the skincare products I purchased from this website. My skin has never felt smoother, and the visible reduction in fine lines has boosted my confidence. I’m a customer for life!”<\/p>",
-            "author": "Ashima Roy"
+            "text": "<p>\"I'm amazed by this body butter! Its silky smooth texture glides effortlessly, and the scent is heavenly, leaving my skin deeply nourished and irresistibly fragrant. A luxurious treat indeed for my nightcare regime!\"<\/p>",
+            "author": "Anju dave"
           }
         },
         "testimonial-1": {
           "type": "testimonial",
           "settings": {
             "icon": "5",
-            "text": "<p>I’ve struggled with sensitive skin for years, and finding the right products was always a challenge. Thankfully, ‘Fun Formulae’ not only provided gentle and nourishing options but also delivered stunning results.<\/p>",
-            "author": "Shavya Tandon"
+            "text": "<p>\"This body yogurt is a game-changer! It hydrates deeply without feeling greasy, leaves my skin incredibly soft all day and the aroma is divine—a refreshing and nourishing delight every time!\" <\/p>",
+            "author": "Aditi jain"
           }
         },
         "testimonial-2": {
           "type": "testimonial",
           "settings": {
             "icon": "4",
-            "text": "<p>I’ve tried numerous beauty products over the years, but this website’s cosmetics truly stand out.<\/p>",
-            "author": "Irina Bukata"
+            "text": "<p>This shampoo is amazing! I've experienced visibly less hair fall and a healthier scalp. My hair feels incredibly soft and bouncy. Plus, the lingering floral smell keeps me feeling refreshed all day. Truly transformative for my hair !\"<\/p>",
+            "author": "Aakriti ganesh"
+          }
+        },
+        "22c6386a-ef5d-4920-943b-9245c8be624f": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4",
+            "text": "<p>\"This conditioner effortlessly transforms my hair, leaving it unbelievably soft and nourished. A little goes a long way, making it a staple in my hair care routine. I love the luxurious aroma of ylang-ylang keeping my hair smell so fresh. Highly recommended for anyone seeking luscious locks!\"<\/p>",
+            "author": "Anjali tamhankar"
+          }
+        },
+        "0a6621f6-4f26-4a57-8f7b-83907eeb3a34": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>I have been using this face scrub n pack duo for 4 months now. It's very convenient and effective. The gentle scrub is perfect for my delicate skin and the pack is so hydrating it keeps my skin plump. The feeling after using this product is so nice, never come across such a gentle and nourishing scrub. <\/p>",
+            "author": "Aaifa"
+          }
+        },
+        "b7b9d0ef-3ca1-48c0-a756-5926b98073e9": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4",
+            "text": "<p>This sunscreen has a very mild delightful scent, blends easily in the skin and I can feel the difference like an umbrella over my skin.<\/p>",
+            "author": "Shivani bapna"
+          }
+        },
+        "dbe3f427-06e4-4c0d-afc0-44c82bac4de7": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>This is so yummy and so good_ _ _ like jam! The gentle exfoliation of this body scrub makes my skin smooth and soft to the touch. It is so nourishing and hydrating that I can feel my skin moisturised.<\/p>",
+            "author": "Neha"
+          }
+        },
+        "c4b60082-6be1-4c30-8ff5-f2d063bc1cf1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>This toner is so heavenly, like an instant refreshing drink for my skin.  It deeply hydrates my skin and adds a healthy glow! Super good!!<\/p>",
+            "author": "Uditha"
+          }
+        },
+        "29449d08-2fd2-4920-9bae-4d2184676d8d": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>It is so mild yet so effective !!!!!!! I can see visible reduction in my acne. Due to my beard  its difficult to apply any products but this acne gel is so smooth it gets absorbed instantly, not noticeable at all and works wonders on my skin.<\/p>",
+            "author": "Kabir kothari"
+          }
+        },
+        "b268f45f-aad5-4dfc-9e01-313f12371498": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>I have been using this face wash for two months now and can see visibly calm skin. My menopausal acne stressed me so much and this face wash is so delicate _ _ _ it cleanses my skin leaving it hydrated and nourished. Ilove the instant healthy glow it adds to my skin.<\/p>",
+            "author": "Ritika soni"
+          }
+        },
+        "b4593664-f5fc-47be-acac-ed18012c7426": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4",
+            "text": "<p>Shower time is my most joyful time with this wonderfully smelling body wash. My skin feels soft, plump and nourished after using this. It balances my skin without making it dry.<\/p>",
+            "author": "Soumya m."
           }
         }
       },
       "block_order": [
         "testimonial-0",
         "testimonial-1",
-        "testimonial-2"
+        "testimonial-2",
+        "22c6386a-ef5d-4920-943b-9245c8be624f",
+        "0a6621f6-4f26-4a57-8f7b-83907eeb3a34",
+        "b7b9d0ef-3ca1-48c0-a756-5926b98073e9",
+        "dbe3f427-06e4-4c0d-afc0-44c82bac4de7",
+        "c4b60082-6be1-4c30-8ff5-f2d063bc1cf1",
+        "29449d08-2fd2-4920-9bae-4d2184676d8d",
+        "b268f45f-aad5-4dfc-9e01-313f12371498",
+        "b4593664-f5fc-47be-acac-ed18012c7426"
       ],
-      "disabled": true,
       "settings": {
         "autorotate": false,
         "autorotate_speed": 5,
@@ -452,7 +447,6 @@
     "main",
     "4ab487cb-2fe3-40a2-9891-37720232c0af",
     "scrolling-promotion",
-    "guarantees",
     "product-recommendations",
     "recently-viewed-products",
     "collapsible-content",
