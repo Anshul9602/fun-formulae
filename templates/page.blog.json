@@ -65,13 +65,33 @@
         "mobile_height": 48
       }
     },
+    "04378444-3ca0-4295-8e85-ede377a7a9b0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<h3>NAVIGATING CLEAN BEAUTY: UNDERSTANDING CONCERNFUL INGREDIENTS AND HEALTHIER SUBSTITUTES<\/h3>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "b3051f49-b8f0-4359-9046-225ea52ea6f4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<p>The beauty industry is evolving, with a heightened awareness of the potential CONCERN some ingredients can pose. As consumers become more discerning, understanding these substances and their alternatives becomes paramount. Let's delve into some concerning ingredients and their cleaner substitutes:\n<\/p>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "c585d89f-6fa6-46f7-aef5-e6c8b881fedd": {
       "type": "image-with-text",
       "blocks": {
         "template--21816277041458__c585d89f-6fa6-46f7-aef5-e6c8b881fedd-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "1. Phthalates",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -79,25 +99,15 @@
         "template--21816277041458__c585d89f-6fa6-46f7-aef5-e6c8b881fedd-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>CONCERN: Phthalates, often found in fragrances, can disrupt the endocrine system, potentially leading to hormonal imbalances.<\/p><p>SUBSTITUTE: Opt for products incorporated with essential oils or labeled explicitly as \"phthalate-free.\" Natural fragrances, derived from botanicals, offer a safer aroma with added benefits associated with their active ingredients.<\/p>",
             "text_size": "typeset2",
             "secondary_color": false
-          }
-        },
-        "template--21816277041458__c585d89f-6fa6-46f7-aef5-e6c8b881fedd-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "template--21816277041458__c585d89f-6fa6-46f7-aef5-e6c8b881fedd-heading-1",
-        "template--21816277041458__c585d89f-6fa6-46f7-aef5-e6c8b881fedd-text-1",
-        "template--21816277041458__c585d89f-6fa6-46f7-aef5-e6c8b881fedd-button-1"
+        "template--21816277041458__c585d89f-6fa6-46f7-aef5-e6c8b881fedd-text-1"
       ],
       "settings": {
         "image_position": "center center",
@@ -129,10 +139,10 @@
         "template--21816277041458__6e5d7bfe-bc0a-49b5-92c5-230f1fb1756c-column-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "2. Parabens",
             "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "text": "<p>CONCERN: Parabens, used as preservatives, have raised alarms due to their potential link to breast cancer and hormonal disturbances.<\/p><p>SUBSTITUTE: Seek out products preserved with natural substitutes like tocopherol (vitamin E) or grapefruit seed extract. These offer effective preservation without the health concerns associated with parabens.<\/p>",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -140,10 +150,10 @@
         "template--21816277041458__6e5d7bfe-bc0a-49b5-92c5-230f1fb1756c-column-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "3. Sulphates (SLS & SLES)",
             "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "text": "<p>CONCERN: Sulphates are powerful detergents that can strip the skin and hair of natural oils, causing dryness, irritation, and extreme skin conditions like eczema.<\/p><p>SUBSTITUTE: Look for cleansers formulated with milder surfactants like coco-glucoside or decyl glucoside. These gentler options cleanse effectively without compromising skin and hair health.<\/p>",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -151,10 +161,10 @@
         "template--21816277041458__6e5d7bfe-bc0a-49b5-92c5-230f1fb1756c-column-3": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "4. Alcohol",
             "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
+            "text": "<p>CONCERN: Alcohol, especially in high concentrations, can be drying and irritating, leading to increased sensitivity and potential skin barrier damage.<\/p><p>SUBSTITUTE: Choose products containing fatty alcohols like cetyl alcohol or stearyl alcohol, which offer emollient properties and are less drying than their counterparts.<\/p>",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -172,8 +182,8 @@
         "show_divider": false,
         "image_width": "full",
         "columns_desktop": 3,
-        "heading": "Multicolumn",
-        "subheading": "Multicolumn",
+        "heading": "",
+        "subheading": "",
         "heading_size": "h1",
         "heading_alignment": "left",
         "heading_tag": "h2",
@@ -184,13 +194,61 @@
         "padding_bottom": 36
       }
     },
+    "a2dc621c-fbe2-4207-9e0c-4a7ca5f5a743": {
+      "type": "image-with-text",
+      "blocks": {
+        "e01a78a9-990e-43fc-b831-f1435bdd66a6": {
+          "type": "heading",
+          "settings": {
+            "heading": "5. Cruelty-Free Products",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "1b2ad94f-0d05-492f-92eb-1d1e1fd65656": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CONCERN: Traditional testing methods, which involve animals, are not only unethical but can also be unreliable predictors of human reactions.<\/p><p>SUBSTITUTE: Prioritize brands that use alternative testing methods, such as in vitro testing or human volunteer trials, ensuring both product safety and ethical standards.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "e01a78a9-990e-43fc-b831-f1435bdd66a6",
+        "1b2ad94f-0d05-492f-92eb-1d1e1fd65656"
+      ],
+      "settings": {
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "f7f4e066-a9da-4c67-9fab-7fd9d71812db": {
       "type": "image-banner",
       "blocks": {
         "template--21816277041458__f7f4e066-a9da-4c67-9fab-7fd9d71812db-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Conclusion",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -198,25 +256,15 @@
         "template--21816277041458__f7f4e066-a9da-4c67-9fab-7fd9d71812db-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Clean beauty isn't merely a word; it's a movement towards safer, more conscious choices. By understanding the potential harms of certain ingredients and embracing their healthier alternatives, consumers can navigate the beauty aisle with confidence, prioritizing both personal well-being and ethical considerations.<\/p>",
             "text_size": "typeset2",
             "secondary_color": false
-          }
-        },
-        "template--21816277041458__f7f4e066-a9da-4c67-9fab-7fd9d71812db-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
         "template--21816277041458__f7f4e066-a9da-4c67-9fab-7fd9d71812db-heading-1",
-        "template--21816277041458__f7f4e066-a9da-4c67-9fab-7fd9d71812db-text-1",
-        "template--21816277041458__f7f4e066-a9da-4c67-9fab-7fd9d71812db-button-1"
+        "template--21816277041458__f7f4e066-a9da-4c67-9fab-7fd9d71812db-text-1"
       ],
       "settings": {
         "button_link1": "",
@@ -241,204 +289,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "184ccee4-5f9a-4d4f-8364-b28667fefa63": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--21816277041458__184ccee4-5f9a-4d4f-8364-b28667fefa63-collapsible_row-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--21816277041458__184ccee4-5f9a-4d4f-8364-b28667fefa63-collapsible_row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--21816277041458__184ccee4-5f9a-4d4f-8364-b28667fefa63-collapsible_row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        },
-        "template--21816277041458__184ccee4-5f9a-4d4f-8364-b28667fefa63-collapsible_row-4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "row_content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21816277041458__184ccee4-5f9a-4d4f-8364-b28667fefa63-collapsible_row-1",
-        "template--21816277041458__184ccee4-5f9a-4d4f-8364-b28667fefa63-collapsible_row-2",
-        "template--21816277041458__184ccee4-5f9a-4d4f-8364-b28667fefa63-collapsible_row-3",
-        "template--21816277041458__184ccee4-5f9a-4d4f-8364-b28667fefa63-collapsible_row-4"
-      ],
-      "settings": {
-        "open_first_collapsible_row": false,
-        "narrow": false,
-        "show_divider": false,
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "b46a17e3-719c-462e-9eff-1d6e1c471e8f": {
-      "type": "featured-blog",
-      "blocks": {
-        "template--21816277041458__b46a17e3-719c-462e-9eff-1d6e1c471e8f-title-1": {
-          "type": "title",
-          "settings": {
-            "show_date": true,
-            "show_author": false,
-            "show_comment_count": false
-          }
-        },
-        "template--21816277041458__b46a17e3-719c-462e-9eff-1d6e1c471e8f-summary-1": {
-          "type": "summary",
-          "settings": {
-          }
-        },
-        "template--21816277041458__b46a17e3-719c-462e-9eff-1d6e1c471e8f-read_more-1": {
-          "type": "read_more",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--21816277041458__b46a17e3-719c-462e-9eff-1d6e1c471e8f-title-1",
-        "template--21816277041458__b46a17e3-719c-462e-9eff-1d6e1c471e8f-summary-1",
-        "template--21816277041458__b46a17e3-719c-462e-9eff-1d6e1c471e8f-read_more-1"
-      ],
-      "settings": {
-        "blog": "news",
-        "post_limit": 3,
-        "show_view_all": true,
-        "show_divider": false,
-        "heading": "Blog posts",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "show_image": true,
-        "image_ratio": "landscape",
-        "image_position": "center center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "92a8ef96-012f-41e3-93fa-ffbc48308854": {
-      "type": "tab-collage",
-      "blocks": {
-        "template--21816277041458__92a8ef96-012f-41e3-93fa-ffbc48308854-image-1": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "heading": "Image heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--21816277041458__92a8ef96-012f-41e3-93fa-ffbc48308854-video-1": {
-          "type": "video",
-          "settings": {
-            "image_position": "center center",
-            "enable_video_looping": false,
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "video_alt": "",
-            "heading": "Video heading",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--21816277041458__92a8ef96-012f-41e3-93fa-ffbc48308854-product-1": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "template--21816277041458__92a8ef96-012f-41e3-93fa-ffbc48308854-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_position": "center center",
-            "heading": "",
-            "description": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--21816277041458__92a8ef96-012f-41e3-93fa-ffbc48308854-image-1",
-        "template--21816277041458__92a8ef96-012f-41e3-93fa-ffbc48308854-video-1",
-        "template--21816277041458__92a8ef96-012f-41e3-93fa-ffbc48308854-product-1",
-        "template--21816277041458__92a8ef96-012f-41e3-93fa-ffbc48308854-collection-1"
-      ],
-      "settings": {
-        "layout": "text_first",
-        "text_box_position": "top",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "make_collapsible_rows": false,
-        "full_width": true,
-        "show_divider": false,
-        "heading": "Tab collage",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "mobile_layout": "text_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#ffffff",
-        "colors_border": "#d2d5d9",
-        "colors_background": "#1a1b18",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image-banner",
     "main",
     "empty-space",
+    "04378444-3ca0-4295-8e85-ede377a7a9b0",
+    "b3051f49-b8f0-4359-9046-225ea52ea6f4",
     "c585d89f-6fa6-46f7-aef5-e6c8b881fedd",
     "6e5d7bfe-bc0a-49b5-92c5-230f1fb1756c",
-    "f7f4e066-a9da-4c67-9fab-7fd9d71812db",
-    "184ccee4-5f9a-4d4f-8364-b28667fefa63",
-    "b46a17e3-719c-462e-9eff-1d6e1c471e8f",
-    "92a8ef96-012f-41e3-93fa-ffbc48308854"
+    "a2dc621c-fbe2-4207-9e0c-4a7ca5f5a743",
+    "f7f4e066-a9da-4c67-9fab-7fd9d71812db"
   ]
 }
