@@ -63,7 +63,7 @@
         "delay": 5,
         "expiry": 30,
         "width": 600,
-        "padding": 40,
+        "padding": 60,
         "text_alignment": "center",
         "text_box_position": "center",
         "image_position": "top",
