@@ -60,7 +60,7 @@
         "mode": "enabled",
         "only_homepage": true,
         "only_visitor": true,
-        "delay": 5,
+        "delay": 2,
         "expiry": 30,
         "width": 600,
         "padding": 60,
