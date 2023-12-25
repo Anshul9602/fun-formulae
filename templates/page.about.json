@@ -515,6 +515,12 @@
             "heading_tag": "h2"
           }
         },
+        "faeed4e8-f53a-4106-a7b9-78cc2d121a0c": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';color:#000;font-weight:600;\">Beauty and health Go hand in hand<\/h4>"
+          }
+        },
         "text": {
           "type": "text",
           "settings": {
@@ -536,6 +542,7 @@
       },
       "block_order": [
         "heading",
+        "faeed4e8-f53a-4106-a7b9-78cc2d121a0c",
         "text",
         "button"
       ],
