@@ -4,7 +4,9 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/KEW7404copy.jpg",
+        "button_link1": "",
         "image_2": "shopify:\/\/shop_images\/KEW6927_copy.jpg",
+        "button_link2": "",
         "image_position": "center center",
         "text_box_position": "bottom-center",
         "text_alignment": "center",
@@ -162,9 +164,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/c157e09f-677e-4250-9018-42ac76f38b51.jpg",
-            "title": "NEROLI OIL",
+            "title": "CLOVE OIL",
             "title_size": "h3",
-            "text": "<p>Neroli oil, abundant in antioxidants like limonene, aids cellular rejuvenation, promoting a vibrant and youthful complexion....<\/p>",
+            "text": "<p>rich in eugenol promotes skin cell turnover antimicrobial and anti-inflammatory properties facilitate renewal and regeneration<strong> <\/strong>revitalize<br\/>complexion<\/p>",
             "button_label": "",
             "button_link": "",
             "button_style_secondary": false
@@ -174,9 +176,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/New_Project_6.png",
-            "title": "NUTMEG OIL",
+            "title": "GERANIUM OIL",
             "title_size": "h3",
-            "text": "<p>Nutmeg oil, containing myristicin and elemicin, demonstrates remarkable anti-inflammatory effects, soothing skin irritations....<\/p>",
+            "text": "<p>astringent and anti-inflammatory properties regulates sebum promotes cellular regeneration     enhances complexion.<\/p>",
             "button_label": "",
             "button_link": "",
             "button_style_secondary": false
@@ -186,9 +188,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/New_Project_7.png",
-            "title": "GERANIUM OIL",
+            "title": "JUNIPERBERRY OIL ",
             "title_size": "h3",
-            "text": "<p>Geranium oil possesses antibacterial properties, aiding in the prevention of acne and promoting clearer skin....<\/p>",
+            "text": "<p>has antioxidant properties that shield from free radicals combats stress and premature ageing anti-inflammatory and antimicrobial attributes inhibits bacterial         <\/p><p>                                   growth<\/p><p> <\/p><p>                                   promoting a<br\/>healthier skin microbiome..<\/p>",
             "button_label": "",
             "button_link": "",
             "button_style_secondary": false
