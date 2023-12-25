@@ -81,13 +81,13 @@
     "5a0509c9-0be5-4914-a801-6f89e7153ea9": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/f0c7f899-ee42-4459-9c19-f45b78ef7bd8.jpg",
+        "image": "shopify:\/\/shop_images\/1.jpg",
         "button_link1": "",
         "button_link2": "",
         "image_position": "center center",
         "text_box_position": "middle-center",
         "text_alignment": "center",
-        "image_ratio": "adapt",
+        "image_ratio": "600px",
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
