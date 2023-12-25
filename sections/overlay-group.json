@@ -57,7 +57,7 @@
       "settings": {
         "mode": "enabled",
         "only_homepage": true,
-        "only_visitor": true,
+        "only_visitor": false,
         "delay": 2,
         "expiry": 30,
         "width": 410,
