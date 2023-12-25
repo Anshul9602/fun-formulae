@@ -7,7 +7,6 @@
       "blocks": {
         "popup-0": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
             "subheading": "",
             "subheading_size": "h5"
@@ -23,7 +22,6 @@
         },
         "popup-2": {
           "type": "newsletter",
-          "disabled": true,
           "settings": {
             "text": "<p>Subscribe to our newsletter and be the first to hear about our new arrivals, special promotions and online exclusives.<\/p>",
             "button_style_secondary": true,
@@ -62,8 +60,8 @@
         "only_visitor": false,
         "delay": 2,
         "expiry": 30,
-        "width": 600,
-        "padding": 60,
+        "width": 670,
+        "padding": 68,
         "text_alignment": "center",
         "text_box_position": "center",
         "image": "shopify:\/\/shop_images\/KEW6993_copy_c36888a4-32e2-4048-a319-4d7cfd15d00e.jpg",
