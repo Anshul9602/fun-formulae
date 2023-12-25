@@ -7,21 +7,23 @@
       "blocks": {
         "popup-0": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
-            "subheading": "First timer?",
+            "subheading": "",
             "subheading_size": "h5"
           }
         },
         "popup-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Sign up and get 10% off your first order<\/p>",
+            "text": "<p>Join us and get 10% off your first order<\/p>",
             "text_size": "typeset3",
             "secondary_color": false
           }
         },
         "popup-2": {
           "type": "newsletter",
+          "disabled": true,
           "settings": {
             "text": "<p>Subscribe to our newsletter and be the first to hear about our new arrivals, special promotions and online exclusives.<\/p>",
             "button_style_secondary": true,
@@ -54,7 +56,6 @@
         "popup-3",
         "popup-4"
       ],
-      "disabled": true,
       "settings": {
         "mode": "enabled",
         "only_homepage": true,
