@@ -60,7 +60,7 @@
         "only_visitor": false,
         "delay": 2,
         "expiry": 30,
-        "width": 670,
+        "width": 410,
         "padding": 20,
         "text_alignment": "center",
         "text_box_position": "center",
