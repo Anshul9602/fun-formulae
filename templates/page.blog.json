@@ -143,7 +143,7 @@
           "type": "column",
           "settings": {
             "title": "2. Parabens",
-            "title_size": "h3",
+            "title_size": "h2",
             "text": "<p>CONCERN: Parabens, used as preservatives, have raised alarms due to their potential link to breast cancer and hormonal disturbances.<\/p><p>SUBSTITUTE: Seek out products preserved with natural substitutes like tocopherol (vitamin E) or grapefruit seed extract. These offer effective preservation without the health concerns associated with parabens.<\/p>",
             "button_label": "",
             "button_link": "",
@@ -154,7 +154,7 @@
           "type": "column",
           "settings": {
             "title": "3. Sulphates (SLS & SLES)",
-            "title_size": "h3",
+            "title_size": "h2",
             "text": "<p>CONCERN: Sulphates are powerful detergents that can strip the skin and hair of natural oils, causing dryness, irritation, and extreme skin conditions like eczema.<\/p><p>SUBSTITUTE: Look for cleansers formulated with milder surfactants like coco-glucoside or decyl glucoside. These gentler options cleanse effectively without compromising skin and hair health.<\/p>",
             "button_label": "",
             "button_link": "",
@@ -165,7 +165,7 @@
           "type": "column",
           "settings": {
             "title": "4. Alcohol",
-            "title_size": "h3",
+            "title_size": "h2",
             "text": "<p>CONCERN: Alcohol, especially in high concentrations, can be drying and irritating, leading to increased sensitivity and potential skin barrier damage.<\/p><p>SUBSTITUTE: Choose products containing fatty alcohols like cetyl alcohol or stearyl alcohol, which offer emollient properties and are less drying than their counterparts.<\/p>",
             "button_label": "",
             "button_link": "",
@@ -205,7 +205,7 @@
           "settings": {
             "heading": "5. Cruelty-Free Products",
             "heading_size": "h2",
-            "heading_tag": "h2"
+            "heading_tag": "h4"
           }
         },
         "1b2ad94f-0d05-492f-92eb-1d1e1fd65656": {
