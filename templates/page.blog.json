@@ -93,7 +93,7 @@
           "type": "heading",
           "settings": {
             "heading": "1. Phthalates",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "heading_tag": "h2"
           }
         },
@@ -204,7 +204,7 @@
           "type": "heading",
           "settings": {
             "heading": "5. Cruelty-Free Products",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "heading_tag": "h2"
           }
         },
