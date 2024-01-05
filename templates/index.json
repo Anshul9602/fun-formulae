@@ -525,7 +525,7 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
-        "image_ratio": "landscape",
+        "image_ratio": "portrait",
         "image_position": "center center",
         "enable_image_fill": true,
         "show_secondary_image": true,
