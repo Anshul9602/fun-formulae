@@ -3235,7 +3235,7 @@ details[open].menu-opening>.header__icon--menu span {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  padding: 1.2rem 1.5rem .2rem;
+  padding: 1.2rem 1.5rem 1rem;
   color: rgb(var(--color-header-foreground));
   transition: color var(--duration-default) ease;
 }
