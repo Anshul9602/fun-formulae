@@ -454,6 +454,7 @@
         "image_ratio": "600px",
         "full_width": true,
         "show_divider": false,
+        "image_mobile": "shopify:\/\/shop_images\/AN_2743_1.jpg",
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "auto",
         "show_text_below": false,
