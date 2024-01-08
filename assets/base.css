@@ -252,6 +252,9 @@ html {
   display: flex;
   justify-content: center;
 }
+#shopify-section-template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d .collage-content dl{
+  display: none;
+}
 
 @media screen and (max-width: 1750px) {
   .collection .card-information__button .button {
