@@ -108,14 +108,14 @@ body{
 }
 .header__inline-menu ul li .header__menu-item--top:hover {
 
-
+  color: black;
   border-bottom: 2px solid #ffd063;
  
   
 }
 .list-menu-dropdown ul li .label:hover {
 
-
+color: black;
   border-bottom: 2px solid #ffd063;
  
   
