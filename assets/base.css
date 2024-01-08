@@ -107,8 +107,8 @@ body{
       background: rgb(255,255, 252) !important;
 }
 .header__inline-menu ul li .header__menu-item:hover {
-  color: black;
-  font-weight: 600;
+
+
   border-bottom: 2px solid #ffd063;
  
   
