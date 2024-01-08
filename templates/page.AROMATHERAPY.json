@@ -301,6 +301,9 @@
         "48d9ac22-ea45-4db1-9dd4-2fb4eb73243e",
         "template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31-product-2"
       ],
+      "custom_css": [
+        ".price-item{display:none;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/AN_2743_1.jpg",
         "layout": "text_first",
