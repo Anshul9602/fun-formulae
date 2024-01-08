@@ -113,6 +113,13 @@ body{
  
   
 }
+.list-menu-dropdown ul li .lable:hover {
+
+
+  border-bottom: 2px solid #ffd063;
+ 
+  
+}
 
 .header__inline-menu ul li .header__active-menu-item {
   border-bottom: 2px solid #ffd063;
