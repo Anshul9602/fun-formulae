@@ -467,6 +467,43 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "0009bffd-c2fa-4ef2-84b1-a85d7fdf551d": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "68dda234-d530-4cd4-b516-f5b7bf45649a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alcohol_free_1.png",
+            "height": 60,
+            "link": ""
+          }
+        },
+        "3861cee9-ccbe-4dcf-97c6-d589da2a184a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Paraben_free_1.png",
+            "height": 80,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "68dda234-d530-4cd4-b516-f5b7bf45649a",
+        "3861cee9-ccbe-4dcf-97c6-d589da2a184a"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -478,6 +515,7 @@
     "empty-space",
     "6343f04a-b877-461b-aa5c-d63f05017c31",
     "e53ce36a-519d-478f-b57a-a5b2855dfe28",
-    "5121ed59-b5ec-4345-98d4-e444b6b369a8"
+    "5121ed59-b5ec-4345-98d4-e444b6b369a8",
+    "0009bffd-c2fa-4ef2-84b1-a85d7fdf551d"
   ]
 }
