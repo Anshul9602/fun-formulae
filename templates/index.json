@@ -1290,7 +1290,7 @@
       ],
       "settings": {
         "direction": "left",
-        "speed": 0.9,
+        "speed": 0.7,
         "show_divider": false,
         "use_custom_colors": false,
         "colors_icon": "#ffffff",
