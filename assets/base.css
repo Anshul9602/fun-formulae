@@ -265,7 +265,9 @@ html {
 #Banner-template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8 .banner__content{
   display: none !important;
 }
-
+#shopify-section-template--21613581467954__shop-the-look .image-with-text__content{
+  display: none;
+}
 
   .thumbnail-slider .thumbnail-list+.slider-buttons {
         left: 28% !important;
