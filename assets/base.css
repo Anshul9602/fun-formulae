@@ -199,7 +199,7 @@ body{
 
 .view-all .button {
   background-image: none !important;
-  background-color: #F7B710;
+  background-color: #F7B710 !important;
 }
 
 .contact__button button {
