@@ -329,7 +329,7 @@
         "5d6c4508-e7ef-4782-86d5-145d853477f3": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';color:#000;font-weight:600;\">Our Mission<\/h4>"
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h2 hello\" style=\"font-family: 'Josefin Sans';color:#000;font-weight:600;\">letter from founder<\/h4>"
           }
         },
         "94105a60-8d02-4c26-af3b-4e53d28f2a4b": {
@@ -344,7 +344,7 @@
         "5dc285ed-bec7-4aae-9dd2-70f84a73fa3f": {
           "type": "text",
           "settings": {
-            "text": "<p>At Fun Formulae, we use pure and natural essential oils, derived from plants, to deliver desired results. These essential oils are free from harmful chemicals. They are safe to use and offer effective solutions to your concerns. <\/p>",
+            "text": "<p>I am thrilled to share with you the essence of 15 years of my experience as a scientist and aromatherapist working with medicinal plants and essential oils. My clients at my aromatherapy studio would experience the benefits of aromatherapy for conditions of acne, dandruff, hair loss, post-pregnancy fat loss, and the issue of melasma and other such concerns of hair and skin care. It would be rewarding to see them glow with happiness due to encouraging results from customized products for follow-up care at home in between personal sessions at the studio. Designing these therapies kept me busy until the unexpected confinement due to the pandemic which restricted my capacity to offer therapeutic solutions.<br\/>But this challenging situation became a catalyst to channel my energy and experience into creating scientific and efficient aromatherapy formulations for beauty and wellness and the brand, Fun Formulae was born.<\/p>",
             "text_size": "typeset2",
             "secondary_color": true
           }
@@ -354,6 +354,115 @@
         "5d6c4508-e7ef-4782-86d5-145d853477f3",
         "94105a60-8d02-4c26-af3b-4e53d28f2a4b",
         "5dc285ed-bec7-4aae-9dd2-70f84a73fa3f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/New_Project_2.png",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "enlarge_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9876c5ad-9f10-44c2-a2d8-6457278be306": {
+      "type": "image-with-text",
+      "blocks": {
+        "e3711419-82fb-478d-ba44-10efc4bc6a00": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Our Mission",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "da757461-26e3-4eca-a813-74ffad5e86d0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Fun Formulae, mindfulness of the ingredients used is of utmost importance. We believe in the purity and natural origin of our ingredients,  the core of our products is aromatherapy making our products effective and reliable.We all can relate to the frustration of investing in products that fall short of their claims and promises, resulting in cluttered shelves, full of products that don't deliver results. With the firm belief in the concept of \"less is more,\" we offer our meticulously curated range of products to address your beauty concerns, tailored to suit your specific skin type. At Fun Formulae, we believe that anything which adds fun and brings you joyfulness is accepted by our body with trust and it enhances the therapeutic power of the product.I welcome you to join me on this remarkable journey, embracing the power of nature and science, bringing beauty, wellness, and joy to your lives.<br\/><br\/>Dr. Jyoti Nargas, Founder<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": true
+          }
+        }
+      },
+      "block_order": [
+        "e3711419-82fb-478d-ba44-10efc4bc6a00",
+        "da757461-26e3-4eca-a813-74ffad5e86d0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/New_Project_2.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "enlarge_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "22466f07-fa00-402f-b206-ab39ed53d83a": {
+      "type": "image-with-text",
+      "blocks": {
+        "6d87c165-165f-49d8-a1fe-2325588196de": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';color:#000;font-weight:600;\">Our Mission<\/h4>"
+          }
+        },
+        "8bdbacb9-c397-4ee2-8f02-84c47db37dc4": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Our Mission",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "8c228756-5013-4940-8ac3-86c622e9ec4c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Fun Formulae, we use pure and natural essential oils, derived from plants, to deliver desired results. These essential oils are free from harmful chemicals. They are safe to use and offer effective solutions to your concerns. <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": true
+          }
+        }
+      },
+      "block_order": [
+        "6d87c165-165f-49d8-a1fe-2325588196de",
+        "8bdbacb9-c397-4ee2-8f02-84c47db37dc4",
+        "8c228756-5013-4940-8ac3-86c622e9ec4c"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/KEW7116_877623de-e4d6-4e41-b84f-89c9416ef5c5.jpg",
@@ -589,6 +698,8 @@
     "9bb5532a-de0d-410a-a3dd-2cda62884782",
     "91a85f0e-dfe8-4c54-b1a5-d5ad554e9e1d",
     "ca89b6f0-8674-4985-8ba0-16a3ed6a09f8",
+    "9876c5ad-9f10-44c2-a2d8-6457278be306",
+    "22466f07-fa00-402f-b206-ab39ed53d83a",
     "image-with-text-1",
     "image-with-text-2",
     "image-with-text-overlay",
