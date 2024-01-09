@@ -1118,7 +1118,7 @@
         "e35af93c-0b96-455a-ab2d-d81ee7a93c0c": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"https:\/\/www.instagram.com\/fun.formulae\/\"><p class=\"inm\"style=\"font-family: Shorelines;font-size:24px;\">@funformulae<\/p><\/a>"
+            "custom_liquid": "<a href=\"https:\/\/www.instagram.com\/fun.formulae\/\"><p class=\"inm\"style=\"font-family: Shorelines;font-size:24px; background-image: url('https:\/\/cdn.shopify.com\/s\/files\/1\/0841\/8371\/2050\/files\/Asset_842.png?v=1704799574');\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: center;\">@funformulae<\/p><\/a>"
           }
         }
       },
