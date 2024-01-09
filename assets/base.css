@@ -99,9 +99,9 @@ html.no-js .no-js-hidden {
   max-height:300px;
 }
 #shopify-section-template--21613581467954__slideshow .slideshow__card .button {
-  background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/button_option_4_6.png?v=1700215529');
-  height: 62px;
-  background-color: transparent;
+  background-image: none;
+
+  background-color: #fff;
 }
 body{
       background: rgb(255,255, 252) !important;
