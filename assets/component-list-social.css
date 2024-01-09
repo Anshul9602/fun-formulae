@@ -27,8 +27,9 @@
   bottom: 0;
   /* border-radius: 50%; */
  background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/For-FB-Instagram-Button-background.gif?v=1704802044');
-  transform: scale(0);
-  transition: transform var(--duration-default) ease;
+ background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @media screen and (hover: hover) {
