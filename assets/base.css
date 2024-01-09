@@ -144,11 +144,15 @@ color: black;
 }
 .hello span{
   background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Asset_842.png?v=1704799574');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+
 }
 .footer h2 span{
   background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Asset_842.png?v=1704799574');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+
 }
 
 #shopify-section-template--21613581467954__countdown-timer .media-wrapper {
