@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Banner_for_desktop_2.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Banner_for_Mobile.jpg",
-            "image_position": "80% 100%",
+            "image_position": "bottom center",
             "text_box_position": "bottom-left",
             "subheading": "",
             "subheading_size": "h5",
