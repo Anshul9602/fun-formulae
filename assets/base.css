@@ -102,6 +102,9 @@ html.no-js .no-js-hidden {
   background-image: none;
 
   background-color: #fff;
+
+  background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/View_More_00000.gif?v=1704802044');
+  background-size: cover;
 }
 body{
       background: rgb(255,255, 252) !important;
