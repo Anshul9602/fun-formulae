@@ -522,6 +522,12 @@ html {
 .collection .card-wrapper .card-information__button{
   display: none !important;
 }
+.recently-viewed-products .card-wrapper .card-information__button{
+  display: none !important;
+}
+.product-recommendations .card-wrapper .card-information__button{
+  display: none !important;
+}
 @media screen and (min-width: 750px) {
 
 
