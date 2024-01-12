@@ -121,7 +121,7 @@
       >
     {%- else -%}
       <deferred-media class="deferred-media media media--{{ image_ratio }}{% if mobile_image_ratio %} media-mobile--{{ mobile_image_ratio }}{% endif %} no-js-hidden"
-        data-media-id="{{ media.id }}" loaded="true"
+        data-media-id="{{ media.id }}"
         {%- if image_ratio == 'adapt' or mobile_image_ratio == 'adapt' %} style="--image-ratio-percent: {{ 1 | divided_by: media.aspect_ratio | times: 100 }}%;"{% endif -%}
       >
     {%- endif -%}
