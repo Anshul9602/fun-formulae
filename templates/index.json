@@ -165,7 +165,7 @@
         "subheading": "essential oils",
         "heading_size": "h2",
         "heading_tag": "h6",
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": true,
         "use_custom_colors": false,
         "colors_icon": "#ffffff",
