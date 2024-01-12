@@ -278,7 +278,9 @@ html {
 }
 }
 @media screen and (max-width: 750px) {
-  #shopify-section-template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d .collage-card .card-information__text{font-size:14px;
+  #shopify-section-template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d .collage-collection .card-information__text{font-size:14px;
+   }
+  #shopify-section-template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d .collage-card .card-information__wrapper .card-information__text{font-size:14px;
     line-height: .0;}
   .slideshow__box {
     left: 0%!important;
