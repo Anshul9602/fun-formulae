@@ -278,6 +278,9 @@ html {
 }
 }
 @media screen and (max-width: 750px) {
+  .slideshow__box {
+    left: 0%!important;
+  }
 #Banner-template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8 .banner__content{
   display: none !important;
 }
