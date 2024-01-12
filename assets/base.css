@@ -277,6 +277,11 @@ html {
 .view-all .button:hover{
   box-shadow: inset 0 0 0 4em #a6ccef;
  
+  color: #ffb70c;
+}
+footer button:hover{
+  box-shadow: inset 0 0 0 4em black;
+ 
   color: #fff;
 }
 
