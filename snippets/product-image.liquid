@@ -46,10 +46,10 @@
       <div class="product__media media media--{{ image_ratio }}{% if mobile_image_ratio %} media-mobile--{{ mobile_image_ratio }}{% endif %}"
         {%- if image_ratio == 'adapt' or mobile_image_ratio == 'adapt' %} style="--image-ratio-percent: {{ 1 | divided_by: media.preview_image.aspect_ratio | times: 100 }}%;"{% endif -%}
       >
-        <video autoplay controls>
-          <source src="{{ media.sources[1].url }}" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+      <video autoplay muted controls>
+        <source src="{{ media.sources[1].url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       </div>
     </div>
   </a>
