@@ -161,7 +161,7 @@
       -%}
     </template>
 
-    {%- if media.media_type == 'model' -%}
+    
       </product-model>
       {%- if xr_button -%}
         <button
@@ -177,8 +177,6 @@
           {{ 'products.product.xr_button' | t }}
         </button>
       {%- endif -%}
-    {%- else -%}
-      </deferred-media>
-    {%- endif -%}
+    
   </div>
 {%- endif -%}
