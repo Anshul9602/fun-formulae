@@ -18,7 +18,7 @@
             "text": "",
             "text_size": "typeset2",
             "button_label": "learn more",
-            "button_link": "shopify:\/\/products\/face-wash",
+            "button_link": "shopify:\/\/products\/day-serum",
             "button_size": "small",
             "button_style_secondary": false
           }
@@ -26,7 +26,8 @@
         "8bc367a5-fd52-409f-8cfa-ef26251dbabb": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_for_desktop_1.jpg",
+            "image": "shopify:\/\/shop_images\/Banner_for_desktop_2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Banner_for_Mobile.jpg",
             "image_position": "center center",
             "text_box_position": "bottom-left",
             "subheading": "",
