@@ -909,6 +909,9 @@ table:not([class]) th {
 }
 
 @media screen and (max-width: 749px) {
+  #shopify-section-template--21816277041458__c585d89f-6fa6-46f7-aef5-e6c8b881fedd .grid__item .h2{
+    font-size: 14px !important;
+  }
   .small-hide {
     display: none !important;
   }
