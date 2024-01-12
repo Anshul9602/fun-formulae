@@ -277,7 +277,11 @@ html {
   width: 81% !important;
 }
 }
-
+.slideshow__card .button:hover{
+  box-shadow: inset 0 0 0 2em black;
+  border-color: black;
+  color: #fff;
+}
 
 #Banner-template--21613582090546__image-banner{
   background-color: none !important;
