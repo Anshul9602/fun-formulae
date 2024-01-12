@@ -282,7 +282,7 @@
   outline: 0;
   transform: none !important;
   transition: none !important;
-  left: 10% !important;
+  left: 10% ;
   right: auto !important;
 }
 
