@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Banner_for_desktop_1.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Banner_for_Mobile.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/banner_for_mobile_1.jpg",
             "image_position": "bottom center",
             "text_box_position": "bottom-left",
             "subheading": "",
@@ -17,7 +17,7 @@
             "heading_tag": "h2",
             "text": "",
             "text_size": "typeset2",
-            "button_label": "learn more",
+            "button_label": "",
             "button_link": "shopify:\/\/products\/day-serum",
             "button_size": "small",
             "button_style_secondary": false
@@ -27,7 +27,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Banner_for_desktop_2.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Banner_for_Mobile.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/banner_for_mobile_2.jpg",
             "image_position": "center center",
             "text_box_position": "bottom-left",
             "subheading": "",
@@ -37,7 +37,7 @@
             "heading_tag": "h2",
             "text": "",
             "text_size": "typeset2",
-            "button_label": "Learn more",
+            "button_label": "",
             "button_link": "shopify:\/\/collections\/face-care",
             "button_size": "small",
             "button_style_secondary": false
