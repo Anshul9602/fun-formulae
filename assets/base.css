@@ -273,24 +273,13 @@ html {
   width: 81% !important;
 }
 }
-.slideshow__card .button:hover{
-  transition: background-color 1.25s, color 1.25s;
-  background-color: black;
-  box-shadow: inset 0 0 0 2em black;
-  
-  color: #fff;
 
-
-}
 
 
 
 .view-all .button {
-
- 
   color: black;
   display: inline-block;
-
   padding: 15px 45px 15px 40px;
   position: relative;
   text-decoration: none;
@@ -323,26 +312,42 @@ html {
   bottom: 50%;
   left: 50%;
 }
-/* .view-all .button:before {
+footer button {
+  color: black;
+  display: inline-block;
 
+  position: relative;
+  text-decoration: none;
+  transition: 0.8s ease;
+  z-index: 1;
+}
+footer button:before, footer button:after {
+  background-color: #fff;
+  transition: 0.8s ease;
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+footer button {
+  background-image: none !important;
+  background-color: #a6ccef !important;
+  color:black ; 
+}
+
+footer button:before {
+  background-color: #fff;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
 }
-.view-all .button:hover:before {
-  background: #a6ccef !important;
-  color: teal;
+footer button:hover:before {
   top: 50%;
   right: 50%;
   bottom: 50%;
   left: 50%;
 }
 
-.view-all .button{
-  transition: 0.4s ease;
-
-} */
 footer button:hover{
   transition: background-color 1.25s, color 1.25s;
   background-color: black !important;
