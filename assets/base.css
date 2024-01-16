@@ -286,9 +286,9 @@ html {
 
 
 .view-all .button {
-  background: #ffb70c;
+
  
-  color: white;
+  color: black;
   display: inline-block;
   font-family: "Trebuchet MS", sans-serif;
   overflow: hidden;
@@ -308,6 +308,7 @@ html {
 .view-all .button {
   background-image: none !important;
   background-color: #a6ccef !important;
+  color:teal !important;
 }
 
 .view-all .button:before {
