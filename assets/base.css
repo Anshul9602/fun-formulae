@@ -283,12 +283,12 @@ html {
   padding: 15px 45px 15px 40px;
   position: relative;
   text-decoration: none;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
   z-index: 1;
 }
 .contact__button button:before, .view-all .button:before, .contact__button button:after, .view-all .button:after {
   background-color: #ffb70c;
-  transition: 0.6s ease;
+  transition: 0.4s ease;
   content: "";
   position: absolute;
   z-index: -1;
