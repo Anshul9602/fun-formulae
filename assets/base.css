@@ -288,8 +288,29 @@ html {
 
 
 
-
-
+.view-all .button {
+  
+  border: 2px solid #a6ccef;
+  color: white;
+  display: inline-block;
+  font-family: "Trebuchet MS", sans-serif;
+  overflow: hidden;
+  padding: 15px 45px 15px 40px;
+  position: relative;
+  text-decoration: none;
+  transition: 0.4s ease;
+  z-index: 1;
+}
+.view-all .button:before, .view-all .button:after {
+  background: #a6ccef;
+  transition: 0.3s ease;
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+.view-all .button {
+  background: #a6ccef;
+}
 .view-all .button:before {
 
   top: 0;
@@ -298,6 +319,13 @@ html {
   left: 0;
 }
 .view-all .button:hover:before {
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  left: 50%;
+}
+
+/* .view-all .button:hover:before {
   background: #a6ccef !important;
   color: teal;
   top: 50%;
@@ -309,7 +337,7 @@ html {
 .view-all .button{
   transition: 0.4s ease;
 
-}
+} */
 footer button:hover{
   transition: background-color 1.25s, color 1.25s;
   background-color: black !important;
