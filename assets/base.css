@@ -330,8 +330,8 @@ footer button:before, footer button:after {
 }
 footer button {
   background-image: none !important;
-  background-color: #a6ccef !important;
-  color:black ; 
+  
+ 
 }
 
 footer button:before {
@@ -348,14 +348,14 @@ footer button:hover:before {
   left: 50%;
 }
 
-/* footer button:hover{
-  transition: background-color 1.25s, color 1.25s;
+footer button:hover{
+
   background-color: black !important;
   box-shadow: inset 0 0 0 2em black;
   
  
   color: #fff !important;
-} */
+}
 
 #Banner-template--21613582090546__image-banner{
   background-color: none !important;
