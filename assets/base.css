@@ -218,13 +218,13 @@ color: black;
   transition: background-color 1.25s, color 1.25s;
   background-color: #a6ccef;
   color: teal;
-  box-shadow: inset 0 0 0 2em #a6ccef;
+  
 }
 #shopify-section-template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31 .image-with-text__products .button:hover {
   transition: background-color 1.25s, color 1.25s;
   background-color: #a6ccef;
   color: teal;
-  box-shadow: inset 0 0 0 2em #a6ccef;
+ 
 }
 
 #shopify-section-template--21613582025010__form .rte {
@@ -288,7 +288,7 @@ html {
  transition: background-color 1.25s, color 1.25s;
  background-color: #a6ccef;
  color: teal;
- box-shadow: inset 0 0 0 2em #a6ccef;
+ 
 }
 footer button:hover{
   transition: background-color 1.25s, color 1.25s;
