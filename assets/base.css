@@ -286,7 +286,7 @@ html {
 
 
 .view-all .button {
-  background: #137d6f;
+  background: #ffb70c;
  
   color: white;
   display: inline-block;
@@ -309,9 +309,7 @@ html {
   background-image: none !important;
   background-color: #a6ccef !important;
 }
-.view-all .button {
-  background: #ffb70c;
-}
+
 .view-all .button:before {
   background: #137d6f;
   top: 0;
