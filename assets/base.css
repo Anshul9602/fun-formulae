@@ -211,7 +211,7 @@ color: black;
 
 .view-all .button {
   background-image: none !important;
-  background-color: #ffb70c !important;
+  background-color: #ffb70c ;
 }
 
 .contact__button button:hover {
@@ -289,9 +289,9 @@ html {
 
 
 .view-all .button {
-  background: #ffb70c;
-  
-  color: black;
+  background: #137d6f;
+  border: 2px solid #313131;
+  color: white;
   display: inline-block;
   font-family: "Trebuchet MS", sans-serif;
   overflow: hidden;
@@ -302,15 +302,17 @@ html {
   z-index: 1;
 }
 .view-all .button:before, .view-all .button:after {
-  background: #313131;
+  background-color: #313131 !important;
   transition: 0.3s ease;
   content: "";
   position: absolute;
   z-index: -1;
 }
-
+.view-all .button {
+  background: #313131;
+}
 .view-all .button:before {
-  background: #ffb70c;
+  background: #137d6f;
   top: 0;
   right: 0;
   bottom: 0;
@@ -322,8 +324,14 @@ html {
   bottom: 50%;
   left: 50%;
 }
+/* .view-all .button:before {
 
-/* .view-all .button:hover:before {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.view-all .button:hover:before {
   background: #a6ccef !important;
   color: teal;
   top: 50%;
