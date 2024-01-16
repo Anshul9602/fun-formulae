@@ -215,13 +215,13 @@ color: black;
 }
 
 .contact__button button:hover {
-  transition: background-color 2.25s, color 2.25s;
+  transition: background-color 1.25s, color 1.25s;
   background-color: #a6ccef;
   color: teal;
   box-shadow: inset 0 0 0 2em #a6ccef;
 }
 #shopify-section-template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31 .image-with-text__products .button:hover {
-  transition: background-color 2.25s, color 2.25s;
+  transition: background-color 1.25s, color 1.25s;
   background-color: #a6ccef;
   color: teal;
   box-shadow: inset 0 0 0 2em #a6ccef;
@@ -277,7 +277,7 @@ html {
 }
 }
 .slideshow__card .button:hover{
-  transition: background-color 2.25s, color 2.25s;
+  transition: background-color 1.25s, color 1.25s;
   background-color: black;
   box-shadow: inset 0 0 0 2em black;
   
@@ -285,13 +285,13 @@ html {
 }
 .view-all .button:hover{
 
- transition: background-color 2.25s, color 2.25s;
+ transition: background-color 1.25s, color 1.25s;
  background-color: #a6ccef;
  color: teal;
  box-shadow: inset 0 0 0 2em #a6ccef;
 }
 footer button:hover{
-  transition: background-color 2.25s, color 2.25s;
+  transition: background-color 1.25s, color 1.25s;
   background-color: black !important;
   box-shadow: inset 0 0 0 2em black;
   
