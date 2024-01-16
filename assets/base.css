@@ -209,10 +209,7 @@ color: black;
   background-size: cover;
 }
 
-.view-all .button {
-  background-image: none !important;
-  background-color: #ffb70c ;
-}
+
 
 .contact__button button:hover {
   transition: background-color 1.25s, color 1.25s;
@@ -290,7 +287,7 @@ html {
 
 .view-all .button {
   background: #137d6f;
-  border: 2px solid #313131;
+ 
   color: white;
   display: inline-block;
   font-family: "Trebuchet MS", sans-serif;
@@ -302,14 +299,18 @@ html {
   z-index: 1;
 }
 .view-all .button:before, .view-all .button:after {
-  background-color: #313131 !important;
+  background-color: #ffb70c;
   transition: 0.3s ease;
   content: "";
   position: absolute;
   z-index: -1;
 }
 .view-all .button {
-  background: #313131;
+  background-image: none !important;
+  background-color: #a6ccef !important;
+}
+.view-all .button {
+  background: #ffb70c;
 }
 .view-all .button:before {
   background: #137d6f;
