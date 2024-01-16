@@ -277,7 +277,7 @@ html {
 
 
 
-.view-all .button {
+.contact__button button, .view-all .button {
   color: black;
   display: inline-block;
   padding: 15px 45px 15px 40px;
@@ -286,27 +286,27 @@ html {
   transition: 0.8s ease;
   z-index: 1;
 }
-.view-all .button:before, .view-all .button:after {
+.contact__button button:before, .view-all .button:before, .contact__button button:after, .view-all .button:after {
   background-color: #ffb70c;
   transition: 0.8s ease;
   content: "";
   position: absolute;
   z-index: -1;
 }
-.view-all .button {
+.contact__button button, .view-all .button {
   background-image: none !important;
   background-color: #a6ccef !important;
   color:black ; 
 }
 
-.view-all .button:before {
+.contact__button button:before, .view-all .button:before {
   background-color: #ffb70c;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
 }
-.view-all .button:hover:before {
+.contact__button button:hover:before, .view-all .button:hover:before {
   top: 50%;
   right: 50%;
   bottom: 50%;
