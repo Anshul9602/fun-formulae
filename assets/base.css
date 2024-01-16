@@ -290,9 +290,7 @@ html {
  
   color: black;
   display: inline-block;
-  font-family: "Trebuchet MS", sans-serif;
-  overflow: hidden;
-  padding: 15px 45px 15px 40px;
+ 
   position: relative;
   text-decoration: none;
   transition: 0.8s ease;
