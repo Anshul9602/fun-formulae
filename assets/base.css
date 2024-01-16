@@ -278,6 +278,7 @@ html {
 
 
 .contact__button button, .view-all .button {
+  line-height: inherit;
   color: black;
   display: inline-block;
   padding: 15px 45px 15px 40px;
