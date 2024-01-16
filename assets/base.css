@@ -312,49 +312,7 @@ html {
   bottom: 50%;
   left: 50%;
 }
-footer button {
-  color: black;
-  display: inline-block;
-  background-color: #fff;
-  position: relative;
-  text-decoration: none;
-  transition: 0.8s ease;
-  z-index: 1;
-}
-footer button:before, footer button:after {
-  background-color: #fff;
-  transition: 0.8s ease;
-  content: "";
-  position: absolute;
-  z-index: -1;
-}
-footer button {
-  background-image: none !important;
-  
- 
-  background-color: black ;
-}
 
-footer button:before {
-  background-color: #fff;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-footer button:hover:before {
-  top: 50%;
-  right: 50%;
-  bottom: 50%;
-  left: 50%;
-}
-
-/* footer button:hover{
-
-  background-color: black !important;
-
-  color: #fff !important;
-} */
 
 #Banner-template--21613582090546__image-banner{
   background-color: none !important;
