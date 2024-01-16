@@ -289,10 +289,7 @@ html {
 
 
 
-.view-all .button {
-  background: #a6ccef !important;
-  color: teal;
-}
+
 .view-all .button:before {
 
   top: 0;
@@ -301,6 +298,8 @@ html {
   left: 0;
 }
 .view-all .button:hover:before {
+  background: #a6ccef !important;
+  color: teal;
   top: 50%;
   right: 50%;
   bottom: 50%;
