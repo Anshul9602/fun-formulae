@@ -215,13 +215,14 @@ color: black;
 }
 
 .contact__button button:hover {
+  transition: 0.25s;
   box-shadow: inset 0 0 0 4em #a6ccef;
  
   color: teal;
 }
 #shopify-section-template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31 .image-with-text__products .button:hover {
   box-shadow: inset 0 0 0 4em #a6ccef;
- 
+  transition: 0.25s;
   color: teal;
 }
 
