@@ -295,12 +295,12 @@ html {
   padding: 15px 45px 15px 40px;
   position: relative;
   text-decoration: none;
-  transition: 0.4s ease;
+  transition: 0.8s ease;
   z-index: 1;
 }
 .view-all .button:before, .view-all .button:after {
   background-color: #ffb70c;
-  transition: 0.3s ease;
+  transition: 0.8s ease;
   content: "";
   position: absolute;
   z-index: -1;
@@ -308,7 +308,7 @@ html {
 .view-all .button {
   background-image: none !important;
   background-color: #a6ccef !important;
-  color:teal !important; 
+  color:teal ; 
 }
 
 .view-all .button:before {
