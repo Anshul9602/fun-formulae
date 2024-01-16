@@ -290,7 +290,7 @@ html {
 
 .view-all .button {
   background: #ffb70c;
-  border: 2px solid #313131;
+  
   color: black;
   display: inline-block;
   font-family: "Trebuchet MS", sans-serif;
@@ -308,9 +308,7 @@ html {
   position: absolute;
   z-index: -1;
 }
-.view-all .button {
-  background: #313131;
-}
+
 .view-all .button:before {
   background: #ffb70c;
   top: 0;
