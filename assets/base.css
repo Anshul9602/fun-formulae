@@ -311,7 +311,7 @@ html {
 }
 
 .view-all .button:before {
-  background: #ffb70c;
+  background-color: #ffb70c;
   top: 0;
   right: 0;
   bottom: 0;
