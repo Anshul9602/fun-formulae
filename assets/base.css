@@ -282,13 +282,34 @@ html {
   box-shadow: inset 0 0 0 2em black;
   
   color: #fff;
-}
-.view-all .button:hover{
 
- transition: background-color 1.25s, color 1.25s;
- background-color: #a6ccef !important;
- color: teal;
- box-shadow: inset 0 0 0 2em #a6ccef;
+
+}
+
+
+
+
+.view-all .button {
+  background: #a6ccef !important;
+  color: teal;
+}
+.view-all .button:before {
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.view-all .button:hover:before {
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  left: 50%;
+}
+
+.view-all .button{
+  transition: 0.4s ease;
+
 }
 footer button:hover{
   transition: background-color 1.25s, color 1.25s;
