@@ -290,7 +290,8 @@ html {
  
   color: black;
   display: inline-block;
- 
+
+  padding: 15px 45px 15px 40px;
   position: relative;
   text-decoration: none;
   transition: 0.8s ease;
