@@ -4,6 +4,7 @@
   {%- if text_direction == 'rtl' %} dir="rtl"{% endif -%}
 >
   <head>
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -19,7 +20,7 @@
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
-   
+    {{ 'custom.css' | asset_url | stylesheet_tag }}
     <title>
       {{ page_title }}
       {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
@@ -70,6 +71,25 @@
     {%- endif -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '7454034124614870');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=7454034124614870&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+    
   </head>
 
   <body class="template-{{ request.page_type }}{% if request.design_mode %} shopify-design-mode{% endif %}"
