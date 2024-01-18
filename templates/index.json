@@ -6,7 +6,7 @@
         "slide-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_for_desktop_1.jpg",
+            "image": "shopify:\/\/shop_images\/Banners-horizontal_1.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Banners-vertical_2.jpg",
             "image_position": "bottom center",
             "text_box_position": "bottom-left",
@@ -26,7 +26,7 @@
         "8bc367a5-fd52-409f-8cfa-ef26251dbabb": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_for_desktop_2.jpg",
+            "image": "shopify:\/\/shop_images\/Banners-horizontal_3.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Banners-vertical.jpg",
             "image_position": "center center",
             "text_box_position": "bottom-left",
