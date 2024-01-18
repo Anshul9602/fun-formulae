@@ -42,11 +42,32 @@
             "button_size": "small",
             "button_style_secondary": false
           }
+        },
+        "image_hTqiKx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banners-horizontal_2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Banners-vertical_3.jpg",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "slide-0",
-        "8bc367a5-fd52-409f-8cfa-ef26251dbabb"
+        "8bc367a5-fd52-409f-8cfa-ef26251dbabb",
+        "image_hTqiKx"
       ],
       "settings": {
         "slideshow_type": "legacy",
