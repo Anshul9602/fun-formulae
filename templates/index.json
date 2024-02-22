@@ -177,6 +177,7 @@
         "guarantee-1",
         "4f87b2c6-6800-4450-9c9a-b7aafba41e8f"
       ],
+      "disabled": true,
       "settings": {
         "layout": "default",
         "column_alignment": "center",
@@ -194,6 +195,55 @@
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "logo_list_7FzMBT": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_8tw7cN": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/phthalate_free.png",
+            "link": ""
+          }
+        },
+        "logo_mfcWJP": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sulphate_free.png",
+            "link": ""
+          }
+        },
+        "logo_iwG8mH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Paraben_free_1.png",
+            "link": ""
+          }
+        },
+        "logo_rWqK7L": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alcohol_free_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_8tw7cN",
+        "logo_mfcWJP",
+        "logo_iwG8mH",
+        "logo_rWqK7L"
+      ],
+      "settings": {
+        "opacity": 72,
+        "show_divider": false,
+        "heading": "We Promise We Are",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1387,6 +1437,7 @@
     "slideshow",
     "rich-text-0",
     "guarantees",
+    "logo_list_7FzMBT",
     "featured-collection",
     "countdown-timer",
     "7587530a-758c-40f5-9a13-03670fbb99e9",
