@@ -49,7 +49,7 @@
     "cart_drawer_enabled": true,
     "show_cart_note": true,
     "show_shipping_calculator": false,
-    "shipping_calculator_default_country": "United States",
+    "shipping_calculator_default_country": "India",
     "disable_view_cart": false,
     "show_free_shipping_message": false,
     "free_shipping_minimum_amount": "999",
