@@ -273,7 +273,7 @@
         "products_to_show": 4,
         "show_view_all": true,
         "show_divider": false,
-        "heading": "",
+        "heading": "Best Sellers",
         "heading_size": "h2",
         "heading_alignment": "center",
         "heading_tag": "h2",
