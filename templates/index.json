@@ -135,70 +135,6 @@
         "padding_bottom": 36
       }
     },
-    "guarantees": {
-      "type": "guarantees",
-      "blocks": {
-        "guarantee-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "THERAPEUTIC",
-            "title_size": "h3",
-            "text": "<p>Essential oils, through their molecular constituents, exhibit therapeutic benefits for skin, hair, and body care. They possess restorative properties, promoting holistic well-being.<\/p>"
-          }
-        },
-        "guarantee-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "none",
-            "icon_size": "small",
-            "custom_icon": "",
-            "title": "RELAXING",
-            "title_size": "h3",
-            "text": "<p>Essential oils possess relaxing properties, influencing the nervous system and inducing calmness. Applied topically or diffused environmentally they rejuvenate mind and body.<\/p>"
-          }
-        },
-        "4f87b2c6-6800-4450-9c9a-b7aafba41e8f": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "none",
-            "icon_size": "small",
-            "custom_icon": "",
-            "title": "HEALING",
-            "title_size": "h3",
-            "text": "<p>Essential oils promote healing through their bioactive compounds.They harness anti-inflammatory, antimicrobial, and antioxidant properties, promoting overall health and wellness.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "guarantee-0",
-        "guarantee-1",
-        "4f87b2c6-6800-4450-9c9a-b7aafba41e8f"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": false,
-        "show_divider": false,
-        "heading": "POWERED WITH",
-        "subheading": "essential oils",
-        "heading_size": "h2",
-        "heading_tag": "h6",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "scrolling-promotion": {
       "type": "scrolling-promotion",
       "blocks": {
@@ -290,6 +226,69 @@
         "enable_quick_view": true,
         "enable_color_swatches": true,
         "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "guarantees": {
+      "type": "guarantees",
+      "blocks": {
+        "guarantee-0": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "THERAPEUTIC",
+            "title_size": "h3",
+            "text": "<p>Essential oils, through their molecular constituents, exhibit therapeutic benefits for skin, hair, and body care. They possess restorative properties, promoting holistic well-being.<\/p>"
+          }
+        },
+        "guarantee-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "small",
+            "custom_icon": "",
+            "title": "RELAXING",
+            "title_size": "h3",
+            "text": "<p>Essential oils possess relaxing properties, influencing the nervous system and inducing calmness. Applied topically or diffused environmentally they rejuvenate mind and body.<\/p>"
+          }
+        },
+        "4f87b2c6-6800-4450-9c9a-b7aafba41e8f": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "none",
+            "icon_size": "small",
+            "custom_icon": "",
+            "title": "HEALING",
+            "title_size": "h3",
+            "text": "<p>Essential oils promote healing through their bioactive compounds.They harness anti-inflammatory, antimicrobial, and antioxidant properties, promoting overall health and wellness.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "guarantee-0",
+        "guarantee-1",
+        "4f87b2c6-6800-4450-9c9a-b7aafba41e8f"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "POWERED WITH",
+        "subheading": "essential oils",
+        "heading_size": "h2",
+        "heading_tag": "h6",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1451,9 +1450,9 @@
   "order": [
     "slideshow",
     "rich-text-0",
-    "guarantees",
     "scrolling-promotion",
     "featured-collection",
+    "guarantees",
     "countdown-timer",
     "7587530a-758c-40f5-9a13-03670fbb99e9",
     "reveal-banner",
