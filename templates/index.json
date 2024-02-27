@@ -272,6 +272,7 @@
         "guarantee-1",
         "4f87b2c6-6800-4450-9c9a-b7aafba41e8f"
       ],
+      "disabled": true,
       "settings": {
         "layout": "default",
         "column_alignment": "center",
