@@ -199,51 +199,66 @@
         "padding_bottom": 36
       }
     },
-    "logo_list_7FzMBT": {
-      "type": "logo-list",
+    "scrolling-promotion": {
+      "type": "scrolling-promotion",
       "blocks": {
-        "logo_8tw7cN": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/phthalate_free.png",
-            "link": ""
-          }
-        },
-        "logo_mfcWJP": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sulphate_free.png",
-            "link": ""
-          }
-        },
-        "logo_iwG8mH": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Paraben_free_1.png",
-            "link": ""
-          }
-        },
-        "logo_rWqK7L": {
-          "type": "logo",
+        "image-0": {
+          "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/alcohol_free_1.png",
+            "height": 60,
+            "link": ""
+          }
+        },
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cruelty_free.png",
+            "height": 60,
+            "link": ""
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/phthalate_free.png",
+            "height": 60,
+            "link": ""
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sulphate_free.png",
+            "height": 60,
+            "link": ""
+          }
+        },
+        "image-4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Paraben_free_1.png",
+            "height": 60,
             "link": ""
           }
         }
       },
       "block_order": [
-        "logo_8tw7cN",
-        "logo_mfcWJP",
-        "logo_iwG8mH",
-        "logo_rWqK7L"
+        "image-0",
+        "image-1",
+        "image-2",
+        "image-3",
+        "image-4"
       ],
       "settings": {
-        "opacity": 72,
+        "direction": "left",
+        "speed": 1.8,
         "show_divider": false,
-        "heading": "We Promise We Are",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1309,10 +1324,10 @@
         "padding_bottom": 0
       }
     },
-    "scrolling-promotion": {
+    "scrolling_promotion_kyeDmq": {
       "type": "scrolling-promotion",
       "blocks": {
-        "image-0": {
+        "image_38LYJU": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/alcohol_free_1.png",
@@ -1320,7 +1335,7 @@
             "link": ""
           }
         },
-        "image-1": {
+        "image_j4NVcz": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cruelty_free.png",
@@ -1328,7 +1343,7 @@
             "link": ""
           }
         },
-        "image-2": {
+        "image_HUQjkV": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/phthalate_free.png",
@@ -1336,7 +1351,7 @@
             "link": ""
           }
         },
-        "image-3": {
+        "image_a43frr": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sulphate_free.png",
@@ -1344,7 +1359,7 @@
             "link": ""
           }
         },
-        "image-4": {
+        "image_mabbAw": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Paraben_free_1.png",
@@ -1354,11 +1369,11 @@
         }
       },
       "block_order": [
-        "image-0",
-        "image-1",
-        "image-2",
-        "image-3",
-        "image-4"
+        "image_38LYJU",
+        "image_j4NVcz",
+        "image_HUQjkV",
+        "image_a43frr",
+        "image_mabbAw"
       ],
       "settings": {
         "direction": "left",
@@ -1437,7 +1452,7 @@
     "slideshow",
     "rich-text-0",
     "guarantees",
-    "logo_list_7FzMBT",
+    "scrolling-promotion",
     "featured-collection",
     "countdown-timer",
     "7587530a-758c-40f5-9a13-03670fbb99e9",
@@ -1454,7 +1469,7 @@
     "testimonials",
     "rich-text-1",
     "gallery",
-    "scrolling-promotion",
+    "scrolling_promotion_kyeDmq",
     "map"
   ]
 }
