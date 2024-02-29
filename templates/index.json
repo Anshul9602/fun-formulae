@@ -1326,6 +1326,38 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_VzxHex": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DRQhqR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore our Instagram",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DRQhqR"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1709021051053818e1": {
       "type": "apps",
       "blocks": {
@@ -1333,12 +1365,15 @@
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/9d35f684-f743-45ca-9cc2-c5409bb241a8",
           "settings": {
             "heading": "",
-            "feeds_type": "CUSTOM"
+            "feeds_type": "FEEDS"
           }
         }
       },
       "block_order": [
         "instafeed_app_block_MJzFqk"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "include_margins": true,
@@ -1433,6 +1468,7 @@
     "testimonials",
     "rich-text-1",
     "gallery",
+    "rich_text_VzxHex",
     "1709021051053818e1",
     "scrolling_promotion_kyeDmq"
   ]
