@@ -72,6 +72,11 @@ a {
 
 /* base */
 
+
+#shopify-section-template--21613582123314__product-grid #ProductCount{
+  display:none;
+}
+
 .no-js:not(html) {
   display: none !important;
 }
