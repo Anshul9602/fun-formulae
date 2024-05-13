@@ -42,7 +42,7 @@
         "pagination": "paginated",
         "enable_sticky_facet": true,
         "enable_sorting": true,
-        "enable_viewing": true,
+        "enable_viewing": false,
         "enable_filtering": true,
         "filter_type": "vertical",
         "enable_filtering_color_swatches": false,
