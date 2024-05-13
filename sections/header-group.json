@@ -51,7 +51,7 @@
         "logo_height": 64,
         "mobile_logo_height": 44,
         "logo_position": "top-center",
-        "menu": "main",
+        "menu": "main-menu",
         "enable_dropdown_menu": true,
         "show_line_separator": true,
         "cart_icon": "cart",
