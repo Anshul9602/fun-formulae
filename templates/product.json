@@ -75,6 +75,17 @@
           "settings": {
           }
         },
+        "collapsible_tab_JY6Grj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "More Information",
+            "content": "",
+            "page": "",
+            "custom_liquid": "{{product.metafields.custom.more_information}}",
+            "keep_open": false
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -126,6 +137,7 @@
         "countdown",
         "variant_picker",
         "description",
+        "collapsible_tab_JY6Grj",
         "buy_buttons",
         "inventory_status",
         "share",
