@@ -61,7 +61,9 @@
 a {
   text-decoration: none;
 }
-
+.product__info-container .accordion p{
+  margin:0;
+}
 :root {
   --duration-short: 100ms;
   --duration-default: 250ms;
