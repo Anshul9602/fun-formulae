@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image-banner": {
@@ -24,6 +33,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/download_3.jpg",
         "button_link1": "",
@@ -68,6 +78,7 @@
     },
     "04378444-3ca0-4295-8e85-ede377a7a9b0": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<h3>NAVIGATING CLEAN BEAUTY: UNDERSTANDING INGREDIENTS AND HEALTHIER SUBSTITUTES<\/h3>",
         "full_width": false,
@@ -78,6 +89,7 @@
     },
     "b3051f49-b8f0-4359-9046-225ea52ea6f4": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<p style=\"font-size:2rem;    line-height: 1.4;\">The beauty industry is evolving, with a heightened awareness of the potential concern some ingredients can pose. As consumers become more discerning, understanding these substances and their alternatives becomes paramount. Let's delve into some concerning ingredients and their cleaner substitutes:\n<\/p>",
         "full_width": false,
@@ -110,6 +122,7 @@
         "template--21816277041458__c585d89f-6fa6-46f7-aef5-e6c8b881fedd-heading-1",
         "template--21816277041458__c585d89f-6fa6-46f7-aef5-e6c8b881fedd-text-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Aromatherapy_oil_stock_photo_containing_oil_and_essential.jpg",
         "image_position": "center center",
@@ -178,6 +191,7 @@
         "template--21816277041458__6e5d7bfe-bc0a-49b5-92c5-230f1fb1756c-column-2",
         "template--21816277041458__6e5d7bfe-bc0a-49b5-92c5-230f1fb1756c-column-3"
       ],
+      "disabled": true,
       "settings": {
         "image_ratio": "landscape",
         "image_position": "center center",
@@ -221,6 +235,7 @@
         "e01a78a9-990e-43fc-b831-f1435bdd66a6",
         "1b2ad94f-0d05-492f-92eb-1d1e1fd65656"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/download_1.jpg",
         "image_position": "center center",
@@ -271,6 +286,7 @@
         "template--21816277041458__f7f4e066-a9da-4c67-9fab-7fd9d71812db-heading-1",
         "template--21816277041458__f7f4e066-a9da-4c67-9fab-7fd9d71812db-text-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/download_2.jpg",
         "button_link1": "",
@@ -295,6 +311,20 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "page_ATjPea": {
+      "type": "page",
+      "settings": {
+        "page": "blog",
+        "narrow": false,
+        "show_divider": false,
+        "heading": "Page title",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -306,6 +336,7 @@
     "c585d89f-6fa6-46f7-aef5-e6c8b881fedd",
     "6e5d7bfe-bc0a-49b5-92c5-230f1fb1756c",
     "a2dc621c-fbe2-4207-9e0c-4a7ca5f5a743",
-    "f7f4e066-a9da-4c67-9fab-7fd9d71812db"
+    "f7f4e066-a9da-4c67-9fab-7fd9d71812db",
+    "page_ATjPea"
   ]
 }
