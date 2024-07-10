@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -136,6 +145,58 @@
         "padding_top": 36,
         "padding_bottom": 72
       }
+    },
+    "rich_text_VhRkTm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8dQVAX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_BbgCMW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Understanding Hair Care: A Comprehensive Overview<\/strong><\/p><p><strong>Hair care<\/strong> is basically a term with<br\/>which we can make ourselves healthy by preventing certain hair issues like hairloss, dandruff, etc. Haircare is a routine that contains a few significant steps that can make hair more lustrous & shiny.<\/p><p><strong>Hair Care Tips by Experts<\/strong><\/p><p><strong>Healthy Hair Habits:<\/strong><br\/>Learn daily habits to maintain hair health as per Fun Formulae Experts<\/p><ul><li>Before taking a shower, brush your hair properly.<br\/><\/li><li>Condition your hair with care.<br\/><\/li><li>Eat a healthy balanced diet.<\/li><\/ul><p><strong>Seasonal Hair Care<\/strong>: Tips for protecting your hair in different weather conditions as per Fun Formulae:<\/p><p><strong>2.SummerTips for Healthy Hair<\/strong><\/p><ul><li>Wear a scarf<br\/><\/li><li>Go for comfortable hair accessories<br\/><\/li><li>Avoid too much swimming<\/li><\/ul><p><strong>2. Tips for healthy hair in spring<\/strong><\/p><ul><li>Air-dry your hair<br\/><\/li><li>Condition your hair lengths<br\/><\/li><li>Apply an anti-frizz serum<\/li><\/ul><p><strong>3. Winter Hair Care Tips<\/strong><\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": ""
+          }
+        },
+        "button_RygypB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8dQVAX",
+        "text_BbgCMW",
+        "button_RygypB"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -143,6 +204,7 @@
     "subs",
     "product-grid",
     "recently-viewed",
-    "multicolumn"
+    "multicolumn",
+    "rich_text_VhRkTm"
   ]
 }
