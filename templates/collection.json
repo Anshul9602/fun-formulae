@@ -195,11 +195,19 @@
             "title": "What are the benefits of using Fun Formulae Shampoo?",
             "text": "<p>If you’re using <strong>Fun Formulae<\/strong> shampoo then it will be very beneficial for your hair as the shampoo is chemical-free. Also, the shampoo contains natural ingredients with essential oils, so that you can see visible results. The shampoo is safe to use without any harsh chemicals. By using<em> <\/em><em><strong>Fun Formulae Shampoo<\/strong><\/em>, you can get the <em><strong>best hair care for men<\/strong><\/em> as well. <\/p>"
           }
+        },
+        "question_DV3mVD": {
+          "type": "question",
+          "settings": {
+            "title": "How often should I shampoo my hair?",
+            "text": "<p>If you’ve Dry & damaged hair: Wash your hair once a week so that the hair's natural oils can be retained back. <\/p><p>If you’ve Oily hair:Wash hair twice or thrice a week to remove<br\/>dirt.<\/p><p> If you’ve Fine\/thin hair:<br\/>Wash your hair with moisturized shampoo to get moisture in the hair. <\/p><p><strong> <\/strong><\/p>"
+          }
         }
       },
       "block_order": [
         "question_xiaGC3",
-        "question_RWUWxw"
+        "question_RWUWxw",
+        "question_DV3mVD"
       ],
       "settings": {
         "narrow": false,
