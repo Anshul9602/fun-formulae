@@ -209,22 +209,15 @@
         "question_DV3mVD": {
           "type": "question",
           "settings": {
-            "title": "How often should I shampoo my hair?",
-            "text": "<p>If you’ve Dry & damaged hair: Wash your hair once a week so that the hair's natural oils can be retained back. <\/p><p>If you’ve Oily hair:Wash hair twice or thrice a week to remove<br\/>dirt.<\/p><p> If you’ve Fine\/thin hair:<br\/>Wash your hair with moisturized shampoo to get moisture in the hair. <\/p><p><strong> <\/strong><\/p>"
+            "title": "What products can I use for acne-prone skin?",
+            "text": "<p>With Fun-formulae, you can use a variety of acne-prone skin products. Below given is the list of products that you can use:<br\/><\/p><ul><li>Face Scrub and Face Pack | 2 in 1 | Clarifying & Soothing | For Oily and Acne Prone Skin<br\/><\/li><li>Face Serum | Natural & Anti Inflammatory Acne Spot Overnight Remedy with Oregano,Thyme, Nutmeg & Clove Oil Essence<br\/><\/li><li>Sun Tan Protective Day Serum | SPF 30 | For Normal, Oily and Acne Prone Skin<br\/><\/li><li>Face Toner | Restorative & Brightening | For Oily and Acne Prone Skin<br\/><\/li><li>Face Wash | Balancing & Clarifying for Acne and Excess Oil treatment | Neroli, Nutmeg and Clove Oil <br\/><br\/><br\/><br\/><\/li><\/ul>"
           }
         },
         "question_EyHnAQ": {
           "type": "question",
           "settings": {
-            "title": "How long does hair care last?",
-            "text": "<p>It’s always advised to follow your best hair care routine as per the<em> <\/em><em><strong>hair care products<\/strong><\/em> you use so the lasting period<br\/>of hair care totally depends on the<em> <\/em><em><strong>women’s hair care <\/strong><\/em>product you’re using.<\/p><p><strong> <\/strong><\/p>"
-          }
-        },
-        "question_zb3Yr9": {
-          "type": "question",
-          "settings": {
-            "title": "How to check hair density?",
-            "text": "<p>It's easy to check the density of hair with an easy mirror test. Just take an amount of your hair & pull it on the side. If you can see your scalp easily then you have thin hair. You’ve medium hair density if you can see your scalp partially under the hair,<br\/>and you can hardly see your scalp if you’ve thick hair density.<\/p><p> <\/p>"
+            "title": "How can I prevent ageing skin?",
+            "text": "<p>To prevent skin ageing, below are some of the tips given by the experts: <\/p><ul><li>Protect skin from the sun.  <br\/><\/li><li>Eat a balanced diet. <br\/><\/li><li>Cleanse your skin twice a day.  <br\/><\/li><li>Avoid smoking & drinking.<br\/><\/li><li>Apply a skin moisturizer every day.  <br\/><\/li><\/ul><p><strong> <\/strong><\/p>"
           }
         }
       },
@@ -232,8 +225,7 @@
         "question_xiaGC3",
         "question_RWUWxw",
         "question_DV3mVD",
-        "question_EyHnAQ",
-        "question_zb3Yr9"
+        "question_EyHnAQ"
       ],
       "settings": {
         "narrow": false,
