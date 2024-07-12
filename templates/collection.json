@@ -202,12 +202,20 @@
             "title": "How often should I shampoo my hair?",
             "text": "<p>If you’ve Dry & damaged hair: Wash your hair once a week so that the hair's natural oils can be retained back. <\/p><p>If you’ve Oily hair:Wash hair twice or thrice a week to remove<br\/>dirt.<\/p><p> If you’ve Fine\/thin hair:<br\/>Wash your hair with moisturized shampoo to get moisture in the hair. <\/p><p><strong> <\/strong><\/p>"
           }
+        },
+        "question_EyHnAQ": {
+          "type": "question",
+          "settings": {
+            "title": "How long does hair care last?",
+            "text": "<p>It’s always advised to follow your best hair care routine as per the<em> <\/em><em><strong>hair care products<\/strong><\/em> you use so the lasting period<br\/>of hair care totally depends on the<em> <\/em><em><strong>women’s hair care <\/strong><\/em>product you’re using.<\/p><p><strong> <\/strong><\/p>"
+          }
         }
       },
       "block_order": [
         "question_xiaGC3",
         "question_RWUWxw",
-        "question_DV3mVD"
+        "question_DV3mVD",
+        "question_EyHnAQ"
       ],
       "settings": {
         "narrow": false,
