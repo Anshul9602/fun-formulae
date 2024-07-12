@@ -209,13 +209,21 @@
             "title": "How long does hair care last?",
             "text": "<p>It’s always advised to follow your best hair care routine as per the<em> <\/em><em><strong>hair care products<\/strong><\/em> you use so the lasting period<br\/>of hair care totally depends on the<em> <\/em><em><strong>women’s hair care <\/strong><\/em>product you’re using.<\/p><p><strong> <\/strong><\/p>"
           }
+        },
+        "question_zb3Yr9": {
+          "type": "question",
+          "settings": {
+            "title": "How to check hair density?",
+            "text": "<p>It's easy to check the density of hair with an easy mirror test. Just take an amount of your hair & pull it on the side. If you can see your scalp easily then you have thin hair. You’ve medium hair density if you can see your scalp partially under the hair,<br\/>and you can hardly see your scalp if you’ve thick hair density.<\/p><p> <\/p>"
+          }
         }
       },
       "block_order": [
         "question_xiaGC3",
         "question_RWUWxw",
         "question_DV3mVD",
-        "question_EyHnAQ"
+        "question_EyHnAQ",
+        "question_zb3Yr9"
       ],
       "settings": {
         "narrow": false,
