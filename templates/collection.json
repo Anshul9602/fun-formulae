@@ -149,14 +149,6 @@
     "rich_text_VhRkTm": {
       "type": "rich-text",
       "blocks": {
-        "heading_8dQVAX": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
         "text_BbgCMW": {
           "type": "text",
           "settings": {
@@ -165,21 +157,10 @@
             "secondary_color": false,
             "highlight_phrases": ""
           }
-        },
-        "button_RygypB": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
-        "heading_8dQVAX",
-        "text_BbgCMW",
-        "button_RygypB"
+        "text_BbgCMW"
       ],
       "settings": {
         "text_alignment": "left",
@@ -197,6 +178,40 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "faq_XQ8h6n": {
+      "type": "faq",
+      "blocks": {
+        "question_xiaGC3": {
+          "type": "question",
+          "settings": {
+            "title": "How do I choose the right shampoo for my hair type and needs?",
+            "text": "<p>Firstly, identify your hair type- if the hair feels oily twodays after the hair wash then you have a normal to combination type scalp. And if your hair looks lack of moisture & feels rough to the touch then youhave a dry hair type. So you need to use a nourished & heavier <em><strong>hair care shampoo<\/strong><\/em><strong> <\/strong>for your hair. <\/p><p><strong> <\/strong><\/p>"
+          }
+        },
+        "question_RWUWxw": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_xiaGC3",
+        "question_RWUWxw"
+      ],
+      "settings": {
+        "narrow": false,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -205,6 +220,7 @@
     "product-grid",
     "recently-viewed",
     "multicolumn",
-    "rich_text_VhRkTm"
+    "rich_text_VhRkTm",
+    "faq_XQ8h6n"
   ]
 }
