@@ -1414,21 +1414,11 @@
             "secondary_color": false,
             "highlight_phrases": ""
           }
-        },
-        "button_4NrnQj": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_HPf8tV",
-        "text_P7pJ6H",
-        "button_4NrnQj"
+        "text_P7pJ6H"
       ],
       "settings": {
         "text_alignment": "left",
