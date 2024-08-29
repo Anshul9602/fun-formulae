@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "slideshow": {
@@ -1368,6 +1377,7 @@
             "title": "",
             "title_color": "",
             "alignment": "center",
+            "background_color": "",
             "html_area": ""
           }
         }
@@ -1381,6 +1391,58 @@
       "settings": {
         "include_margins": true,
         "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_dNfcjj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HPf8tV": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_P7pJ6H": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>Our Unique Formula offers<\/strong><\/h2><ul><li>Chemical-free products for hair and skin<\/li><li>Offers a clear skin<\/li><li>Improved Skin elasticity<\/li><li>Promotes Hair Growth<\/li><li>Protects skin from harsh UV rays<\/li><li>Limits penetration of harmful radiation<\/li><li>Manages hair loss issue<\/li><li>Plant-based ingredients for the skin & hair<\/li><\/ul><p><a href=\"https:\/\/funformulae.com\/collections\"><span style=\"text-decoration:underline\"><strong>Shop Now<\/strong><\/span><\/a><\/p><h2><strong>Welcome to Funformulae:<\/strong><\/h2><p>Great hair & skin health shows that you’re taking care of yourself & your health properly. With <em><strong>Fun Formuale <\/strong><\/em>you can maintain & improve your skin & hair health with plant-based & chemical-free products that work effectively if you add them to your daily routine. With our products, you can combat skin & hair issues without any side effects. With the use of our products, you can notice visibly glowing skin & our products also help promote hair growth by reducing hair fall.<\/p><h3><span style=\"text-decoration:underline\"><strong>Our commitment to quality and innovation in hair care, face care, and body care products<\/strong><\/span><\/h3><p>Fun Formulae offers<strong> <\/strong><a href=\"https:\/\/funformulae.com\/collections\/hair-care\" target=\"_blank\" title=\"https:\/\/funformulae.com\/collections\/hair-care\"><em><strong>hair care<\/strong><\/em><\/a>, <em><strong>face care<\/strong><\/em>, and body care products that are crafted especially with a combination of plant-based ingredients & essential oils that make the most effective beauty routine you can follow in your daily life. Our products contain medicinal properties & are therapeutic that help in healing your hair, body, and skin effortlessly. Our products:<\/p><ul><li>Improves skin texture, appearance, and firmness<\/li><li>Enables the growth of hair and new skin cells<\/li><li>Eliminates the dead skin cells from hair, skin, and body <\/li><\/ul><h3><strong>The use of natural ingredients & scientific formulations<\/strong><\/h3><ul><li>They’re Safe & Dermatologically Tested.<\/li><li>They’re Plant-based<\/li><li>They’re Skin-friendly<\/li><li>They’re Effective<\/li><li>They’re Eco-friendly<\/li><li>They’re Affordable<\/li><\/ul><h2><span style=\"text-decoration:underline\"><strong>Explore Our Collection<\/strong><\/span><\/h2><p><strong>Hair Care:<\/strong> Hair is the most beautiful way to express & enhance our personality. But nourished and healthy hair cannot be attained overnight as it requires a well-crafted <em><strong>hair care routine<\/strong><\/em>. With Fun Formulae <em><strong>hair care products<\/strong><\/em>, you can craft a natural hair care routine for repairing hair, hair growth & hair nourishment that will surely suit your hair type & solve your hair issues as well.<\/p><p><a href=\"https:\/\/funformulae.com\/collections\/hair-care\"><span style=\"text-decoration:underline\"><strong>Shop Hair Care<\/strong><\/span><\/a><\/p><p><strong>Face Care:<\/strong> To achieve healthy & glowing skin, it is very necessary to add<em> <\/em><a href=\"https:\/\/funformulae.com\/collections\/face-care\" target=\"_blank\" title=\"https:\/\/funformulae.com\/collections\/face-care\"><em><strong>face care<\/strong><\/em><strong> <\/strong><em><strong>products<\/strong><\/em><\/a><em> <\/em>that as per your skin type. The <em><strong>Skincare<\/strong><\/em><strong> <\/strong>routine contains a variety of <em><strong>skincare products<\/strong><\/em> such as <em><strong>face wash<\/strong><\/em><em>, <\/em><em><strong>face serum<\/strong><\/em>, face toner, sunscreen,<em> <\/em><em><strong>face scrub<\/strong><\/em><em>,<\/em> face cream,<em> <\/em><em><strong>face pack<\/strong><\/em> etc. that offer amazing results with regular use. With <em><strong>Fun Formulae’s Natural Face Care<\/strong><\/em> products, you can solve a variety of face issues like pimples, acne marks, dull & dead skin, oily skin, etc. <\/p><p><a href=\"https:\/\/funformulae.com\/collections\/face-care\"><span style=\"text-decoration:underline\"><strong>Shop Face Care<\/strong><\/span><\/a><\/p><p><strong>Body Care:<\/strong> Along with hair and face, it’s also very necessary to do proper care of your body skin. Body care basically includes the use of products that offer moisturizing, soothing, and rejuvenating benefits to the skin along with tackling several skin concerns. And when it’s about body care, using natural, gentle and chemical-free products is great as that does not cause any harm to the skin. Fun Formulae offers amazing natural body care products that include body <em><strong>soaps<\/strong><\/em><em>, <\/em><em><strong>body scrub<\/strong><\/em>, body wash, <strong>body <\/strong><em><strong>butter<\/strong><\/em>, and body yoghurt. <\/p><p><a href=\"https:\/\/funformulae.com\/collections\/body-care\"><span style=\"text-decoration:underline\"><strong>Shop Body Care<\/strong><\/span><\/a><\/p><h2><span style=\"text-decoration:underline\"><strong>FEATURED PRODUCTS<\/strong><\/span><\/h2><h3><strong>Our Bestsellers<\/strong><\/h3><p><strong>HAIR CARE:<\/strong><\/p><ol><li><strong>Hair Shampoo | Restorative & Volumizing Antibacterial | For Oily and Greasy Scalp | 200 ml<\/strong><\/li><\/ol><p>This <em><strong>Hair Shampoo<\/strong><\/em> contains an amazing blend of essential oils like geranium & neroli along with peppermint, juniper berry, which gives amazing results to oily scalp. These ingredients help in removing excess oil from the scalp & cleanse the hair gently. <\/p><p>2. <strong>Hair Conditioner | Hair Strenthening & Nourshing | For Oily and Greasy Scalp | 100ml<\/strong><\/p><p>This <em><strong>Hair Conditioner <\/strong><\/em>is fantastic as it contains nourishing properties with essential oils, including lavender, geranium, and ylang-ylang that offer amazing softness & lustrous hair. <\/p><p><strong>FACE CARE:<\/strong><\/p><ol><li><strong>Face Wash | Balancing & Clarifying for Acne and Excess Oil treatment | Neroli, Nutmeg and Clove Oil | 100 ml<\/strong><\/li><\/ol><p>This is our top face care product which suits really well on oily & acne-prone skin & is crafted with a blend of essential oils which includes clove oil, nutmeg oil, and neroli oil. This face wash has a powerful blend that offers soothing effects on the skin & rejuvenates the skin as well. <\/p><p>2. Face Toner | Restorative & Brightening | For Oily and Acne Prone Skin | 100 ml<\/p><p>Our second most popular skincare product is this<em> <\/em><em><strong>face toner<\/strong><\/em> that is enriched with amazing essential oils like neroli, geranium, and juniper berry. These oils work really well on oily and acne-prone skin & contain aloe vera which is known to enhance the health and vitality of the skin. <\/p><p><strong>3. Sun Tan Protective Day Serum | SPF 30 | For Normal, Oily and Acne Prone Skin | 50 ml<\/strong><\/p><p>This Sun Tan Protective Day Serum has <em><strong>SPF 30<\/strong><\/em> which contains the amazing properties of sandalwood oil, carrot seed oil, and peppermint oil. This serum contains natural ingredients that help provide a shield against the harmful sun rays along with offering nourishment to the skin. <\/p><p><strong>BODY CARE:<\/strong><\/p><ol><li><strong>Body Wash | Calming and Clarifying Delicate | For Oily and Acne Prone Skin | 200 ml<\/strong><\/li><\/ol><p>This top-selling <em><strong>body wash<\/strong><\/em><strong> <\/strong>has a blend of peppermint, juniper berry, and neroli essential oils that suit perfectly for oily & acne-prone skin. Regular use of this product can help in removing excess oil and preventing dead skin. This natural product is designed to purify, nourish, and reveal radiant, spotless skin.<\/p><p><strong>2. Body Yogurt | Rejuvenating & Deep Hydrating | For Oily and Acne Prone Skin | 100 ml<\/strong><\/p><p>This <em><strong>body yoghurt<\/strong><\/em><em> <\/em>offers an amazing treat for your body skin as it has a creamy & velvety texture that offers amazing nourishment. It is made with neroli & geranium essential oils with non-comedogenic mango butter that helps revitalize & restore your skin's radiance and makes it plump, hydrated, and refreshed.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": ""
+          }
+        },
+        "button_4NrnQj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HPf8tV",
+        "text_P7pJ6H",
+        "button_4NrnQj"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1473,6 +1535,7 @@
     "gallery",
     "rich_text_VzxHex",
     "1709021051053818e1",
+    "rich_text_dNfcjj",
     "scrolling_promotion_kyeDmq"
   ]
 }
