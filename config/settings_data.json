@@ -117,7 +117,7 @@
           "snow_color": "snow",
           "snow_shape": "real",
           "snow_size": "small",
-          "disable_mobile": false
+          "disable_mobile": true
         }
       }
     }
