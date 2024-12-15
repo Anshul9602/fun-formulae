@@ -110,13 +110,13 @@
         "type": "shopify://apps/sfx-seasonal-effects/blocks/snow/3f2c0443-facd-4715-9387-dcceca132b78",
         "disabled": false,
         "settings": {
-          "count": 100,
-          "count_mobile": 50,
+          "count": 70,
+          "count_mobile": 40,
           "selector": "",
           "speed": 2.5,
-          "snow_color": "white",
+          "snow_color": "snow",
           "snow_shape": "real",
-          "snow_size": "normal",
+          "snow_size": "small",
           "disable_mobile": false
         }
       }
