@@ -80,7 +80,7 @@
     "custom_liquid_A3UkpY": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style='display:none;' data-tbnadfield='PROMOTION_LIST' data-tbnadhide='NEVER' ></div>",
+        "custom_liquid": "",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
@@ -90,9 +90,9 @@
   },
   "order": [
     "cart-items",
+    "custom_liquid_A3UkpY",
     "cart-footer",
     "shipping-calculator",
-    "cart-recommendations",
-    "custom_liquid_A3UkpY"
+    "cart-recommendations"
   ]
 }
