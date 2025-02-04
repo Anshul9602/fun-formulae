@@ -133,6 +133,10 @@
           "settings": {
             "custom_liquid": ""
           }
+        },
+        "ldt_gift_wrap_product_gift_option_R6NQxF": {
+          "type": "shopify://apps/ldt-gift-wrap/blocks/product-gift-option/4046b73d-300a-4b9b-9ab0-bce054825b2c",
+          "settings": {}
         }
       },
       "block_order": [
@@ -150,7 +154,8 @@
         "share",
         "related_buttons",
         "sticky_cart",
-        "131523a6-a5f7-44ea-90f8-db519a282c79"
+        "131523a6-a5f7-44ea-90f8-db519a282c79",
+        "ldt_gift_wrap_product_gift_option_R6NQxF"
       ],
       "settings": {
         "enable_sticky_info": true,
