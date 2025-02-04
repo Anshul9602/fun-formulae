@@ -80,7 +80,7 @@
     "custom_liquid_A3UkpY": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style='display:none;' data-tbnadfield='PROMOTION_LIST' data-tbnadhide='NO_QUESTS' ></div>",
+        "custom_liquid": "<div style='display:none;' data-tbnadfield='PROMOTION_LIST' data-tbnadhide='NEVER' ></div>",
         "full_width": false,
         "show_divider": false,
         "padding_top": 36,
