@@ -119,6 +119,16 @@
           "snow_size": "small",
           "disable_mobile": false
         }
+      },
+      "14916611450974054565": {
+        "type": "shopify://apps/automatic-discounts-upsells/blocks/theme_app_embed/afbdc23b-1384-41ba-afd7-f55ee7ffbc4c",
+        "disabled": false,
+        "settings": {}
+      },
+      "5918445685253060206": {
+        "type": "shopify://apps/bundler/blocks/bundler-script-append/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
