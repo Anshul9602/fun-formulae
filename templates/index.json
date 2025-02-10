@@ -72,10 +72,10 @@
             "button_style_secondary": false
           }
         },
-        "image_byDTAi": {
+        "image_GVKWaK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/B6.jpg",
+            "image": "shopify://shop_images/B5.jpg",
             "image_mobile": "shopify://shop_images/Banners-vertical_3.jpg",
             "image_position": "center center",
             "text_box_position": "middle-center",
@@ -92,10 +92,10 @@
             "button_style_secondary": false
           }
         },
-        "image_GVKWaK": {
+        "image_byDTAi": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/B5.jpg",
+            "image": "shopify://shop_images/B6.jpg",
             "image_mobile": "shopify://shop_images/Banners-vertical_3.jpg",
             "image_position": "center center",
             "text_box_position": "middle-center",
@@ -137,8 +137,8 @@
         "slide-0",
         "8bc367a5-fd52-409f-8cfa-ef26251dbabb",
         "image_hTqiKx",
-        "image_byDTAi",
         "image_GVKWaK",
+        "image_byDTAi",
         "image_jJKMtL"
       ],
       "settings": {
