@@ -73,7 +73,7 @@
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    scrollbar-width: thin;
+    scrollbar-width: none;
   }
 
   .slider.slider--tablet-up .slider__slide {
