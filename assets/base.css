@@ -4,6 +4,9 @@
     bottom: 70px;
     right: 10px;
 }
+.ldt-gw-gift-option-container svg.lgw-pointer-events-none{
+  display:none;
+}
 :root {
   --color-foreground: var(--color-base-text);
   --color-background: var(--color-base-background);
