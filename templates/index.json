@@ -654,7 +654,7 @@
         "image_ratio": "100vh",
         "full_width": true,
         "show_divider": false,
-        "image_behavior": "none",
+        "image_behavior": "ambient",
         "mobile_text_box_position": "image_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "100vh",
