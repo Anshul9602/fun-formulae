@@ -7,6 +7,9 @@
 .ldt-gw-gift-option-container .ldt-gw-gift-option-checkbox{
   display:none;
 }
+.ldt-gw-gift-option-container .ldt-gw-gift-option-text{
+  font-size:xx-large;
+}
 :root {
   --color-foreground: var(--color-base-text);
   --color-background: var(--color-base-background);
