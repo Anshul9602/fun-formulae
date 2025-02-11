@@ -4,7 +4,7 @@
     bottom: 70px;
     right: 10px;
 }
-.ldt-gw-gift-option-container svg.lgw-pointer-events-none{
+.ldt-gw-gift-option-container .ldt-gw-gift-option-checkbox{
   display:none;
 }
 :root {
