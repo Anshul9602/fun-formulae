@@ -604,13 +604,21 @@
         "padding_bottom": 36
       }
     },
-    "video-hero": {
-      "type": "video-hero",
+    "image-with-text-overlay": {
+      "type": "image-with-text-overlay",
       "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "subheading_size": "h5",
+            "secondary_color": true
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "Welcome to Funformulae",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -618,43 +626,45 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "",
-            "text_size": "typeset2",
+            "text": "<p>Great hair & skin health shows that you’re taking care of yourself & your health properly. With <em><strong>Fun Formuale </strong></em>you can maintain & improve your skin & hair health with plant-based & chemical-free products that work effectively if you add them to your daily routine. With our products, you can combat skin & hair issues without any side effects. With the use of our products, you can notice visibly glowing skin & our products also help promote hair growth by reducing hair fall.</p>",
+            "text_size": "typeset",
             "secondary_color": false
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "",
-            "button_link": "",
+            "button_label": "Read More...",
+            "button_link": "shopify://pages/about-us",
             "button_size": "medium",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
+        "subheading",
         "heading",
         "text",
         "button"
       ],
       "settings": {
-        "video": "shopify://files/videos/2_4856f794-5448-4828-9488-968d7aae0d1c.mp4",
-        "video_url": "",
-        "text_box_position": "middle-center",
-        "text_alignment": "center",
-        "image_ratio": "100vh",
-        "show_text_box": false,
+        "image_position": "center center",
+        "text_box_position": "flex-end",
+        "text_alignment": "left",
+        "image_ratio": "550px",
         "full_width": true,
         "show_divider": false,
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "400px",
-        "show_text_below": true,
-        "colors_button_label": "#1a1b18",
-        "colors_button_background": "#ffffff",
-        "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
-        "colors_overlay_opacity": 20,
+        "image_behavior": "none",
+        "mobile_text_box_position": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "200px",
+        "video": "shopify://files/videos/2_4856f794-5448-4828-9488-968d7aae0d1c.mp4",
+        "video_url": "",
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_overlay": "#fbf7ed",
+        "colors_overlay_opacity": 80,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -749,176 +759,6 @@
         "enable_countdown": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "image-with-text-overlay": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "",
-            "subheading_size": "h5",
-            "secondary_color": true
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Welcome to Funformulae",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Great hair & skin health shows that you’re taking care of yourself & your health properly. With <em><strong>Fun Formuale </strong></em>you can maintain & improve your skin & hair health with plant-based & chemical-free products that work effectively if you add them to your daily routine. With our products, you can combat skin & hair issues without any side effects. With the use of our products, you can notice visibly glowing skin & our products also help promote hair growth by reducing hair fall.</p>",
-            "text_size": "typeset",
-            "secondary_color": false
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Read More...",
-            "button_link": "shopify://pages/about-us",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "subheading",
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image_position": "center center",
-        "text_box_position": "flex-end",
-        "text_alignment": "left",
-        "image_ratio": "550px",
-        "full_width": true,
-        "show_divider": false,
-        "image_behavior": "none",
-        "mobile_text_box_position": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "200px",
-        "video": "shopify://files/videos/2_4856f794-5448-4828-9488-968d7aae0d1c.mp4",
-        "video_url": "",
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#212326",
-        "colors_overlay": "#fbf7ed",
-        "colors_overlay_opacity": 80,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "testimonials": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial-0": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name"
-          }
-        },
-        "testimonial-1": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name"
-          }
-        },
-        "testimonial-2": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name"
-          }
-        },
-        "testimonial-3": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name"
-          }
-        },
-        "testimonial-4": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
-            "author": "Author's name"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial-0",
-        "testimonial-1",
-        "testimonial-2",
-        "testimonial-3",
-        "testimonial-4"
-      ],
-      "disabled": true,
-      "settings": {
-        "autorotate": false,
-        "autorotate_speed": 5,
-        "hide_images": false,
-        "show_divider": false,
-        "heading": "Testimonials",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich-text-1": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "EXPLORE OUR INSTAGRAM",
-            "heading_size": "h2",
-            "heading_tag": "h2"
-          }
-        },
-        "e35af93c-0b96-455a-ab2d-d81ee7a93c0c": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<a href=\"https://www.instagram.com/fun.formulae/\"><p class=\"inm\"style=\"font-family: Shorelines;font-size:24px; background-image: url('https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Asset_842.png?v=1704799574');\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: center;\">@funformulae</p></a>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "e35af93c-0b96-455a-ab2d-d81ee7a93c0c"
-      ],
-      "disabled": true,
-      "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "colors_highlight": "#bbff00",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 28
       }
     },
     "gallery": {
@@ -1067,6 +907,7 @@
       "block_order": [
         "instafeed_app_block_FFpmzq"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "include_margins": true,
@@ -1171,70 +1012,6 @@
         "padding_bottom": 36
       }
     },
-    "scrolling_promotion_kyeDmq": {
-      "type": "scrolling-promotion",
-      "blocks": {
-        "image_38LYJU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/alcohol_free_1.png",
-            "height": 60,
-            "link": ""
-          }
-        },
-        "image_j4NVcz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/cruelty_free.png",
-            "height": 60,
-            "link": ""
-          }
-        },
-        "image_HUQjkV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/phthalate_free.png",
-            "height": 60,
-            "link": ""
-          }
-        },
-        "image_a43frr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/sulphate_free.png",
-            "height": 60,
-            "link": ""
-          }
-        },
-        "image_mabbAw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Paraben_free_1.png",
-            "height": 60,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_38LYJU",
-        "image_j4NVcz",
-        "image_HUQjkV",
-        "image_a43frr",
-        "image_mabbAw"
-      ],
-      "settings": {
-        "direction": "left",
-        "speed": 1.8,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "17392772349c3e0556": {
       "type": "apps",
       "blocks": {
@@ -1273,17 +1050,13 @@
     "countdown-timer",
     "7587530a-758c-40f5-9a13-03670fbb99e9",
     "reveal-banner",
-    "video-hero",
-    "shop-the-look",
     "image-with-text-overlay",
-    "testimonials",
-    "rich-text-1",
+    "shop-the-look",
     "gallery",
     "rich_text_VzxHex",
     "1709021051053818e1",
     "rich_text_dNfcjj",
     "rich_text_bwqDLY",
-    "scrolling_promotion_kyeDmq",
     "17392772349c3e0556"
   ]
 }
