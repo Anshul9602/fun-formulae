@@ -78,6 +78,14 @@
             "size_chart": ""
           }
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -91,14 +99,6 @@
             "page": "",
             "custom_liquid": "{{product.metafields.custom.more_information}}",
             "keep_open": false
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_quantity_selector": false,
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": false
           }
         },
         "inventory_status": {
@@ -147,9 +147,9 @@
         "price",
         "countdown",
         "variant_picker",
+        "buy_buttons",
         "description",
         "collapsible_tab_JY6Grj",
-        "buy_buttons",
         "inventory_status",
         "share",
         "related_buttons",
