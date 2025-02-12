@@ -118,7 +118,7 @@ mega-menu {
   justify-content: space-between;
   letter-spacing: 0;
   text-transform: none;
-  font-size: calc(var(--font-navigation-size) + 0.9rem);
+  font-size: calc(var(--font-navigation-size) + 0.0rem);
   line-height: calc(1 + 0.4 / var(--font-body-scale));
 }
 
