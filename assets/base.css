@@ -1,6 +1,7 @@
 #swym-plugin #swym-anchor[data-position=bottom-right], #swym-hosted-plugin #swym-anchor[data-position=bottom-right] {
-    right: 5%;
-    top: 8%;
+    right: 5% !important;
+    top: 8%; 
+  bottom: auto !important;
     opacity: 1;
 }
 #tsparticles{
