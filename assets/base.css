@@ -4,7 +4,7 @@
     top: -10px;
     font-size: 24px;
     opacity: 0.7;
-    animation: floatUp 5s linear infinite;
+    animation: floatUp 1000s linear infinite;
     z-index: 9999;
 }
 
