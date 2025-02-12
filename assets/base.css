@@ -1,4 +1,9 @@
 
+#tsparticles{
+  display:none;
+}
+
+
 .floating-heart {
     position: fixed;
     font-size: 24px;
