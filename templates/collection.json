@@ -306,6 +306,7 @@
         "subheading_tfmXnN",
         "text_XWrALw"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
@@ -365,6 +366,7 @@
         "column_BhLMmh",
         "column_BeDkxj"
       ],
+      "disabled": true,
       "settings": {
         "image_ratio": "landscape",
         "image_position": "center center",
@@ -414,6 +416,7 @@
         "column_33jLd8",
         "column_kC3Qm4"
       ],
+      "disabled": true,
       "settings": {
         "image_ratio": "landscape",
         "image_position": "center center",
@@ -497,6 +500,7 @@
         "column_nTbMkM",
         "column_eaCNnP"
       ],
+      "disabled": true,
       "settings": {
         "image_ratio": "landscape",
         "image_position": "center center",
