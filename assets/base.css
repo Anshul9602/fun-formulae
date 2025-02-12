@@ -3,6 +3,9 @@
   bottom: 20px !important;
     opacity: 1;
 }
+#Banner-template--21613581467954__image-with-text-overlay .banner__media-video video{
+  margin-left:10%;
+}
 #tsparticles{
   display:none !important;
 }
