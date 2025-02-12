@@ -280,7 +280,7 @@
         "show_view_all": true,
         "show_divider": false,
         "heading": "Best Sellers",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "heading_alignment": "center",
         "heading_tag": "h2",
         "columns_mobile": "2",
