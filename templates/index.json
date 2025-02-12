@@ -619,7 +619,7 @@
           "type": "heading",
           "settings": {
             "heading": "Welcome to Funformulae",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "heading_tag": "h2"
           }
         },
@@ -631,8 +631,25 @@
             "secondary_color": false
           }
         },
+        "heading_anhh3F": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our commitment to quality and innovation in hair care, face care, and body care products",
+            "heading_size": "h2",
+            "heading_tag": "h4"
+          }
+        },
+        "text_kTACRW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fun Formulae offers<strong> </strong><a href=\"https://funformulae.com/collections/hair-care\" target=\"_blank\" title=\"https://funformulae.com/collections/hair-care\"><em><strong>hair care</strong></em></a>, <em><strong>face care</strong></em>, and body care products that are crafted especially with a combination of plant-based ingredients & essential oils that make the most effective beauty routine you can follow in your daily life. Our products contain medicinal properties & are therapeutic that help in healing your hair, body, and skin effortlessly. Our products:</p><ul><li>Improves skin texture, appearance, and firmness</li><li>Enables the growth of hair and new skin cells</li><li>Eliminates the dead skin cells from hair, skin, and body </li></ul>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
         "button": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Read More...",
             "button_link": "shopify://pages/about-us",
@@ -645,6 +662,8 @@
         "subheading",
         "heading",
         "text",
+        "heading_anhh3F",
+        "text_kTACRW",
         "button"
       ],
       "settings": {
@@ -965,7 +984,7 @@
         "heading_LbkQG8": {
           "type": "heading",
           "settings": {
-            "heading": "Our commitment to quality and innovation in hair care, face care, and body care products",
+            "heading": "",
             "heading_size": "h1",
             "heading_tag": "h1"
           }
@@ -973,7 +992,7 @@
         "text_jkXz8m": {
           "type": "text",
           "settings": {
-            "text": "<p>Fun Formulae offers<strong> </strong><a href=\"https://funformulae.com/collections/hair-care\" target=\"_blank\" title=\"https://funformulae.com/collections/hair-care\"><em><strong>hair care</strong></em></a>, <em><strong>face care</strong></em>, and body care products that are crafted especially with a combination of plant-based ingredients & essential oils that make the most effective beauty routine you can follow in your daily life. Our products contain medicinal properties & are therapeutic that help in healing your hair, body, and skin effortlessly. Our products:</p><ul><li>Improves skin texture, appearance, and firmness</li><li>Enables the growth of hair and new skin cells</li><li>Eliminates the dead skin cells from hair, skin, and body </li></ul><h3><strong>The use of natural ingredients & scientific formulations</strong></h3><ul><li>They’re Safe & Dermatologically Tested.</li><li>They’re Plant-based</li><li>They’re Skin-friendly</li><li>They’re Effective</li><li>They’re Eco-friendly</li><li>They’re Affordable</li></ul>",
+            "text": "<p></p><h3><strong>The use of natural ingredients & scientific formulations</strong></h3><ul><li>They’re Safe & Dermatologically Tested.</li><li>They’re Plant-based</li><li>They’re Skin-friendly</li><li>They’re Effective</li><li>They’re Eco-friendly</li><li>They’re Affordable</li></ul>",
             "text_size": "typeset3",
             "secondary_color": false,
             "highlight_phrases": ""
