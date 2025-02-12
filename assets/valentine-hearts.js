@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
         heart.classList.add("floating-heart");
         heart.innerHTML = "❤️"; // You can change this to any emoji or SVG
         heart.style.left = Math.random() * 100 + "vw";
-        heart.style.animationDuration = Math.random() * 3 + 2 + "s";
+        heart.style.animationDuration = Math.random() * 7 + 5 + "s";
         document.body.appendChild(heart);
 
         setTimeout(() => {
