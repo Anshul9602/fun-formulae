@@ -1,6 +1,6 @@
 
 #tsparticles{
-  display:none;
+  display:none !important;
 }
 
 
