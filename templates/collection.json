@@ -146,69 +146,6 @@
         "padding_bottom": 72
       }
     },
-    "collapsible_content_KN3yGT": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_DQ9FqQ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I choose the right shampoo for my hair type and needs?",
-            "row_content": "<p>Firstly, identify your hair type- if the hair feels oily twodays after the hair wash then you have a normal to combination type scalp. And if your hair looks lack of moisture & feels rough to the touch then youhave a dry hair type. So you need to use a nourished & heavier <em><strong>hair care shampoo</strong></em><strong> </strong>for your hair. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_7ixAXw": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What are the benefits of using Fun Formulae Shampoo?",
-            "row_content": "<p>If you’re using <strong>Fun Formulae</strong> shampoo then it will be very beneficial for your hair as the shampoo is chemical-free. Also, the shampoo contains natural ingredients with essential oils, so that you can see visible results. The shampoo is safe to use without any harsh chemicals. By using<em> </em><em><strong>Fun Formulae Shampoo</strong></em>, you can get the <em><strong>best hair care for men</strong></em> as well. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_mG3rVf": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How often should I shampoo my hair?",
-            "row_content": "<p>If you’ve Dry & damaged hair: Wash your hair once a week so that the hair's natural oils can be retained back. </p><p>If you’ve Oily hair:Wash hair twice or thrice a week to remove<br/>dirt.</p><p> If you’ve Fine/thin hair:<br/>Wash your hair with moisturized shampoo to get moisture in the hair. </p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_73wb9Q": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How long does hair care last?",
-            "row_content": "<p>It’s always advised to follow your best hair care routine as per the<em> </em><em><strong>hair care products</strong></em> you use so the lasting period<br/>of hair care totally depends on the<em> </em><em><strong>women’s hair care </strong></em>product you’re using.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_3hthUx": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How to check hair density?",
-            "row_content": "<p>It's easy to check the density of hair with an easy mirror test. Just take an amount of your hair & pull it on the side. If you can see your scalp easily then you have thin hair. You’ve medium hair density if you can see your scalp partially under the hair,<br/>and you can hardly see your scalp if you’ve thick hair density.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_DQ9FqQ",
-        "collapsible_row_7ixAXw",
-        "collapsible_row_mG3rVf",
-        "collapsible_row_73wb9Q",
-        "collapsible_row_3hthUx"
-      ],
-      "settings": {
-        "open_first_collapsible_row": false,
-        "narrow": false,
-        "show_divider": false,
-        "heading": "FAQ",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "heading_tag": "h2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_EJAarh": {
       "type": "rich-text",
       "blocks": {
@@ -578,6 +515,69 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_KN3yGT": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_DQ9FqQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I choose the right shampoo for my hair type and needs?",
+            "row_content": "<p>Firstly, identify your hair type- if the hair feels oily twodays after the hair wash then you have a normal to combination type scalp. And if your hair looks lack of moisture & feels rough to the touch then youhave a dry hair type. So you need to use a nourished & heavier <em><strong>hair care shampoo</strong></em><strong> </strong>for your hair. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7ixAXw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the benefits of using Fun Formulae Shampoo?",
+            "row_content": "<p>If you’re using <strong>Fun Formulae</strong> shampoo then it will be very beneficial for your hair as the shampoo is chemical-free. Also, the shampoo contains natural ingredients with essential oils, so that you can see visible results. The shampoo is safe to use without any harsh chemicals. By using<em> </em><em><strong>Fun Formulae Shampoo</strong></em>, you can get the <em><strong>best hair care for men</strong></em> as well. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mG3rVf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How often should I shampoo my hair?",
+            "row_content": "<p>If you’ve Dry & damaged hair: Wash your hair once a week so that the hair's natural oils can be retained back. </p><p>If you’ve Oily hair:Wash hair twice or thrice a week to remove<br/>dirt.</p><p> If you’ve Fine/thin hair:<br/>Wash your hair with moisturized shampoo to get moisture in the hair. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_73wb9Q": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does hair care last?",
+            "row_content": "<p>It’s always advised to follow your best hair care routine as per the<em> </em><em><strong>hair care products</strong></em> you use so the lasting period<br/>of hair care totally depends on the<em> </em><em><strong>women’s hair care </strong></em>product you’re using.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3hthUx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How to check hair density?",
+            "row_content": "<p>It's easy to check the density of hair with an easy mirror test. Just take an amount of your hair & pull it on the side. If you can see your scalp easily then you have thin hair. You’ve medium hair density if you can see your scalp partially under the hair,<br/>and you can hardly see your scalp if you’ve thick hair density.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_DQ9FqQ",
+        "collapsible_row_7ixAXw",
+        "collapsible_row_mG3rVf",
+        "collapsible_row_73wb9Q",
+        "collapsible_row_3hthUx"
+      ],
+      "settings": {
+        "open_first_collapsible_row": false,
+        "narrow": false,
+        "show_divider": false,
+        "heading": "FAQ",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -586,13 +586,13 @@
     "product-grid",
     "recently-viewed",
     "multicolumn",
-    "collapsible_content_KN3yGT",
     "rich_text_EJAarh",
     "multicolumn_pEgmzz",
     "rich_text_ARWELH",
     "multicolumn_W7qqfz",
     "multicolumn_JbiXry",
     "rich_text_VhRkTm",
-    "multicolumn_WiDPUF"
+    "multicolumn_WiDPUF",
+    "collapsible_content_KN3yGT"
   ]
 }
