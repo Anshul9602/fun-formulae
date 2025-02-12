@@ -2,7 +2,21 @@
 #tsparticles{
   display:none !important;
 }
-
+i.icon-swym-wishlist {
+font-family: 'swym-font';
+font-style: normal;
+vertical-align: middle;
+}
+i.icon-swym-wishlist+span {
+vertical-align: middle;
+}
+i.icon-swym-wishlist:after {
+content: '';
+font-size: 130%;
+line-height: 18px;
+text-align: center;
+display: inline;
+}
 
 .floating-heart {
     position: fixed;
