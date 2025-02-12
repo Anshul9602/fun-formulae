@@ -386,39 +386,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_VhRkTm": {
-      "type": "rich-text",
-      "blocks": {
-        "text_BbgCMW": {
-          "type": "text",
-          "settings": {
-            "text": "<h2></h2><h3></h3><p></p><p></p><h2></h2><p></p><h3></h3><ul><li></li></ul><h3><strong>Benefits of Using Shampoo & Conditioner</strong><br/><br/><strong>Cleansing and Nourishment: </strong><br/><br/><strong>How do shampoos cleanse the scalp while conditioners nourish the hair?</strong></h3><p>Shampoos work as a cleansing agent as it has ingredients like detergents & surfactants. These agents help in removing sweat, dirt, oil, and environmental dust pollutants from your scalp. On the other hand,conditioners have ingredients that contain proteins, natural oils, and botanical extracts that help keep your hair shiny, soft, and smooth. Use Fun Formulae shampoo & conditioner for chemical free hair care routine.</p><h3><strong>Improved Manageability</strong></h3><p><strong>The role of conditioner in detangling and smoothing hair</strong><br/>The Conditioner works on smoothing the cuticle of the hair & it detangles the hair. Whether it’s frizzy, dry, or tangled hair, conditioners make your hair silky every time you shampoo. With <a href=\"https://funformulae.com/\" target=\"_blank\" title=\"https://funformulae.com/\"><strong>Fun Formulae</strong></a> conditioner you can improve your hair quality as it has ingredients like geranium, lavender,and ylang-ylang.</p><h2><strong> Scalp Health</strong>: </h2><h3><strong>Benefits of using shampoo to maintain a healthy scalp environment</strong></h3><p> Regular use of <strong>Fun Formulae</strong> shampoo is very beneficial for your hair as it helps keep your scalp free from dead skin cells, and maintains a clean, healthy scalp. With the proper use of <strong>Fun Formulae</strong> shampoo, using<a href=\"https://funformulae.com/collections/hair-care\" target=\"_blank\" title=\"https://funformulae.com/collections/hair-care\"> <strong>hair care products</strong></a> on the scalp can give better results as they can reach the follicle with ease.</p><h2><strong>Conclusion </strong></h2><p>Everyone has different types of hair & for every hair type, <em><strong>hair care routine</strong></em> is different. But we’ve above mentioned some important facts that will help your hair look at its best. </p>",
-            "text_size": "typeset2",
-            "secondary_color": false,
-            "highlight_phrases": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_BbgCMW"
-      ],
-      "settings": {
-        "text_alignment": "left",
-        "mobile_text_alignment": "left",
-        "horizontal_content": false,
-        "narrow": false,
-        "show_divider": false,
-        "use_custom_colors": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#212326",
-        "colors_background": "#ffffff",
-        "colors_highlight": "#bbff00",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_W7qqfz": {
       "type": "multicolumn",
       "blocks": {
@@ -479,6 +446,88 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_VhRkTm": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BbgCMW": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><br/><br/><strong>Cleansing and Nourishment: </strong><br/><br/></h3><p></p><h3></h3><p></p><h2><strong> Scalp Health</strong>: </h2><h3><strong>Benefits of using shampoo to maintain a healthy scalp environment</strong></h3><p> Regular use of <strong>Fun Formulae</strong> shampoo is very beneficial for your hair as it helps keep your scalp free from dead skin cells, and maintains a clean, healthy scalp. With the proper use of <strong>Fun Formulae</strong> shampoo, using<a href=\"https://funformulae.com/collections/hair-care\" target=\"_blank\" title=\"https://funformulae.com/collections/hair-care\"> <strong>hair care products</strong></a> on the scalp can give better results as they can reach the follicle with ease.</p><h2><strong>Conclusion </strong></h2><p>Everyone has different types of hair & for every hair type, <em><strong>hair care routine</strong></em> is different. But we’ve above mentioned some important facts that will help your hair look at its best. </p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_BbgCMW"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_JbiXry": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_33jLd8": {
+          "type": "column",
+          "settings": {
+            "title": "ColumnHow do shampoos cleanse the scalp while conditioners nourish the hair?",
+            "title_size": "h3",
+            "text": "<p>Shampoos work as a cleansing agent as it has ingredients like detergents & surfactants. These agents help in removing sweat, dirt, oil, and environmental dust pollutants from your scalp. On the other hand,conditioners have ingredients that contain proteins, natural oils, and botanical extracts that help keep your hair shiny, soft, and smooth. Use Fun Formulae shampoo & conditioner for chemical free hair care routine.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "column_kC3Qm4": {
+          "type": "column",
+          "settings": {
+            "title": "Improved Manageability",
+            "title_size": "h3",
+            "text": "<p><strong>The role of conditioner in detangling and smoothing hair</strong><br/>The Conditioner works on smoothing the cuticle of the hair & it detangles the hair. Whether it’s frizzy, dry, or tangled hair, conditioners make your hair silky every time you shampoo. With <a href=\"https://funformulae.com/\" target=\"_blank\" title=\"https://funformulae.com/\"><strong>Fun Formulae</strong></a> conditioner you can improve your hair quality as it has ingredients like geranium, lavender,and ylang-ylang.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "column_33jLd8",
+        "column_kC3Qm4"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "image_width": "full",
+        "columns_desktop": 2,
+        "heading": "Benefits of Using Shampoo & Conditioner",
+        "subheading": "Multicolumn",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -491,7 +540,8 @@
     "rich_text_EJAarh",
     "multicolumn_pEgmzz",
     "rich_text_ARWELH",
+    "multicolumn_W7qqfz",
     "rich_text_VhRkTm",
-    "multicolumn_W7qqfz"
+    "multicolumn_JbiXry"
   ]
 }
