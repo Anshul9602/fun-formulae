@@ -106,20 +106,6 @@
         "disabled": false,
         "settings": {}
       },
-      "2112324153941317907": {
-        "type": "shopify://apps/sfx-seasonal-effects/blocks/snow/3f2c0443-facd-4715-9387-dcceca132b78",
-        "disabled": false,
-        "settings": {
-          "count": 70,
-          "count_mobile": 40,
-          "selector": "",
-          "speed": 2.5,
-          "snow_color": "snow",
-          "snow_shape": "real",
-          "snow_size": "small",
-          "disable_mobile": false
-        }
-      },
       "14916611450974054565": {
         "type": "shopify://apps/automatic-discounts-upsells/blocks/theme_app_embed/afbdc23b-1384-41ba-afd7-f55ee7ffbc4c",
         "disabled": false,
@@ -159,6 +145,30 @@
           "app-size-landscape": 50,
           "video-title": "",
           "use-variant": "false"
+        }
+      },
+      "2112324153941317907": {
+        "type": "shopify://apps/sfx-seasonal-effects/blocks/snow/3f2c0443-facd-4715-9387-dcceca132b78",
+        "disabled": true,
+        "settings": {
+          "count": 70,
+          "count_mobile": 40,
+          "selector": "",
+          "speed": 2.5,
+          "snow_color": "snow",
+          "snow_shape": "real",
+          "snow_size": "small",
+          "disable_mobile": false
+        }
+      },
+      "9347082697110740317": {
+        "type": "shopify://apps/sfx-seasonal-effects/blocks/love-blast/3f2c0443-facd-4715-9387-dcceca132b78",
+        "disabled": true,
+        "settings": {
+          "number": 100,
+          "love_speed": "slow",
+          "love_size": "normal",
+          "disable_mobile": false
         }
       }
     }
