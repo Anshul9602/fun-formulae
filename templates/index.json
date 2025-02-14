@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/B2.jpg",
-            "image_mobile": "shopify://shop_images/Banners-vertical_2.jpg",
+            "image_mobile": "shopify://shop_images/SPF_30_R2.jpg",
             "image_position": "bottom center",
             "text_box_position": "bottom-left",
             "subheading": "",
@@ -36,7 +36,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/B3.jpg",
-            "image_mobile": "shopify://shop_images/Banners-vertical.jpg",
+            "image_mobile": "shopify://shop_images/Hand_n_foot_cream.jpg",
             "image_position": "center center",
             "text_box_position": "bottom-left",
             "subheading": "",
@@ -56,7 +56,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/B4.jpg",
-            "image_mobile": "shopify://shop_images/Banners-vertical_3.jpg",
+            "image_mobile": "shopify://shop_images/Luxurious_box_MB.jpg",
             "image_position": "center center",
             "text_box_position": "middle-center",
             "subheading": "",
@@ -76,7 +76,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/B5.jpg",
-            "image_mobile": "shopify://shop_images/Banners-vertical_3.jpg",
+            "image_mobile": "shopify://shop_images/Opulent_box_MB.jpg",
             "image_position": "center center",
             "text_box_position": "middle-center",
             "subheading": "",
@@ -96,7 +96,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/B6.jpg",
-            "image_mobile": "shopify://shop_images/Banners-vertical_3.jpg",
+            "image_mobile": "shopify://shop_images/Unbox_radiance.jpg",
             "image_position": "center center",
             "text_box_position": "middle-center",
             "subheading": "",
@@ -116,7 +116,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/B1.jpg",
-            "image_mobile": "shopify://shop_images/Banners-vertical_3.jpg",
+            "image_mobile": "shopify://shop_images/Body_scrub.jpg",
             "image_position": "center center",
             "text_box_position": "middle-center",
             "subheading": "",
