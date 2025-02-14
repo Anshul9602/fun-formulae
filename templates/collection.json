@@ -182,6 +182,7 @@
         "text_XBymW9",
         "button_DTGh97"
       ],
+      "disabled": true,
       "settings": {
         "text_alignment": "center",
         "mobile_text_alignment": "center",
@@ -253,6 +254,7 @@
         "column_H3XaTK",
         "column_AtqeRR"
       ],
+      "disabled": true,
       "settings": {
         "image_ratio": "landscape",
         "image_position": "center center",
