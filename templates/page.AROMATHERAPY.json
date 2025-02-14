@@ -34,9 +34,9 @@
         "text"
       ],
       "settings": {
-        "image": "shopify://shop_images/ModelRestorativeCollagenBoostingSkinFirmingUnderEyeSerum_10.jpg",
+        "image": "shopify://shop_images/model-LusciousBodyYogurt_11.jpg",
         "button_link1": "",
-        "image_2": "shopify://shop_images/KEW7339_647423fa-8713-4b53-82e3-79677a888845.jpg",
+        "image_2": "shopify://shop_images/Model-RestructuringCollagenBoostingFaceAndDecolleteFirmingSerum_2.jpg",
         "button_link2": "",
         "image_position": "center center",
         "text_box_position": "bottom-center",
@@ -178,7 +178,7 @@
         "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "450px",
+        "image_ratio": "adapt",
         "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
