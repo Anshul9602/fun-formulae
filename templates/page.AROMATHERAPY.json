@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image-banner": {
@@ -25,9 +34,9 @@
         "text"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/KEW6782_copy.jpg",
+        "image": "shopify://shop_images/ModelRestorativeCollagenBoostingSkinFirmingUnderEyeSerum_10.jpg",
         "button_link1": "",
-        "image_2": "shopify:\/\/shop_images\/KEW7339_647423fa-8713-4b53-82e3-79677a888845.jpg",
+        "image_2": "shopify://shop_images/KEW7339_647423fa-8713-4b53-82e3-79677a888845.jpg",
         "button_link2": "",
         "image_position": "center center",
         "text_box_position": "bottom-center",
@@ -56,7 +65,7 @@
         "265ba9b3-3fcd-4011-8de5-a12ab9c844b3": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';\">AROMATHERAPY BRINGS <span ><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0841\/8371\/2050\/files\/Asset_793.png?v=1703241363\" width=\"40\"\/><\/span><\/h4>"
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';\">AROMATHERAPY BRINGS <span ><img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Asset_793.png?v=1703241363\" width=\"40\"/></span></h4>"
           }
         },
         "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-heading-1": {
@@ -71,7 +80,7 @@
         "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The self-care rituals across all the cultures of the world share a common thread and that is joy and happiness, which strengthen our bond with loved ones. The beauty of these everyday fun moments is enhanced by the aromatic bliss of pure essential oils.<\/p>",
+            "text": "<p>The self-care rituals across all the cultures of the world share a common thread and that is joy and happiness, which strengthen our bond with loved ones. The beauty of these everyday fun moments is enhanced by the aromatic bliss of pure essential oils.</p>",
             "text_size": "typeset3",
             "secondary_color": false
           }
@@ -94,7 +103,7 @@
         "template--21636153835826__b4d72778-f4ce-486c-bd08-286ef247a88d-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/KEW6854_copy.jpg",
+        "image": "shopify://shop_images/KEW6854_copy.jpg",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -104,7 +113,7 @@
         "full_width": false,
         "show_divider": false,
         "image_behavior": "none",
-        "image_mobile": "shopify:\/\/shop_images\/KEW6993_copy.jpg",
+        "image_mobile": "shopify://shop_images/KEW6993_copy.jpg",
         "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
@@ -126,7 +135,7 @@
         "b0e04c62-f69b-4bbf-8371-2c08b7de7560": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<link rel=\"stylesheet\" href=\"https:\/\/fonts.googleapis.com\/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';\">FORMULAE OF ESSENTIAL OILS <\/h4>"
+            "custom_liquid": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap\">\n<h4 class=\"image-with-text__heading h3 hello\" style=\"font-family: 'Josefin Sans';\">FORMULAE OF ESSENTIAL OILS </h4>"
           }
         },
         "25eab969-4485-427e-bea3-826865588502": {
@@ -141,7 +150,7 @@
         "fe60d223-878f-4e93-a240-5fbc18b4f1c2": {
           "type": "text",
           "settings": {
-            "text": "<p>At Fun Formulae, we choose our ingredients meticulously, based on scientific studies on the medicinal values of plants and the essential oils derived from them. The formulations are precise and effective based on the therapeutic properties of essential oils.<\/p>",
+            "text": "<p>At Fun Formulae, we choose our ingredients meticulously, based on scientific studies on the medicinal values of plants and the essential oils derived from them. The formulations are precise and effective based on the therapeutic properties of essential oils.</p>",
             "text_size": "typeset3",
             "secondary_color": false
           }
@@ -164,8 +173,8 @@
         "93a80f86-42bd-413d-9c17-10856bab421f"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/KEW6766_copy.jpg",
-        "image_position": "center center",
+        "image": "shopify://shop_images/1.png",
+        "image_position": "20% 100%",
         "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "left",
@@ -174,7 +183,7 @@
         "full_width": false,
         "show_divider": false,
         "image_behavior": "none",
-        "image_mobile": "shopify:\/\/shop_images\/KEW7126_cdf77a64-d695-4970-93fd-0241477e3bd8.jpg",
+        "image_mobile": "shopify://shop_images/KEW7126_cdf77a64-d695-4970-93fd-0241477e3bd8.jpg",
         "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
@@ -196,9 +205,9 @@
         "template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d-video-1": {
           "type": "video",
           "settings": {
-            "cover_image": "shopify:\/\/shop_images\/KEW7044_copy.jpg",
+            "cover_image": "shopify://shop_images/KEW7044_copy.jpg",
             "enable_video_looping": true,
-            "video": "shopify:\/\/files\/videos\/4_a8888c04-54a5-439f-aa9a-df8329b247c8.mp4",
+            "video": "shopify://files/videos/4_a8888c04-54a5-439f-aa9a-df8329b247c8.mp4",
             "video_url": "",
             "description": "",
             "heading": ""
@@ -207,7 +216,7 @@
         "template--21636153835826__00e44901-5d18-4aff-9b5a-2f6f7f1bb35d-product-1": {
           "type": "product",
           "settings": {
-            "product": "acne-spot-application-overnight-remedy",
+            "product": "deep-cleansing-balancing-micellar-water-copy",
             "second_image": false,
             "enable_quick_view": true
           }
@@ -301,11 +310,9 @@
         "48d9ac22-ea45-4db1-9dd4-2fb4eb73243e",
         "template--21636153835826__6343f04a-b877-461b-aa5c-d63f05017c31-product-2"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "image": "shopify:\/\/shop_images\/AN_2743_1.jpg",
+        "image": "shopify://shop_images/AN_2743_1.jpg",
         "layout": "text_first",
         "text_box_position": "top",
         "text_alignment": "left",
@@ -327,8 +334,8 @@
         "template--21636153835826__e53ce36a-519d-478f-b57a-a5b2855dfe28-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/KEW7310_b456d6d7-c820-4c74-8f8f-905c2a6d280c.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/KEW7310_b456d6d7-c820-4c74-8f8f-905c2a6d280c.jpg",
+            "image": "shopify://shop_images/KEW7310_b456d6d7-c820-4c74-8f8f-905c2a6d280c.jpg",
+            "image_mobile": "shopify://shop_images/KEW7310_b456d6d7-c820-4c74-8f8f-905c2a6d280c.jpg",
             "image_position": "20% 0",
             "text_box_position": "middle-left",
             "subheading": "",
@@ -339,7 +346,7 @@
             "text": "Contact us for the consultancy.",
             "text_size": "typeset2",
             "button_label": "Contact us",
-            "button_link": "shopify:\/\/pages\/contact",
+            "button_link": "shopify://pages/contact",
             "button_size": "medium",
             "button_style_secondary": false
           }
@@ -347,8 +354,8 @@
         "template--21636153835826__e53ce36a-519d-478f-b57a-a5b2855dfe28-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/KEW6770_copy_c306dac9-31b7-4fd7-aaad-d59867ef35f8.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/KEW6770_copy_c306dac9-31b7-4fd7-aaad-d59867ef35f8.jpg",
+            "image": "shopify://shop_images/KEW6770_copy_c306dac9-31b7-4fd7-aaad-d59867ef35f8.jpg",
+            "image_mobile": "shopify://shop_images/KEW6770_copy_c306dac9-31b7-4fd7-aaad-d59867ef35f8.jpg",
             "image_position": "top center",
             "text_box_position": "middle-center",
             "subheading": "",
@@ -359,7 +366,7 @@
             "text": "Contact us for the consultancy.",
             "text_size": "typeset2",
             "button_label": "Contact us",
-            "button_link": "shopify:\/\/pages\/contact",
+            "button_link": "shopify://pages/contact",
             "button_size": "medium",
             "button_style_secondary": false
           }
@@ -428,7 +435,7 @@
             "heading": "SCIENCE OF AROMATHERAPY",
             "heading_size": "h2",
             "heading_tag": "h2",
-            "text": "<p>Aromatherapy is a holistic healing practice that utilizes aromatic essential oils derived from plants to enhance physical, mental, and emotional well-being. Through skin absorption or inhalation, these oils engage the limbic system, influencing mood, stress, and overall health. Aromatherapy is often integrated into massage, diffusers, and personal care products.<\/p>",
+            "text": "<p>Aromatherapy is a holistic healing practice that utilizes aromatic essential oils derived from plants to enhance physical, mental, and emotional well-being. Through skin absorption or inhalation, these oils engage the limbic system, influencing mood, stress, and overall health. Aromatherapy is often integrated into massage, diffusers, and personal care products.</p>",
             "text_size": "typeset3",
             "secondary_color": false,
             "button_label": "",
@@ -450,14 +457,14 @@
         "template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8-slide-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/New_Project_4a00e1cf-1db0-4916-90a3-25f6d241ae01.png",
-        "image_position": "center center",
+        "image": "shopify://shop_images/2E9A2124-min_2.jpg",
+        "image_position": "80% 0",
         "text_box_position": "middle",
         "text_alignment": "left",
         "image_ratio": "600px",
         "full_width": true,
         "show_divider": false,
-        "image_mobile": "shopify:\/\/shop_images\/AN_2743_1.jpg",
+        "image_mobile": "shopify://shop_images/Mobile_Banner_Soaps_FF_1.jpg",
         "mobile_text_alignment": "center",
         "mobile_image_ratio": "auto",
         "show_text_below": false,
@@ -474,7 +481,7 @@
         "68dda234-d530-4cd4-b516-f5b7bf45649a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/alcohol_free_1.png",
+            "image": "shopify://shop_images/alcohol_free_1.png",
             "height": 60,
             "link": ""
           }
@@ -482,7 +489,7 @@
         "3861cee9-ccbe-4dcf-97c6-d589da2a184a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Paraben_free_1.png",
+            "image": "shopify://shop_images/Paraben_free_1.png",
             "height": 60,
             "link": ""
           }
@@ -490,7 +497,7 @@
         "de8f95ad-57d0-4c5f-921c-b6a5f28e7c39": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cruelty_free.png",
+            "image": "shopify://shop_images/cruelty_free.png",
             "height": 60,
             "link": ""
           }
@@ -498,7 +505,7 @@
         "596dd087-db86-4608-87a2-69e806bb5b80": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/phthalate_free.png",
+            "image": "shopify://shop_images/phthalate_free.png",
             "height": 60,
             "link": ""
           }
@@ -506,7 +513,7 @@
         "3623f19e-2f2d-4e7e-b1e6-370b65af9a49": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sulphate_free.png",
+            "image": "shopify://shop_images/sulphate_free.png",
             "height": 60,
             "link": ""
           }
