@@ -173,7 +173,7 @@
         "93a80f86-42bd-413d-9c17-10856bab421f"
       ],
       "settings": {
-        "image": "shopify://shop_images/1.png",
+        "image": "shopify://shop_images/3.png",
         "image_position": "20% 100%",
         "layout": "text_first",
         "text_box_position": "middle",
@@ -183,7 +183,7 @@
         "full_width": false,
         "show_divider": false,
         "image_behavior": "none",
-        "image_mobile": "shopify://shop_images/KEW7126_cdf77a64-d695-4970-93fd-0241477e3bd8.jpg",
+        "image_mobile": "shopify://shop_images/3.png",
         "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
@@ -370,11 +370,30 @@
             "button_size": "medium",
             "button_style_secondary": false
           }
+        },
+        "image_FrMTDL": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "template--21636153835826__e53ce36a-519d-478f-b57a-a5b2855dfe28-image-2",
-        "template--21636153835826__e53ce36a-519d-478f-b57a-a5b2855dfe28-image-1"
+        "template--21636153835826__e53ce36a-519d-478f-b57a-a5b2855dfe28-image-1",
+        "image_FrMTDL"
       ],
       "disabled": true,
       "settings": {
@@ -458,7 +477,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/2E9A2124-min_2.jpg",
-        "image_position": "80% 0",
+        "image_position": "20% 0",
         "text_box_position": "middle",
         "text_alignment": "left",
         "image_ratio": "600px",
