@@ -476,11 +476,11 @@
         "template--21636153835826__5121ed59-b5ec-4345-98d4-e444b6b369a8-slide-1"
       ],
       "settings": {
-        "image": "shopify://shop_images/2E9A2124-min_2.jpg",
+        "image": "shopify://shop_images/B3.jpg",
         "image_position": "20% 0",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "600px",
+        "image_ratio": "adapt",
         "full_width": true,
         "show_divider": false,
         "image_mobile": "shopify://shop_images/Mobile_Banner_Soaps_FF_1.jpg",
