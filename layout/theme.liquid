@@ -120,6 +120,7 @@ src="https://www.facebook.com/tr?id=1068697784256017&ev=PageView&noscript=1"
 }
 
 </style>
+    
   
   </head>
 
@@ -132,7 +133,9 @@ src="https://www.facebook.com/tr?id=1068697784256017&ev=PageView&noscript=1"
     {%- if settings.button_corner_radius > 0 %} data-button-round{% endif -%}
   >
    
-   
+   <div id="preloader">
+    <img src="{{ 'your-preloader.gif' | asset_url }}" alt="Loading..." />
+</div>
     <a class="skip-to-content-link button button--small visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
