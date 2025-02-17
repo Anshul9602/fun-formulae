@@ -78,6 +78,12 @@
             "size_chart": ""
           }
         },
+        "custom_liquid_hJBa7R": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- assign in1 = product.metafields.custom.sizz -%}\n{%- if in1 != blank -%}\n<variant-radios class=\"no-js-hidden\"  data-url=\"/products/face-wash\" data-no-scroll=\"\" data-swatch-cross=\"\"><fieldset class=\"js product-form__input variant-input-wrapper\" data-option-index=\"option1\" data-option-slug=\"size\"><legend class=\"form__label\">\n  Size\n</legend><input type=\"radio\"  name=\"Size\" value=\"10 ml\" form=\"\" checked=\"checked\" data-option-value=\"100 ml\">\n<a href=\"/collections/gifts/products/revitalizing-velvety-face-and-eye-care-collection\"><label for=\"template--21613581664562__main-Size-0\">\n    10 ml\n  </label></a>\n</variant-radios>\n\n\n\n{%- endif -%}"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -147,6 +153,7 @@
         "price",
         "countdown",
         "variant_picker",
+        "custom_liquid_hJBa7R",
         "buy_buttons",
         "description",
         "collapsible_tab_JY6Grj",
