@@ -237,5 +237,12 @@ src="https://www.facebook.com/tr?id=1068697784256017&ev=PageView&noscript=1"
       <script src="{{ 'gift-wrapping.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
           <script src="{{ 'valentine-hearts.js' | asset_url }}" defer></script>
+          <script>
+document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(function() {
+        document.getElementById("preloader").style.display = "none";
+    }, 2000); // Hide after 2 seconds
+});
+</script>
   </body>
 </html>
