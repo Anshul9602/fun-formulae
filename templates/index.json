@@ -725,7 +725,7 @@
           "type": "heading",
           "settings": {
             "heading": "Featured Collection",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "heading_tag": "h2"
           }
         },
