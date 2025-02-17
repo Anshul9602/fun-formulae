@@ -81,7 +81,7 @@
         "custom_liquid_hJBa7R": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{%- assign in1 = product.metafields.custom.sizz -%}\n{%- if in1 != blank -%}\n<variant-radios class=\"no-js-hidden\"  data-url=\"/products/face-wash\" data-no-scroll=\"\" data-swatch-cross=\"\"><fieldset class=\"js product-form__input variant-input-wrapper\" data-option-index=\"option1\" data-option-slug=\"size\"><legend class=\"form__label\">\n  Size\n</legend><input type=\"radio\"  name=\"Size\" value=\"10 ml\" form=\"\" checked=\"checked\" data-option-value=\"100 ml\">\n<a href=\"/collections/gifts/products/revitalizing-velvety-face-and-eye-care-collection\"><label for=\"template--21613581664562__main-Size-0\">\n    10 ml\n  </label></a>\n</variant-radios>\n\n\n\n{%- endif -%}"
+            "custom_liquid": "<style>\n  .new_gift {\n    box-shadow: inset 0 0 0 0.1rem rgb(var(--color-border));\n    color: rgb(var(--color-foreground));\n    margin-top: 0.6rem;\n    margin-bottom: 0.4rem;\n    margin-inline-end: 1rem;\n    padding: 0.6rem 1.6rem;\n    min-width: 4rem;\n    min-height: 4rem;\n    font-size: 1.4rem;\n    letter-spacing: 0.1rem;\n    line-height: 1;\n    display: flex;\n    align-items: center;\n    cursor: pointer;\n    position: relative;\n    z-index: 1;\n    transition-property: color, box-shadow;\n    transition-timing-function: ease;\n    transition-duration: var(--duration-default);\n    border-radius: min(var(--button-radius), 0.3rem);\n  }\n</style>\n\n{%- assign in1 = product.metafields.custom.sizz -%}\n{%- if in1 != blank -%}\n\n{{product.metafields.custom.sizz }}\n{%- endif -%}"
           }
         },
         "buy_buttons": {
