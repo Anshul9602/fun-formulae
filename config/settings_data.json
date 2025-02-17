@@ -39,7 +39,7 @@
     "spacing_sections": 0,
     "page_transition_enabled": true,
     "image_zoom_effect_enabled": true,
-    "image_loading_bar_enabled": false,
+    "image_loading_bar_enabled": true,
     "button_border_thickness": 1,
     "button_corner_radius": 0,
     "button_shadow_horizontal_offset": 0,
