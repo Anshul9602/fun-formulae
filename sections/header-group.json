@@ -55,6 +55,33 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "mega_menu_HpBFmV": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_title": "shop",
+            "narrow": true,
+            "show_menu_image": true,
+            "promo_image_1": "shopify://shop_images/AN_2508.png",
+            "promo_image_ratio_1": "square",
+            "promo_image_position_1": "center center",
+            "promo_heading_1": "Bodycare",
+            "promo_text_1": "",
+            "promo_overlay_content_1": false,
+            "promo_link_1": "",
+            "promo_image_2": "shopify://shop_images/KEW6753_copy_a26e4d12-edad-4d34-af9e-247fc5557264.jpg",
+            "promo_image_ratio_2": "square",
+            "promo_image_position_2": "top center",
+            "promo_heading_2": "Facecare",
+            "promo_text_2": "",
+            "promo_overlay_content_2": false,
+            "promo_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_HpBFmV"
+      ],
       "settings": {
         "logo": "shopify://shop_images/FF_Logo_Black.png",
         "logo_height": 64,
