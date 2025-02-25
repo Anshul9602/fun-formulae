@@ -439,6 +439,7 @@
 
 @media screen and (hover: hover) {
   .card-information__text {
+            text-transform: uppercase;
     background-image: linear-gradient(to top, rgb(var(--color-border)) 0, rgb(var(--color-border)) 0), linear-gradient(to top, transparent 0, transparent 0);
     background-repeat: no-repeat;
     background-position: right bottom;
