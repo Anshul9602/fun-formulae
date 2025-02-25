@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image-banner": {
@@ -25,10 +34,10 @@
         "text"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/New_Project.png",
-        "button_link1": "shopify:\/\/products\/body-yogurt",
-        "image_2": "shopify:\/\/shop_images\/KEW7493_copy_fa13bd54-f6e6-48f4-ba0a-0904a6d6d2ee.jpg",
-        "button_link2": "shopify:\/\/products\/face-wash",
+        "image": "shopify://shop_images/New_Project.png",
+        "button_link1": "shopify://products/body-yogurt",
+        "image_2": "shopify://shop_images/KEW7493_copy_fa13bd54-f6e6-48f4-ba0a-0904a6d6d2ee.jpg",
+        "button_link2": "shopify://products/face-wash",
         "image_position": "bottom center",
         "text_box_position": "middle-center",
         "text_alignment": "center",
@@ -74,8 +83,8 @@
           "type": "contact",
           "settings": {
             "heading": "WhatsApp (chat only)",
-            "text": "9783887788  |  9783447744",
-            "link": "shopify:\/\/pages\/contact"
+            "text": "9783887788",
+            "link": "shopify://pages/contact"
           }
         },
         "contact-2": {
@@ -125,7 +134,7 @@
         "map-1": {
           "type": "text",
           "settings": {
-            "text": "<p>620 King Street West<br\/>Toronto, ON M5V 1M7, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
+            "text": "<p>620 King Street West<br/>Toronto, ON M5V 1M7, Canada</p><p>Mon - Fri, 8:30am - 10:30pm<br/>Saturday, 8:30am - 10:30pm<br/>Sunday, 8:30am - 10:30pm</p>",
             "text_size": "typeset",
             "secondary_color": false
           }
