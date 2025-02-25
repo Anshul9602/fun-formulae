@@ -209,7 +209,7 @@ mega-menu {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: var(--font-navigation-size);
-  color: rgba(var(--color-header-foreground), 0.5);
+  color: black;
   padding: 0;
 }
 
