@@ -2,7 +2,9 @@
   margin: 0;
   column-gap: 0;
 }
-
+.product__heading{
+      text-transform: uppercase;
+}
 .product__media-wrapper {
   padding-bottom: 0;
   position: relative;
