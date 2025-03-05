@@ -92,12 +92,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "custom_liquid_LGVEdJ": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<button type=\"button\" class=\"shopify-payment-button__button shopify-payment-button__button--unbranded\" fdprocessedid=\"4ara9g1\" style=\"display: unset;\">Register now</button>"
-          }
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -161,7 +155,6 @@
         "variant_picker",
         "custom_liquid_hJBa7R",
         "buy_buttons",
-        "custom_liquid_LGVEdJ",
         "description",
         "collapsible_tab_JY6Grj",
         "inventory_status",
