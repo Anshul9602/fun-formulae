@@ -95,7 +95,7 @@
         "custom_liquid_LGVEdJ": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<button type=\"button\" class=\"shopify-payment-button__button shopify-payment-button__button--unbranded\" fdprocessedid=\"4ara9g\" style=\"display: unset;\">Register now</button>"
+            "custom_liquid": "<button type=\"button\" class=\"shopify-payment-button__button shopify-payment-button__button--unbranded\" fdprocessedid=\"4ara9g1\" style=\"display: unset;\">Register now</button>"
           }
         },
         "description": {
