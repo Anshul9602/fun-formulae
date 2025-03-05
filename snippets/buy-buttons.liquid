@@ -70,7 +70,7 @@
         {%- liquid
           if product.selected_or_first_available_variant.available
             if product.template_suffix != 'pre-order'
-              echo 'products.product.add_to_cart1' | t
+              echo 'products.product.add_to_cart' | t
             else
               echo 'products.product.pre_order' | t
             endif
