@@ -78,12 +78,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "custom_liquid_UtEJyH": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<script>\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n    function updateButtonText() {\n        let buyNowButton = document.querySelector(\"#product-form-template--21613581402418__main .shopify-payment-button__button\");\n\n        if (buyNowButton && buyNowButton.innerText.trim() === \"Buy it now\") {\n            buyNowButton.innerText = \"Register Now\"; // Change button text\n        }\n    }\n\n    // Run initially\n    updateButtonText();\n\n    // Observe dynamic changes in the button\n    let observer = new MutationObserver(updateButtonText);\n    observer.observe(document.body, { childList: true, subtree: true });\n});\n</script>"
-          }
-        },
         "collapsible_tab-0": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -133,7 +127,6 @@
         "variant_picker",
         "inventory_status",
         "buy_buttons",
-        "custom_liquid_UtEJyH",
         "collapsible_tab-0",
         "collapsible_tab-1",
         "description_CakQtc",
