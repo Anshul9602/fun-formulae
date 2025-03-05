@@ -1,0 +1,486 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "breadcrumb": {
+          "type": "breadcrumb",
+          "settings": {
+            "text_style": "uppercase",
+            "show_divider": true
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true,
+            "sale_badge_basis": "auto"
+          }
+        },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "heading": "Hurry up ! Sale end in:",
+            "number_size": "compact",
+            "colors_heading": "#da3f3f",
+            "colors_text": "#da3f3f",
+            "colors_background": "#ffeeee"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
+        "custom_liquid_hJBa7R": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .new_gift {\nwidth: max-content;\n    box-shadow: inset 0 0 0 0.1rem rgb(var(--color-border));\n    color: rgb(var(--color-foreground));\n    margin-top: 0.6rem;\n    margin-bottom: 0.4rem;\n    margin-inline-end: 1rem;\n    padding: 0.6rem 1.6rem;\n    min-width: 4rem;\n    min-height: 4rem;\n    font-size: 1.4rem;\n    letter-spacing: 0.1rem;\n    line-height: 1;\n    display: flex;\n    align-items: center;\n    cursor: pointer;\n    position: relative;\n    z-index: 1;\n    transition-property: color, box-shadow;\n    transition-timing-function: ease;\n    transition-duration: var(--duration-default);\n    border-radius: min(var(--button-radius), 0.3rem);\n  }\n</style>\n\n{%- assign in1 = product.metafields.custom.sizz -%}\n{%- if in1 != blank -%}\nProduct Available in Gifts\n{{product.metafields.custom.sizz }}\n{%- endif -%}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "collapsible_tab_JY6Grj": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "More Information",
+            "content": "",
+            "page": "",
+            "custom_liquid": "{{product.metafields.custom.more_information}}",
+            "keep_open": false
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 4,
+            "show_inventory_transfer": true,
+            "color_scheme": "accent-3"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        },
+        "131523a6-a5f7-44ea-90f8-db519a282c79": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        },
+        "ldt_gift_wrap_product_gift_option_R6NQxF": {
+          "type": "shopify://apps/ldt-gift-wrap/blocks/product-gift-option/4046b73d-300a-4b9b-9ab0-bce054825b2c",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "breadcrumb",
+        "vendor",
+        "title",
+        "rating",
+        "price",
+        "countdown",
+        "variant_picker",
+        "custom_liquid_hJBa7R",
+        "buy_buttons",
+        "description",
+        "collapsible_tab_JY6Grj",
+        "inventory_status",
+        "share",
+        "related_buttons",
+        "sticky_cart",
+        "131523a6-a5f7-44ea-90f8-db519a282c79",
+        "ldt_gift_wrap_product_gift_option_R6NQxF"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "square",
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
+    "4ab487cb-2fe3-40a2-9891-37720232c0af": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .cc1 .card {\n    border: 1px solid;\n    border-radius: 10px;\n    padding: 10px;\n    text-align: center;\n  }\n\n  .cc1 .card img {\n    width: 100px;\n    margin: auto;\n  }\n\n  .cc1 .card p {\n    line-height: 1.2;\n  }\n\n  .cc1 .card h4 {\n    margin-bottom: 0;\n  }\n\n  .col-md-3 {\n    margin-bottom: 2rem;\n    flex-grow: 2;\n    flex-shrink: 0;\n    width: 20%;\n  }\n\n  .grid {\n    row-gap: 3rem;\n  }\n\n  @media screen and (max-width: 750px) {\n    .grid {\n      row-gap: 1.5rem;\n    }\n  }\n</style>\n<hr>\n<div class=\"grid grid--2-col grid--3-col-tablet grid--4-col-desktop cc1\" style=\"margin:auto;\">\n\n\n\n  {%- assign in1 = product.metafields.custom.carrotseed_oil_ -%}\n  {%- if in1 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/carrot_seed_400px.jpg?v=1705292912\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>CARROTSEED OIL</h4>\n    <p>rejuvenates skin, stimulates collagen production, reduces wrinkles, brightens complexion, heals scars, balances oily skin, and improves elasticity, promoting youthful, glowing skin.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in2 = product.metafields.custom.clove_oil -%}\n  {%- if in2 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Clove_400px.jpg?v=1705292913\" alt=\"\" height=\"100\" style=\"margin:auto;\">\n    <h4>CLOVE OIL</h4>\n    <p>has antibacterial, antifungal, and antioxidant properties, promoting clear skin, reducing acne, soothing inflammation, improving circulation, and rejuvenating the complexion for a healthy glow.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in3 = product.metafields.custom.geranium_oil_ -%}\n  {%- if in3 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Geranium_400px.jpg?v=1705292913\" alt=\"\" height=\"100\" style=\"margin:auto;\">\n    <h4>GERANIUM OIL </h4>\n    <p>has anti-inflammatory, antibacterial, and antiseptic properties. It balances skin oils, improves circulation, reduces stress, promotes relaxation, and enhances skin health by tightening and rejuvenating.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in4 = product.metafields.custom.juniperberry_oil_ -%}\n  {%- if in4 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Juniperberry_400px.jpg?v=1705292912\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>JUNIPERBERRY OIL</h4>\n    <p>detoxifies, cleanses pores, reduces acne, tones skin, balances oil production, improves circulation, promotes clear complexion, and has anti-inflammatory and antimicrobial properties.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in5 = product.metafields.custom.lavender_oil_ -%}\n  {%- if in5 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/lavender_400px.jpg?v=1705292912\" alt=\"\" height=\"100\" style=\"margin:auto;\">\n    <h4>LAVENDER OIL </h4>\n    <p>soothes irritated skin, reduces acne, promotes healing, calms inflammation, enhances skin tone, reduces wrinkles, and provides relaxation, leaving the skin glowing and refreshed.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in6 = product.metafields.custom.neroli_oil -%}\n  {%- if in6 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Neroli_400px.jpg?v=1705292913\" alt=\"\" height=\"100\" style=\"margin:auto;\">\n    <h4>NEROLI OIL</h4>\n    <p>It rejuvenates skin, promotes collagen production, reduces wrinkles, brightens complexion, soothes inflammation, improves elasticity, and balances oily skin while providing a calming, uplifting aroma.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in7 = product.metafields.custom.nutmeg_oil_ -%}\n  {%- if in7 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/nutmeg_400px.jpg?v=1705292913\" alt=\"\" height=\"100\" style=\"margin:auto;\">\n    <h4>NUTMEG OIL </h4>\n    <p>promotes circulation, reduces inflammation, brightens complexion, fights acne, alleviates dark circles, smooths skin texture, and has antiseptic properties, enhancing overall skin vitality.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in8 = product.metafields.custom.oregano_oil_ -%}\n  {%- if in8 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Oregano_400px.jpg?v=1705292912\" alt=\"\" height=\"100\" style=\"margin:auto;\">\n    <h4>OREGANO OIL </h4>\n    <p>has powerful antimicrobial, antifungal, and antibacterial properties, helping to clear acne, reduce inflammation, promote healthy skin, and combat blemishes for a radiant complexion.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in9 = product.metafields.custom.peppermint_oil_ -%}\n  {%- if in9 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/peppermint_400px.jpg?v=1705292913\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>PEPPERMINT OIL </h4>\n    <p>refreshes and revitalizes the skin. It balances oil production, soothes irritation, reduces acne, and enhances skin tone, leaving a rejuvenated, cooling, and invigorating effect.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in10 = product.metafields.custom.sandalwood_oil_ -%}\n  {%- if in10 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/sandalwood_400px.jpg?v=1705292913\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>SANDALWOOD OIL </h4>\n    <p>hydrates, soothes irritated skin, reduces redness, fights acne, promotes even skin tone, boosts elasticity, and has anti-aging properties for smooth, radiant skin.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in11 = product.metafields.custom.thyme_oil_ -%}\n  {%- if in11 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Thyme_400px.jpg?v=1705293429\" alt=\"\" height=\"100\" style=\"margin:auto;\">\n    <h4>THYME OIL </h4>\n    <p>offers antibacterial and antifungal benefits, clearing acne, promoting healthy skin, reducing inflammation, balancing oil production, and enhancing complexion for a clearer, glowing appearance.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.custom.ylang_ylang_oil_ -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/ylang_ylang_400px.jpg?v=1705292913\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>YLANG-YLANG OIL </h4>\n    <p>hydrates dry skin, balances oily skin, reduces wrinkles, enhances radiance, strengthens hair, promotes relaxation, and boosts overall skin health. \n    </p>\n  </div>\n  {%- endif -%}\n  <!-- /n -->\n  {%- assign in12 = product.metafields.custom.frankincense -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/frankincense.png?v=1740980422\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>FRANKINCENSE OIL</h4>\n    <p>It has anti-inflammatory, antimicrobial, astringent, and antioxidant properties. It promotes relaxation, boosts immunity, heals wounds, reduces stress, and enhances skin health by promoting cell regeneration and reducing signs of aging.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.custom.immortelle -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Immortelle.png?v=1741066038\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>IMMORTELLE OIL</h4>\n    <p>It has powerful anti-aging, anti-inflammatory, antioxidant, and healing properties. It promotes skin regeneration, reduces wrinkles, enhances circulation, and soothes irritation, leaving skin rejuvenated.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.custom.raspberry -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Raspberry.png?v=1740980480\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>RASPBERRY OIL</h4>\n    <p>is rich in antioxidants, anti-inflammatory, and moisturizing properties. It nourishes skin, reduces wrinkles, promotes elasticity, soothes irritation, and protects against environmental damage and free radicals.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.custom.lemongrass_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Lemongrass.png?v=1740980516\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>LEMONGRASS OIL</h4>\n    <p>brightens complexion, reduces dark spots, clears acne, tightens pores, balances oily skin, promotes collagen production, and provides an uplifting, refreshing glow to the skin.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.custom.pomegranate_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/pomegranate.png?v=1740980595\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>POMEGRANATE OIL</h4>\n    <p>hydrates, nourishes, and rejuvenates skin, reduces wrinkles, combats free radicals, boosts collagen production, evens skin tone, and promotes a youthful, glowing complexion.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.custom.prickly_pear_seed_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/ylang_ylang_400px.jpg?v=1705292913\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>PRICKLY PEAR SEED OIL</h4>\n    <p>hydrates, nourishes, and revitalizes skin, reduces fine lines, brightens complexion, improves elasticity, fights free radicals, and promotes a youthful, radiant glow.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.custom.rosehip_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Rosehip.png?v=1741066090\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>ROSEHIP OIL</h4>\n    <p>nourishes skin, reduces scars and wrinkles, promotes collagen production, brightens complexion, balances skin tone, hydrates deeply, and boosts skin elasticity for a youthful glow.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.custom.rosemary_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Rosemary.png?v=1741066128\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>ROSEMARY OIL</h4>\n    <p>stimulates circulation, promotes hair growth, reduces dandruff, fights acne, tones skin, improves elasticity, reduces wrinkles, and rejuvenates the complexion for healthy, radiant skin.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.custom.clary_sage_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Clarysage.png?v=1740980691\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>Clarysage OIL</h4>\n    <p> balances oil production, reduces acne, soothes inflammation, enhances skin elasticity, evens skin tone, promotes relaxation, and provides a calming, rejuvenating effect on skin.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.custom.ginger_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Ginger.jpg?v=1740980725\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>GINGER OIL</h4>\n    <p>stimulates circulation, reduces inflammation, brightens complexion, combats acne, promotes even skin tone, smooths texture, and boosts collagen production for youthful, glowing skin.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.custom.lemon_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Lemon.png?v=1740980807\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>LEMON OIL</h4>\n    <p> Boosts hair growth by stimulating blood flow to the scalp and rejuvenating hair follicles for stronger\n      strands\n      Detoxifies the scalp with its cleansing properties, removing buildup and excess oil\n      Reduces scalp issues like dandruff with its antifungal and antibacterial benefits, encouraging healthier\n      hair growth\n    </p>\n  </div>\n  {%- endif -%}\n \n  {%- assign in12 = product.metafields.rose_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Rose.png?v=1740980649\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>ROSE OIL</h4>\n    <p>hydrates, soothes, and rejuvenates skin, reduces wrinkles, balances oil production, promotes a radiant complexion, heals scars, and provides a calming, luxurious aroma.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.rose_geranium_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Rosemary_ginger_geranium.png?v=1741067650\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>ROSE GERANIUM OIL</h4>\n    <p>balances oil production, reduces acne, evens skin tone, diminishes wrinkles, soothes inflammation, promotes hydration, and enhances skin elasticity for a radiant complexion.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.vetiver_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Vetiver.png?v=1740980874\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>VETIVER OIL</h4>\n    <p>hydrates, soothes irritated skin, promotes collagen production, reduces wrinkles, fights acne, improves skin tone, and provides a calming, grounding effect for a balanced complexion.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.patchouli_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Patchouli.png?v=1741067724\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>PATCHOULI OIL</h4>\n    <p>hydrates dry skin, reduces acne, fades scars, combats wrinkles, promotes elasticity, balances oil production, and provides a calming, soothing effect for healthy, radiant skin.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.bergamot_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Bergamot.png?v=1741067761\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>Bergamot OIL</h4>\n    <p>regulates oil production, clears acne, brightens complexion, evens skin tone, reduces scars, soothes inflammation, and refreshes the skin with its uplifting, citrusy aroma.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.jasmine_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Jasmine.png?v=1741067792\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>Jasmine OIL</h4>\n    <p>hydrates and rejuvenates skin, reduces the appearance of scars, promotes a radiant complexion, soothes inflammation, enhances elasticity, and balances oil production for healthy skin.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.basil_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Basil.png?v=1740980924\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>BASIL OIL</h4>\n    <p>combats acne, reduces inflammation, promotes clear skin, improves circulation, brightens complexion, tones, and revitalizes the skin, leaving it refreshed, smooth, and rejuvenated.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.cardamom_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Cardamom.png?v=1740980959\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>CARDAMOM OIL</h4>\n    <p>revitalizes skin, reduces acne, brightens complexion, balances oil production, improves circulation, soothes inflammation, and promotes a healthy, glowing appearance heals with refreshing aroma.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.orange_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Orange.png?v=1740980993\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>ORANGE OIL</h4>\n    <p> brightens complexion, evens skin tone, reduces dark spots, boosts collagen production, revitalizes tired skin, balances oil, and provides an uplifting, refreshing glow.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.petitgrain_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Petitgrain.png?v=1741067876\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>Petitgrain OIL</h4>\n    <p>balances oily skin, reduces acne, tightens pores, promotes a clear complexion, soothes inflammation, and enhances skin elasticity, leaving the skin refreshed and rejuvenated.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.tea_tree -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Tea_tree.png?v=1741067915\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>Tea Tree</h4>\n    <p>combats acne, reduces inflammation, heals scars, balances oily skin, unclogs pores, soothes irritation, and promotes clear, smooth, and healthy-looking complexion.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.saffron_oil -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/saffron.png?v=1740981026\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>SAFFRON OIL</h4>\n    <p>brightens complexion, reduces dark spots, evens skin tone, promotes collagen production, fights wrinkles, hydrates skin, and enhances radiance, leaving skin youthful and glowing.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.turmeric -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Turmeric.png?v=1741067947\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>Turmeric</h4>\n    <p>brightens skin, reduces dark spots, fights acne, soothes inflammation, evens skin tone, improves elasticity, and promotes a youthful, radiant complexion with healing properties.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.rhassoul_clay -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Rhassoul_clay.png?v=1741068005\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>RHASSOUL CLAY</h4>\n    <p>Gentle exfoliation by removing dead skin cells, promoting a smoother texture\n      Improved skin elasticity enhances firmness and reduces fine lines\n      Detoxification absorbs impurities and excess oils, purifying the skin\n      Enhanced skin tone promotes a healthy glow and even complexion\n      Soothing properties calms inflammation and irritation\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.dates_extract -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Dates_Extract.png?v=1741068036\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>DATES EXTRACT</h4>\n    <p> nourishes and hydrates skin, reduces fine lines, brightens complexion, improves elasticity, fades scars, promotes regeneration, and provides antioxidants, leaving skin youthful, glowing, and smooth.\n    </p>\n  </div>\n  {%- endif -%}\n  {%- assign in12 = product.metafields.hempseed -%}\n  {%- if in12 != blank -%}\n  <div class=\"grid__item card\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0841/8371/2050/files/Hempseed.png?v=1741068062\" alt=\"\"\n      height=\"100\" style=\"margin:auto;\">\n    <h4>HEMPSEED</h4>\n    <p>moisturizes, balances oily skin, reduces inflammation, improves elasticity, alleviates acne, calms irritation, promotes healthy skin regeneration, and provides a smooth, radiant complexion.\n    </p>\n  </div>\n  {%- endif -%}\n\n</div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling-promotion": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement-0": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE SHIPPING on Orders Above RS.800",
+            "text_size": 16,
+            "link": ""
+          }
+        },
+        "announcement-3": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "10% OFF your first order | Use code: FUN10",
+            "text_size": 16,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0",
+        "announcement-3"
+      ],
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#f1ff34",
+        "colors_text": "#212326",
+        "colors_background": "#f2f2f2",
+        "gradient_background": "",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "show_divider": false,
+        "heading": "Recently Viewed",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible-content": {
+      "type": "collapsible-content",
+      "blocks": {
+        "question-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "DO YOU ALLOW RETURNS?",
+            "row_content": "<p>Returns for cosmetic products are not accepted. However, if the product is damaged, misplaced by us, or if the wrong product is sent to you, we will facilitate a return and send you the correct product.</p>",
+            "page": ""
+          }
+        },
+        "question-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WHEN WILL MY ORDER SHIP?",
+            "row_content": "<p>All domestic orders, once processed are shipped within 7 working days.</p>",
+            "page": ""
+          }
+        },
+        "question-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "CAN I TRACK MY ORDER?",
+            "row_content": "<p>You can track the progress of your existing or past orders by visiting the “My Orders” section of your account.</p><p>You will be able to track your order from our website or via a tracking link sent to you as soon as the order is shipped.</p><p>If your order has been shipped and you still cannot track it, we would request you to wait for 12 hours before trying again.</p><p>In rare cases, it might take the courier partner longer to generate a tracking link.</p>",
+            "page": ""
+          }
+        },
+        "question-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "DO YOU TEST FUN FORMULAE PRODUCTS ON ANIMALS?",
+            "row_content": "<p>We do not test on animals. All Fun Formulae products are Cruelty-free.</p>",
+            "page": ""
+          }
+        },
+        "f486add2-451f-45c3-b88b-f066699c5131": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "DO FUN FORMULAE PRODUCTS CONTAIN PARABENS?",
+            "row_content": "<p>No, Fun Formulae products are free from sulfates, phthalates and parabens.</p>",
+            "page": ""
+          }
+        },
+        "3b7bbc0c-1d89-4e64-8e9e-7fa84adb4771": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "CAN I USE THESE PRODUCTS ON SENSITIVE SKIN?",
+            "row_content": "<p>Our products are suitable to use on all skin types including sensitive skin but a patch test is recommended.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "question-0",
+        "question-1",
+        "question-2",
+        "question-3",
+        "f486add2-451f-45c3-b88b-f066699c5131",
+        "3b7bbc0c-1d89-4e64-8e9e-7fa84adb4771"
+      ],
+      "settings": {
+        "open_first_collapsible_row": false,
+        "narrow": true,
+        "show_divider": false,
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4",
+            "text": "<p>\"I'm amazed by this body butter! Its silky smooth texture glides effortlessly, and the scent is heavenly, leaving my skin deeply nourished and irresistibly fragrant. A luxurious treat indeed for my nightcare regime!\"</p>",
+            "author": "Anju dave"
+          }
+        },
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "3",
+            "text": "<p>\"This body yogurt is a game-changer! It hydrates deeply without feeling greasy, leaves my skin incredibly soft all day and the aroma is divine—a refreshing and nourishing delight every time!\" </p>",
+            "author": "Aditi jain"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4",
+            "text": "<p>This shampoo is amazing! I've experienced visibly less hair fall and a healthier scalp. My hair feels incredibly soft and bouncy. Plus, the lingering floral smell keeps me feeling refreshed all day. Truly transformative for my hair !\"</p>",
+            "author": "Aakriti ganesh"
+          }
+        },
+        "22c6386a-ef5d-4920-943b-9245c8be624f": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4",
+            "text": "<p>\"This conditioner effortlessly transforms my hair, leaving it unbelievably soft and nourished. A little goes a long way, making it a staple in my hair care routine. I love the luxurious aroma of ylang-ylang keeping my hair smell so fresh. Highly recommended for anyone seeking luscious locks!\"</p>",
+            "author": "Anjali tamhankar"
+          }
+        },
+        "0a6621f6-4f26-4a57-8f7b-83907eeb3a34": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4",
+            "text": "<p>I have been using this face scrub n pack duo for 4 months now. It's very convenient and effective. The gentle scrub is perfect for my delicate skin and the pack is so hydrating it keeps my skin plump. The feeling after using this product is so nice, never come across such a gentle and nourishing scrub. </p>",
+            "author": "Haifa"
+          }
+        },
+        "b7b9d0ef-3ca1-48c0-a756-5926b98073e9": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4",
+            "text": "<p>This sunscreen has a very mild delightful scent, blends easily in the skin and I can feel the difference like an umbrella over my skin.</p>",
+            "author": "Shivani bapna"
+          }
+        },
+        "dbe3f427-06e4-4c0d-afc0-44c82bac4de7": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4",
+            "text": "<p>This is so yummy and so good_ _ _ like jam! The gentle exfoliation of this body scrub makes my skin smooth and soft to the touch. It is so nourishing and hydrating that I can feel my skin moisturised.</p>",
+            "author": "Neha"
+          }
+        },
+        "c4b60082-6be1-4c30-8ff5-f2d063bc1cf1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>This toner is so heavenly, like an instant refreshing drink for my skin.  It deeply hydrates my skin and adds a healthy glow! Super good!!</p>",
+            "author": "Uditha"
+          }
+        },
+        "29449d08-2fd2-4920-9bae-4d2184676d8d": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>It is so mild yet so effective !!!!!!! I can see visible reduction in my acne. Due to my beard  its difficult to apply any products but this acne gel is so smooth it gets absorbed instantly, not noticeable at all and works wonders on my skin.</p>",
+            "author": "Kabir kothari"
+          }
+        },
+        "b268f45f-aad5-4dfc-9e01-313f12371498": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4",
+            "text": "<p>I have been using this face wash for two months now and can see visibly calm skin. My menopausal acne stressed me so much and this face wash is so delicate _ _ _ it cleanses my skin leaving it hydrated and nourished. I love the instant healthy glow it adds to my skin.</p>",
+            "author": "Hiru asudani"
+          }
+        },
+        "b4593664-f5fc-47be-acac-ed18012c7426": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4",
+            "text": "<p>this refreshing body wash keeps me feeling fresh. My skin feels hydrated and nourished after using this. It balances my skin without making it dry.</p>",
+            "author": "Kewal chholak"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-0",
+        "testimonial-1",
+        "testimonial-2",
+        "22c6386a-ef5d-4920-943b-9245c8be624f",
+        "0a6621f6-4f26-4a57-8f7b-83907eeb3a34",
+        "b7b9d0ef-3ca1-48c0-a756-5926b98073e9",
+        "dbe3f427-06e4-4c0d-afc0-44c82bac4de7",
+        "c4b60082-6be1-4c30-8ff5-f2d063bc1cf1",
+        "29449d08-2fd2-4920-9bae-4d2184676d8d",
+        "b268f45f-aad5-4dfc-9e01-313f12371498",
+        "b4593664-f5fc-47be-acac-ed18012c7426"
+      ],
+      "settings": {
+        "autorotate": true,
+        "autorotate_speed": 5,
+        "hide_images": true,
+        "show_divider": false,
+        "heading": "Testimonials",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "4ab487cb-2fe3-40a2-9891-37720232c0af",
+    "scrolling-promotion",
+    "product-recommendations",
+    "recently-viewed-products",
+    "collapsible-content",
+    "testimonials"
+  ]
+}
