@@ -74,7 +74,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_quantity_selector": true,
+            "show_quantity_selector": false,
             "show_dynamic_checkout": true
           }
         },
@@ -100,8 +100,13 @@
             "custom_liquid": ""
           }
         },
+        "description_CakQtc": {
+          "type": "description",
+          "settings": {}
+        },
         "read_more": {
           "type": "read_more",
+          "disabled": true,
           "settings": {
             "show_icon": true
           }
@@ -124,8 +129,12 @@
         "buy_buttons",
         "collapsible_tab-0",
         "collapsible_tab-1",
+        "description_CakQtc",
         "read_more",
         "share"
+      ],
+      "custom_css": [
+        ".product-form__submit{display:none;}"
       ],
       "settings": {
         "hide_variants": true,
