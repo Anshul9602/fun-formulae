@@ -86,10 +86,17 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_quantity_selector": false,
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
+          }
+        },
+        "custom_liquid_LGVEdJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<button type=\"button\" class=\"shopify-payment-button__button shopify-payment-button__button--unbranded\" fdprocessedid=\"4ara9g\" style=\"display: unset;\">Register now</button>"
           }
         },
         "description": {
@@ -155,6 +162,7 @@
         "variant_picker",
         "custom_liquid_hJBa7R",
         "buy_buttons",
+        "custom_liquid_LGVEdJ",
         "description",
         "collapsible_tab_JY6Grj",
         "inventory_status",
