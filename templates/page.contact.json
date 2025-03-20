@@ -89,11 +89,10 @@
         },
         "contact-2": {
           "type": "contact",
-          "disabled": true,
           "settings": {
             "heading": "Address",
-            "text": "J 1232, Sitapura Industial Area, Jaipur 302022, India",
-            "link": "mailto:sales@yourstore.com"
+            "text": "GROUND FLOOR, J-1232, EPIP SITAPURA SCHEME INDUSTRIAL AREA SITAPURA PHASE 3",
+            "link": ""
           }
         },
         "media": {
