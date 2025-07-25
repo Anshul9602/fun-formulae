@@ -96,6 +96,17 @@
           "type": "description",
           "settings": {}
         },
+        "collapsible_tab_UQC7ip": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Why We Like it",
+            "content": "",
+            "page": "",
+            "custom_liquid": "{{product.metafields.custom.why_we}}",
+            "keep_open": false
+          }
+        },
         "collapsible_tab_JY6Grj": {
           "type": "collapsible_tab",
           "settings": {
@@ -156,6 +167,7 @@
         "custom_liquid_hJBa7R",
         "buy_buttons",
         "description",
+        "collapsible_tab_UQC7ip",
         "collapsible_tab_JY6Grj",
         "inventory_status",
         "share",
