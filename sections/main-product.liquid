@@ -616,13 +616,27 @@
                       </span>
                       {% render 'icon', icon: 'caret' %}
                     </summary>
-                    <div class="accordion__content rte product__description">
+                    <div class="accordion__content rte product__description ingtt">
                       {{ product.metafields.custom.ingredient_list }}
                     </div>
                   </details>
                 </accordion-tab>
               {%- endif -%}
-            
+            <script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Select the ingredient list container
+  var ingredientDiv = document.querySelector('.accordion__content.rte.product__description.ingtt');
+  if (ingredientDiv) {
+    // Replace all (...) with <span class="italic">(...)</span>
+    ingredientDiv.innerHTML = ingredientDiv.innerHTML.replace(
+      /\(([^)]+)\)/g,
+      function(match) {
+        return '<span class="italic">' + match + '</span>';
+      }
+    );
+  }
+});
+</script>
               {%- assign directionsToUse = product.metafields.custom.directions_to_use -%}
               {%- if directionsToUse != blank -%}
                 {%- assign directionsAccordionOpen = false -%}
