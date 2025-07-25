@@ -6,6 +6,9 @@
 #Banner-template--21613581467954__image-with-text-overlay .banner__media-video video{
   margin-left:8%;
 }
+.italic{
+  text-style:italic;
+}
 #tsparticles{
   display:none !important;
 }
