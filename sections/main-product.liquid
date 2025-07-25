@@ -622,21 +622,7 @@
                   </details>
                 </accordion-tab>
               {%- endif -%}
-            <script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Select the ingredient list container
-  var ingredientDiv = document.querySelector('.accordion__content.rte.product__description.ingtt');
-  if (ingredientDiv) {
-    // Replace all (...) with <span class="italic">(...)</span>
-    ingredientDiv.innerHTML = ingredientDiv.innerHTML.replace(
-      /\(([^)]+)\)/g,
-      function(match) {
-        return '<span class="italic">' + match + '</span>';
-      }
-    );
-  }
-});
-</script>
+           
               {%- assign directionsToUse = product.metafields.custom.directions_to_use -%}
               {%- if directionsToUse != blank -%}
                 {%- assign directionsAccordionOpen = false -%}
@@ -1183,7 +1169,21 @@ document.addEventListener("DOMContentLoaded", function() {
     assign seo_media = product.featured_media
   endif
 -%}
-
+ <script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Select the ingredient list container
+  var ingredientDiv = document.querySelector('.accordion__content.rte.product__description.ingtt');
+  if (ingredientDiv) {
+    // Replace all (...) with <span class="italic">(...)</span>
+    ingredientDiv.innerHTML = ingredientDiv.innerHTML.replace(
+      /\(([^)]+)\)/g,
+      function(match) {
+        return '<span class="italic">' + match + '</span>';
+      }
+    );
+  }
+});
+</script>
 <script type="application/ld+json">
 
 
