@@ -100,7 +100,7 @@
           "type": "collapsible_tab",
           "settings": {
             "icon": "none",
-            "heading": "Why We Like it",
+            "heading": "Why We Love it",
             "content": "",
             "page": "",
             "custom_liquid": "{{product.metafields.custom.why_we}}",
